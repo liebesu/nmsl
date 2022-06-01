@@ -1,41 +1,9 @@
-proxies:
-  - {name: CN-GD-广东-183-aliyun.com SSR, server: zx.hk.01.02.xfj-node.top, port: 2333, type: ssr, cipher: rc4-md5, password: Fng5u8Dy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 25016:8S7q0h, obfs-param: c5e8925016.jd.hk, udp: true}
-  - {name: CN-TW-台湾-35-cht.com.tw, server: tw2.oyvpnserver.com, port: 3572, type: ss, cipher: rc4-md5, password: cht1997...///, udp: true}
-  - {name: CN-TW-台湾-233-cht.com.tw, server: 211.75.79.233, port: 16505, type: ss, cipher: aes-256-cfb, password: QozzuzLs2W32, udp: true}
-  - {name: JP-日本-东京-150-2-thinkhuge.net, server: sgp2.oyvpnserver.com, port: 3572, type: ss, cipher: rc4-md5, password: cht1997...///, udp: true}
-  - {name: JP-日本-东京-150-3-thinkhuge.net, server: jp3.oyvpnserver.com, port: 3572, type: ss, cipher: rc4-md5, password: cht1997...///, udp: true}
-  - {name: JP-日本-东京-250-thinkhuge.net, server: 45.67.53.250, port: 443, type: ss, cipher: aes-256-cfb, password: www.xbvpn.com, udp: true}
-  - {name: USA-美国-费利蒙-9-linode.com, server: 45.79.66.9, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6, udp: true}
-  - {name: USA-美国-费利蒙-12-linode.com, server: 45.79.108.12, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6, udp: true}
-  - {name: USA-美国-费利蒙-37-linode.com, server: 45.79.79.37, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6, udp: true}
-  - {name: USA-美国-费利蒙-40-443-linode.com, server: 45.56.94.40, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6, udp: true}
-  - {name: USA-美国-费利蒙-134-443-linode.com, server: 50.116.2.131, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6, udp: true}
-  - {name: USA-美国-费利蒙-178-linode.com, server: 45.79.93.178, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6, udp: true}
-  - {name: USA-美国-洛杉矶-147-choopa.com SSR, server: 45.32.93.147, port: 16608, type: ssr, cipher: aes-256-cfb, password: Aa20150801*, protocol: auth_chain_a, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
-  - {name: USA-美国-洛杉矶-160-1-colocrossing.com, server: usa1.oyvpnserver.com, port: 3572, type: ss, cipher: rc4-md5, password: cht1997...///, udp: true}
-  - {name: USA-美国-洛杉矶-160-2-colocrossing.com, server: usa2.oyvpnserver.com, port: 3572, type: ss, cipher: rc4-md5, password: cht1997...///, udp: true}
-  - {name: USA-美国-洛杉矶-160-5-colocrossing.com, server: usa5.oyvpnserver.com, port: 3572, type: ss, cipher: rc4-md5, password: cht1997...///, udp: true}
-  - {name: USA-美国-纽瓦克-3-linode.com, server: 45.33.88.190, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6, udp: true}
-  - {name: USA-美国-纽瓦克-4-linode.com, server: 45.33.93.207, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6, udp: true}
-  - {name: USA-美国-皮斯卡特维-113-choopa.com SSR, server: 207.148.19.113, port: 16209, type: ssr, cipher: aes-256-cfb, password: Aa20150801*, protocol: auth_chain_a, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
-  - {name: NLD-荷兰-阿姆斯特丹-66-sharktech.net, server: 45.58.148.66, port: 21763, type: ss, cipher: aes-256-cfb, password: 4XVeP1, udp: true}
-  - {name: SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅, server: cdnssr.ssrsub.com, port: 443, type: ss, cipher: aes-256-cfb, password: cdnssr.ssrsub.com, udp: true}
-  - {name: 公益机场:https://bit.ly/3BPeo5G, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 公益机场:https://dlj.tf/SpivhEz, server: ssr4.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: SS节点订阅地址:https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub, server: ssr1.ssrsub.com, port: 42471, type: ss, cipher: aes-256-cfb, password: https://dlj.tf/ssrsub, udp: true}
-  - {name: V2ray订阅地址:https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray, server: ssr2.ssrsub.com, port: 38149, type: ss, cipher: aes-256-cfb, password: suo.yt/ssrsub, udp: true}
-  - {name: Surge托管地址:https://raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf, server: ssr5.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: Clash托管地址:https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml, server: ssr6.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: "#D09B/AS174: United States", server: 192.240.99.182, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: "#95A7/AS51659: Russia SSR", server: 46.17.46.101, port: 14405, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 256151:m3INGJ, obfs-param: ff5a0256151.microsoft.com, udp: true}
-  - {name: "#7F1D/AS63949: Singapore", server: 139.162.15.45, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: "#FEBE/AS51659: Russia SSR", server: 194.147.34.96, port: 14404, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 256151:m3INGJ, obfs-param: ff5a0256151.microsoft.com, udp: true}
-  - {name: "#8AE5/AS49392: Russia SSR", server: 45.8.158.33, port: 14403, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 256151:m3INGJ, obfs-param: ff5a0256151.microsoft.com, udp: true}
-  - {name: "#2A79/AS63949: Japan", server: 172.105.192.135, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: "#618B/AS4594: Hong Kong", server: 43.225.100.63, port: 52300, type: ss, cipher: aes-256-ctr, password: aa5200251314, udp: true}
-  - {name: "#1F2B/AS49392: Russia", server: 194.156.120.102, port: 8886, type: ssr, cipher: dummy, password: www.freess.best, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: "#A89B/AS37963: China", server: 47.93.250.198, port: 23333, type: ssr, cipher: aes-256-cfb, password: yangkeming0512, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: http://miguvideo.com:80/, udp: true}
-  - {name: "#33B9/AS63888: Hong Kong", server: 134.175.195.183, port: 36129, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "#770F/AS202425: Netherlands", server: 94.102.57.163, port: 11708, type: ssr, cipher: aes-256-cfb, password: sEscPBiAD9K$&@79, protocol: origin, obfs: http_simple, protocol-param: WWW.YOUNEED.WIN, obfs-param: WWW.YOUNEED.WIN, udp: true}
-  - {name: "日本\r", server: 172.104.123.158, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: "美国\r", server: 45.79.111.214, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6, udp: true}
+ssr://enguaGsuMDEuMDIueGZqLW5vZGUudG9wOjIzMzM6YXV0aF9hZXMxMjhfbWQ1OnJjNC1tZDU6aHR0cF9zaW1wbGU6Um01bk5YVTRSSGsvP2dyb3VwPVEyaGhjbXhsY3lCWWRRJnJlbWFya3M9VzA1UFYwaEZVa1ZkZW5ndWFHc3VNREV1TURJdWVHWnFMVzV2WkdVdWRHOXdPakl6TXpNdFJtNW5OWFU0UkhrPSZvYmZzcGFyYW09WXpWbE9Ea3lOVEF4Tmk1cVpDNW9hdyZwcm90b3BhcmFtPU1qVXdNVFk2T0ZNM2NUQm8=
+ssr://NDUuMzIuOTMuMTQ3OjE2NjA4OmF1dGhfY2hhaW5fYTphZXMtMjU2LWNmYjpodHRwX3NpbXBsZTpRV0V5TURFMU1EZ3dNU28vP2dyb3VwPVEyaGhjbXhsY3lCWWRRJnJlbWFya3M9VzFWVFhUUTFMak15TGprekxqRTBOem94TmpZd09DMUJZVEl3TVRVd09EQXhLZz09Jm9iZnNwYXJhbT0mcHJvdG9wYXJhbT0=
+ssr://MjA3LjE0OC4xOS4xMTM6MTYyMDk6YXV0aF9jaGFpbl9hOmFlcy0yNTYtY2ZiOmh0dHBfc2ltcGxlOlFXRXlNREUxTURnd01Tby8/Z3JvdXA9UTJoaGNteGxjeUJZZFEmcmVtYXJrcz1XMVZUWFRJd055NHhORGd1TVRrdU1URXpPakUyTWpBNUxVRmhNakF4TlRBNE1ERXEmb2Jmc3BhcmFtPSZwcm90b3BhcmFtPQ==
+ssr://NDYuMTcuNDYuMTAxOjE0NDA1OmF1dGhfYWVzMTI4X21kNTpyYzQtbWQ1OnRsczEuMl90aWNrZXRfYXV0aDpRM05yZHpaay8/Z3JvdXA9UTJoaGNteGxjeUJZZFEmcmVtYXJrcz1XMUpWWFRRMkxqRTNMalEyTGpFd01Ub3hORFF3TlMxRGMydDNObVE9Jm9iZnNwYXJhbT1abVkxWVRBeU5UWXhOVEV1YldsamNtOXpiMlowTG1OdmJRJnByb3RvcGFyYW09TWpVMk1UVXhPbTB6U1U1SFNn
+ssr://MTk0LjE0Ny4zNC45NjoxNDQwNDphdXRoX2FlczEyOF9tZDU6cmM0LW1kNTp0bHMxLjJfdGlja2V0X2F1dGg6UTNOcmR6WmsvP2dyb3VwPVEyaGhjbXhsY3lCWWRRJnJlbWFya3M9VzFKVlhURTVOQzR4TkRjdU16UXVPVFk2TVRRME1EUXRRM05yZHpaayZvYmZzcGFyYW09Wm1ZMVlUQXlOVFl4TlRFdWJXbGpjbTl6YjJaMExtTnZiUSZwcm90b3BhcmFtPU1qVTJNVFV4T20welNVNUhTZw==
+ssr://NDUuOC4xNTguMzM6MTQ0MDM6YXV0aF9hZXMxMjhfbWQ1OnJjNC1tZDU6dGxzMS4yX3RpY2tldF9hdXRoOlEzTnJkelprLz9ncm91cD1RMmhoY214bGN5QllkUSZyZW1hcmtzPVcxSlZYVFExTGpndU1UVTRMak16T2pFME5EQXpMVU56YTNjMlpBPT0mb2Jmc3BhcmFtPVptWTFZVEF5TlRZeE5URXViV2xqY205emIyWjBMbU52YlEmcHJvdG9wYXJhbT1NalUyTVRVeE9tMHpTVTVIU2c=
+ssr://MTk0LjE1Ni4xMjAuMTAyOjg4ODY6YXV0aF9jaGFpbl9hOm5vbmU6cGxhaW46ZDNkM0xtWnlaV1Z6Y3k1aVpYTjAvP2dyb3VwPVEyaGhjbXhsY3lCWWRRJnJlbWFya3M9VzFKVlhURTVOQzR4TlRZdU1USXdMakV3TWpvNE9EZzJMWGQzZHk1bWNtVmxjM011WW1WemRBPT0mb2Jmc3BhcmFtPSZwcm90b3BhcmFtPQ==
+ssr://NDcuOTMuMjUwLjE5ODoyMzMzMzphdXRoX2NoYWluX2E6YWVzLTI1Ni1jZmI6cGxhaW46ZVdGdVoydGxiV2x1WnpBMU1USS8/Z3JvdXA9UTJoaGNteGxjeUJZZFEmcmVtYXJrcz1XME5PWFRRM0xqa3pMakkxTUM0eE9UZzZNak16TXpNdGVXRnVaMnRsYldsdVp6QTFNVEk9Jm9iZnNwYXJhbT1hSFIwY0RvdkwyMXBaM1YyYVdSbGJ5NWpiMjA2T0RBdiZwcm90b3BhcmFtPQ==
+ssr://OTQuMTAyLjU3LjE2MzoxMTcwODpvcmlnaW46YWVzLTI1Ni1jZmI6aHR0cF9zaW1wbGU6YzBWelkxQkNhVUZFT1Vza0prQTNPUS8/Z3JvdXA9UTJoaGNteGxjeUJZZFEmcmVtYXJrcz1XMGRDWFRrMExqRXdNaTQxTnk0eE5qTTZNVEUzTURndGMwVnpZMUJDYVVGRU9Vc2tKa0EzT1E9PSZvYmZzcGFyYW09VjFkWExsbFBWVTVGUlVRdVYwbE8mcHJvdG9wYXJhbT1WMWRYTGxsUFZVNUZSVVF1VjBsTw==
