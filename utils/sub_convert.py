@@ -218,8 +218,8 @@ class sub_convert():
 
     def write_to_clash(file_list_array, path, server_host='http://127.0.0.1:25500'):
         # 使用远程订阅转换服务
-        server_host = 'https://api.v1.mk'
-        for i in range(file_list_array):
+        # server_host = 'https://api.v1.mk'
+        for i in range(len(file_list_array)):
             url_head = 'https://raw.githubusercontent.com/songtao1873/nmsl/main/sub/node/'
             url = url_head + file_list_array[i]
             file_part_encoded = urllib.parse.quote(url, safe='')
