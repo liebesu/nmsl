@@ -66,7 +66,7 @@ trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@qt24.shenseven.xyz:2083?allowInsec
 trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@qt27.shenseven.xyz:2087?allowInsecure=1&sni=qt27.shenseven.xyz#[JP]qt27.shenseven.xyz:2087-5701fb16-1c35-40b2-84f9-9b953404cbcd
 trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@qt32.shenseven.xyz:2087?allowInsecure=1&sni=qt32.shenseven.xyz#[JP]qt32.shenseven.xyz:2087-5701fb16-1c35-40b2-84f9-9b953404cbcd
 trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@qt35.shenseven.xyz:2053?allowInsecure=1&sni=qt35.shenseven.xyz#[JP]qt35.shenseven.xyz:2053-5701fb16-1c35-40b2-84f9-9b953404cbcd
-trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@qt36.shenseven.xyz:2022?allowInsecure=1&sni=qt36.shenseven.xyz#[HK]qt36.shenseven.xyz:2022-5701fb16-1c35-40b2-84f9-9b953404cbcd
+trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@qt36.shenseven.xyz:2022?allowInsecure=1&sni=qt36.shenseven.xyz#[SG]qt36.shenseven.xyz:2022-5701fb16-1c35-40b2-84f9-9b953404cbcd
 trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@qt38.shenseven.xyz:2022?allowInsecure=1&sni=qt38.shenseven.xyz#[SG]qt38.shenseven.xyz:2022-5701fb16-1c35-40b2-84f9-9b953404cbcd
 trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@qt39.shenseven.xyz:443?allowInsecure=1&sni=qt39.shenseven.xyz#[DE]qt39.shenseven.xyz:443-5701fb16-1c35-40b2-84f9-9b953404cbcd
 trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@qt48.shenseven.xyz:2087?allowInsecure=1&sni=qt48.shenseven.xyz#[JP]qt48.shenseven.xyz:2087-5701fb16-1c35-40b2-84f9-9b953404cbcd

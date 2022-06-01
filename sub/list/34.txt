@@ -19,7 +19,7 @@ trojan://32c857dc-7fc8-3965-a821-74102d16443a@s256.s2022.xyz:38209?allowInsecure
 trojan://54080134-2cba-4535-8599-95650bd9aa54@jgwhdlb2.gaox.ml:443?allowInsecure=1#[IN]jgwhdlb2.gaox.ml:443-54080134-2cba-4535-8599-95650bd9aa54
 vmess://eyJ2IjogIjIiLCAicHMiOiAiW0FVXWF1LnByb2plY3Q0Z3l1bmEucHc6ODAtMDYxM2M4MmItMWY1Ni00MzJmLWI5NGItNjkxZTI5NGQyMzE0IiwgImFkZCI6ICJhdS5wcm9qZWN0NGd5dW5hLnB3IiwgInBvcnQiOiAiODAiLCAidHlwZSI6ICJub25lIiwgImlkIjogIjA2MTNjODJiLTFmNTYtNDMyZi1iOTRiLTY5MWUyOTRkMjMxNCIsICJhaWQiOiAiMCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvcHJvamVjdDRneXVuYS5wdyIsICJob3N0IjogInl1bmE0Zy5ha2FtYWl6ZWQubmV0IiwgInRscyI6ICIifQ==
 vmess://eyJ2IjogIjIiLCAicHMiOiAiW0NOXXN4cXhqLmNuOjIxNjQtYWJhNTBkZDQtNTQ4NC0zYjA1LWIxNGEtNDY2MWNhZjg2MmQ1IiwgImFkZCI6ICJzeHF4ai5jbiIsICJwb3J0IjogIjIxNjQiLCAidHlwZSI6ICJub25lIiwgImlkIjogImFiYTUwZGQ0LTU0ODQtM2IwNS1iMTRhLTQ2NjFjYWY4NjJkNSIsICJhaWQiOiAiNCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvd3MiLCAiaG9zdCI6ICJzeHF4ai5jbiIsICJ0bHMiOiAidGxzIn0=
-trojan://c69ac7e3-cfc8-3c2c-b704-cb1f87f8f4fa@sg-zf.jiashumao.net:29465?allowInsecure=1#[HK]sg-zf.jiashumao.net:29465-c69ac7e3-cfc8-3c2c-b704-cb1f87f8f4fa
+trojan://c69ac7e3-cfc8-3c2c-b704-cb1f87f8f4fa@sg-zf.jiashumao.net:29465?allowInsecure=1#[CN]sg-zf.jiashumao.net:29465-c69ac7e3-cfc8-3c2c-b704-cb1f87f8f4fa
 trojan://c69ac7e3-cfc8-3c2c-b704-cb1f87f8f4fa@dg.jiashumao.net:29957?allowInsecure=1#[DE]dg.jiashumao.net:29957-c69ac7e3-cfc8-3c2c-b704-cb1f87f8f4fa
 trojan://c69ac7e3-cfc8-3c2c-b704-cb1f87f8f4fa@yg.jiashumao.net:36419?allowInsecure=1#[GB]yg.jiashumao.net:36419-c69ac7e3-cfc8-3c2c-b704-cb1f87f8f4fa
 trojan://c69ac7e3-cfc8-3c2c-b704-cb1f87f8f4fa@sxdx-nf.jiashumao.net:35401?allowInsecure=1#[HK]sxdx-nf.jiashumao.net:35401-c69ac7e3-cfc8-3c2c-b704-cb1f87f8f4fa
