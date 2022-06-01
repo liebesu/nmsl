@@ -1,0 +1,21 @@
+proxies:
+  - {name: US_@baipiao01, server: 43.200.6.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: HK_@baipiao01, server: sxdx-nf.jiashumao.net, port: 35401, type: trojan, password: b5b3fa56-b55a-324b-b7e2-678f1fe1bb21, skip-cert-verify: true, udp: true}
+  - {name: CN_@baipiao01, server: sh.cm.jpbgp.fenglingcloud.com, port: 21000, type: ss, cipher: chacha20-ietf-poly1305, password: a4d30700-15ae-4b60-bbf8-c2378d2cdf18, udp: true}
+  - {name: CN_@baipiao01 2, server: cm.fenglingcloud.com, port: 37901, type: trojan, password: a4d30700-15ae-4b60-bbf8-c2378d2cdf18, skip-cert-verify: true, udp: true}
+  - {name: HK_@baipiao01 2, server: mlxy-zf.jiashumao.net, port: 27171, type: trojan, password: b5b3fa56-b55a-324b-b7e2-678f1fe1bb21, skip-cert-verify: true, udp: true}
+  - {name: CN_@baipiao01 3, server: cm.fenglingcloud.com, port: 37621, type: ss, cipher: chacha20-ietf-poly1305, password: a4d30700-15ae-4b60-bbf8-c2378d2cdf18, udp: true}
+  - {name: US_@baipiao01 2, server: 54.214.170.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: HK_@baipiao01 3, server: 20.205.117.99, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: CN_@baipiao01 4, server: cm.fenglingcloud.com, port: 37625, type: ss, cipher: chacha20-ietf-poly1305, password: a4d30700-15ae-4b60-bbf8-c2378d2cdf18, udp: true}
+  - {name: CN_@baipiao01 5, server: 159.27.115.21, port: 63088, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: 159.27.115.21}}, udp: true}
+  - {name: IN_@baipiao01, server: 206.189.136.113, port: 46786, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: US_@baipiao01 3, server: 20.239.71.235, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: CN_@baipiao01 6, server: 116.129.254.78, port: 63051, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hls, headers: {Host: 116.129.254.78}}, udp: true}
+  - {name: CN_@baipiao01 7, server: 183.232.48.148, port: 26022, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_@baipiao01 4, server: szdx-anhb.jiashumao.net, port: 22481, type: trojan, password: b5b3fa56-b55a-324b-b7e2-678f1fe1bb21, skip-cert-verify: true, udp: true}
+  - {name: CN_@baipiao01 8, server: 140.207.232.8, port: 26044, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR_@baipiao01, server: 195.154.200.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CN_@baipiao01 9, server: cm.fenglingcloud.com, port: 37630, type: ss, cipher: chacha20-ietf-poly1305, password: a4d30700-15ae-4b60-bbf8-c2378d2cdf18, udp: true}
+  - {name: CN_@baipiao01 10, server: 140.207.232.8, port: 26045, type: vmess, uuid: 68a8c397-1f27-35c0-818e-ef7f2d360e61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_@baipiao01 11, server: 116.129.254.78, port: 63087, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: 116.129.254.78}}, udp: true}

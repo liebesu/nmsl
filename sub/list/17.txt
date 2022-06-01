@@ -1,0 +1,34 @@
+  - {name: 新加坡0777, server: 3.0.54.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 新加坡SS, server: gz.bgp.rx.naiun.pw, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: c4122b7a-a8a8-4647-ac4d-bd6339b76930, udp: true}
+  - {name: 香港SS, server: gz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: c4122b7a-a8a8-4647-ac4d-bd6339b76930, udp: true}
+  - {name: 日本SS, server: gz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: c4122b7a-a8a8-4647-ac4d-bd6339b76930, udp: true}
+  - {name: 香港NF, server: gz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: c4122b7a-a8a8-4647-ac4d-bd6339b76930, udp: true}
+  - {name: HK001, server: hz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: c4122b7a-a8a8-4647-ac4d-bd6339b76930, udp: true}
+  - {name: 香港A01, server: gz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: 8f85e44f-3cf4-42be-8c47-eefcf58c6112, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: 新加坡A01, server: gz.bgp.rx.naiun.pw, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: 8f85e44f-3cf4-42be-8c47-eefcf58c6112, udp: true}
+  - {name: 香港B01, server: hz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: 8f85e44f-3cf4-42be-8c47-eefcf58c6112, udp: true}
+  - {name: LV1联通优化节点「1x」, server: 01.youzi.win, port: 443, type: trojan, password: 53238bd5-997d-472f-a57d-5304d69b6f3d, sni: awsjp.karyl.cloud, skip-cert-verify: true, udp: true}
+  - {name: LV1移动优化节点「1x」, server: 02.youzi.win, port: 443, type: trojan, password: 53238bd5-997d-472f-a57d-5304d69b6f3d, sni: awssg.karyl.cloud, skip-cert-verify: true, udp: true}
+  - {name: LV1 日本 - 隧道「1.5x」, server: jp.youzi.win, port: 27775, type: vmess, uuid: 53238bd5-997d-472f-a57d-5304d69b6f3d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: LV1 韩国 - 隧道「1.5x」, server: kr.youzi.win, port: 27772, type: vmess, uuid: 53238bd5-997d-472f-a57d-5304d69b6f3d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 香港3长沙联通, server: cscu.01.211129.xyz, port: 13961, type: trojan, password: a1fdbed3-6fb6-4d1a-aa9e-79041ec281f3, sni: jincheng3.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡1, server: 54.255.230.7, port: 80, type: vmess, uuid: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 新加坡2, server: xjpf1.xn--mesv7f5toqlp.club, port: 11111, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 新加坡3, server: xjpf1.xn--mesv7f5toqlp.club, port: 11114, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 新加坡4, server: xjpf1.xn--mesv7f5toqlp.club, port: 11112, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 新加坡5, server: xjpf1.xn--mesv7f5toqlp.club, port: 11113, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: HK, server: 154.221.22.201, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: a11a783e60ec, udp: true}
+  - {name: 新加坡, server: xjpf1.xn--mesv7f5toqlp.club, port: 11113, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 新加坡01, server: xjpf1.xn--mesv7f5toqlp.club, port: 11112, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 新加坡02, server: xjpf1.xn--mesv7f5toqlp.club, port: 11111, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 香港, server: iwq.xn--mesv7f5toqlp.club, port: 40056, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 香港01, server: iwq.xn--mesv7f5toqlp.club, port: 40057, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 香港02, server: iwq.xn--mesv7f5toqlp.club, port: 40058, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 日本04, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 美国01, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 日本01, server: 016a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: 1309a88d-7d2d-4e8c-a28b-cc8aefa4717f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 016a.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 韩国, server: 025.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: 1309a88d-7d2d-4e8c-a28b-cc8aefa4717f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 025.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 日本02, server: 023.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: 1309a88d-7d2d-4e8c-a28b-cc8aefa4717f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 023.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 日本03, server: 017a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: 1309a88d-7d2d-4e8c-a28b-cc8aefa4717f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 017a.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 日本, server: cdn2.myuuusss.com, port: 20011, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}

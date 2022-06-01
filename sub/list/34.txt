@@ -1,0 +1,42 @@
+  - {name: 更新于05/29, server: iwq.xn--mesv7f5toqlp.club, port: 40052, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa), server: iwq.xn--mesv7f5toqlp.club, port: 40053, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa) 2, server: iwq.xn--mesv7f5toqlp.club, port: 40058, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa) 3, server: iwq.xn--mesv7f5toqlp.club, port: 40052, type: trojan, password: e29b7b4b-f34b-429a-9955-4d36ba76c1c2, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa) 4, server: iwq.xn--mesv7f5toqlp.club, port: 40057, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa) 5, server: iwq.xn--mesv7f5toqlp.club, port: 40051, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa) 6, server: iwq.xn--mesv7f5toqlp.club, port: 40054, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa) 7, server: iwq.xn--mesv7f5toqlp.club, port: 40055, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa) 8, server: iwq.xn--mesv7f5toqlp.club, port: 40054, type: trojan, password: e29b7b4b-f34b-429a-9955-4d36ba76c1c2, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa), server: hk.zzk8.me, port: 51000, type: trojan, password: 72aa6783-8691-4102-af69-02340bed7ca0, skip-cert-verify: true, udp: true}
+  - {name: 日本(TG频道:@kxswa), server: sh.moonfree.top, port: 11262, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sh.moonfree.top}}, udp: true}
+  - {name: 新加坡(TG频道:@kxswa), server: 129.226.213.30, port: 35006, type: vmess, uuid: 1bdeedc8-ab5d-4d0e-ce89-72a8deb80b64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 2, server: 129.226.217.15, port: 52495, type: vmess, uuid: 1b3c1867-8bd0-4d74-821f-19d329e1375c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 2, server: 45.137.97.205, port: 58000, type: trojan, password: 44ddff24-9b11-4879-8f70-7eb69c32e735, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 3, server: 129.226.217.6, port: 58599, type: vmess, uuid: db312c19-1116-4656-d5d2-8b3adc21f117, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 4, server: 129.226.215.95, port: 43613, type: vmess, uuid: 9e1be3ad-911d-4dcc-822f-f8f8e79f62e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 5, server: 129.226.217.108, port: 47395, type: vmess, uuid: f42d814a-6ee7-4285-d31b-1ae5c73c9402, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 6, server: 129.226.93.161, port: 40236, type: vmess, uuid: 931416fe-98f2-4098-c8e7-3634e27ce6f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 3, server: hk.zzk8.me, port: 51005, type: trojan, password: 72aa6783-8691-4102-af69-02340bed7ca0, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 7, server: 129.226.215.217, port: 16096, type: vmess, uuid: b96c53db-bc13-4baa-f838-77dad5af49b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 8, server: 129.226.215.186, port: 27431, type: vmess, uuid: 6448f537-fa29-4582-c51a-e9defe6e3f89, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 9, server: 129.226.215.95, port: 43613, type: vmess, uuid: 9e1be3ad-911d-4dcc-822f-f8f8e79f62e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 10, server: 129.226.217.215, port: 29971, type: vmess, uuid: 696085ad-1886-454b-eb65-db1743a8ec2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 11, server: 129.226.215.211, port: 49981, type: vmess, uuid: 876631b4-3f5c-4289-f266-3c7afa5b9e70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 12, server: 129.226.215.217, port: 16096, type: vmess, uuid: b96c53db-bc13-4baa-f838-77dad5af49b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 13, server: 129.226.95.143, port: 45381, type: vmess, uuid: cd2a260c-f244-4e12-83c3-8a259cf29fc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 4, server: 20.214.142.218, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 美国(TG频道:@kxswa) 5, server: 20.214.186.145, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 美国(TG频道:@kxswa) 6, server: o10.trojan.tel, port: 18443, type: trojan, password: 56c7174b-3d1f-435f-bd03-a81d4021a9aa, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 14, server: 129.226.94.247, port: 15301, type: vmess, uuid: 16844453-6154-4808-bdda-a26741ebe677, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 7, server: u2.anmu.one, port: 16161, type: vmess, uuid: 919ac815-1776-47fe-8b54-508ef4f39421, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 15, server: 129.226.214.156, port: 27734, type: vmess, uuid: 8f4cd612-6593-4826-bb55-09bed5215aed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 16, server: 129.226.93.140, port: 18499, type: vmess, uuid: 704ef218-a4f6-41b7-a997-6d57077d6b6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 17, server: 129.226.215.211, port: 49981, type: vmess, uuid: 876631b4-3f5c-4289-f266-3c7afa5b9e70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 18, server: 129.226.95.188, port: 20792, type: vmess, uuid: b7335dae-b946-46ae-f341-acbf8df21c86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 19, server: 129.226.214.156, port: 27734, type: vmess, uuid: 8f4cd612-6593-4826-bb55-09bed5215aed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 20, server: 129.226.214.27, port: 56389, type: vmess, uuid: 589bcbef-5962-460f-a82e-1a877d690833, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 21, server: 129.226.93.27, port: 41875, type: vmess, uuid: ca2d1bf9-11f1-4025-fab2-043098ed1a17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 22, server: 129.226.95.138, port: 54785, type: vmess, uuid: 89785f5f-22b0-44ce-c054-a661884dff4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 23, server: 129.226.217.42, port: 47383, type: vmess, uuid: 555d823c-e15f-4638-8963-c17eb9d45eea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 8, server: vpn.xn--mesv7f5toqlp.club, port: 11113, type: trojan, password: a7f54ef8-2ff1-4f64-8628-472b88c1e4ee, sni: vpn.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa), server: 120.233.185.4, port: 20207, type: vmess, uuid: 5a26cc45-3e1a-4d33-8d1a-e19a5e6058b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /general/hk/UlRZek9VSTFNME01UVRJNFF6SkNSVVZFTXpKRk5VUTFSREUxUVRJMU16SXhRVVZETkRFeE56b3lPVGd3TURZek1ERTNNVFV3TlRneU56ZzBPakUyTlRNM09UTXlNekl3TURBNk1UWTFNemN3TmpnNU56Y3pNenBzVEhac1BVdzBMSEJzWVhROVNFSXNaRWxrUFRFd0xWSk5XREl3TlRFdE9HSm1aVEpoTnpnek4yUmpORFl3WlRjMlpqZGxNRFF3TVRSaU5XVmtNRFE9}, udp: true}

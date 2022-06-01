@@ -1,0 +1,51 @@
+  - {name: 台湾|02奈飞直连, server: dsfdg.170809.xyz, port: 34246, type: ss, cipher: chacha20-ietf-poly1305, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, udp: true}
+  - {name: 台湾|03奈飞直连, server: fdbdfsb.170809.xyz, port: 34253, type: ss, cipher: chacha20-ietf-poly1305, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, udp: true}
+  - {name: 台湾|01奈飞直连, server: tw01.170809.xyz, port: 443, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: tw01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾|01奈飞香港AZ中转, server: azhk.orange7.cf, port: 65534, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: tw01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾|02奈飞日本AZ中转, server: azjp.orange7.cf, port: 23403, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: tw01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾|03奈飞三网中转, server: node1.9218561.xyz, port: 25284, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: tw01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|04|OC, server: sgmax04.170809.xyz, port: 443, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: sgmax04.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|04|OCAZ中转, server: azhk.orange7.cf, port: 32915, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: sgmax04.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|01|LINAZ中转, server: azhk.orange7.cf, port: 61810, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: sgmax01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|03|OC奈飞AZ中转, server: azhk.orange7.cf, port: 13361, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: 0a01f3ad01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|02|DOAZ中转, server: azhk.orange7.cf, port: 50278, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: sgmax02.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|08|DOAZ中转, server: azhk.orange7.cf, port: 44777, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: sgmax08.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|01|OC, server: sg01.170809.xyz, port: 443, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: sg01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|01|OCAZ中转, server: azhk.orange7.cf, port: 21230, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: sg01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 印度|02|LINAZ中转, server: azhk.orange7.cf, port: 47822, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: in02.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 英国|01|DOAZ中转, server: azhk.orange7.cf, port: 42355, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: uk01.170809.xyz%3A, skip-cert-verify: true, udp: true}
+  - {name: 韩国|03|OCAZ中转, server: azhk.orange7.cf, port: 20822, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: kr03.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 韩国|04|OC, server: kr04.170809.xyz, port: 32432, type: ss, cipher: chacha20-ietf-poly1305, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, udp: true}
+  - {name: 日本|05|LINAZ中转, server: azjp.orange7.cf, port: 20842, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: jpmax05.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|01|LIN, server: jp01.170809.xyz, port: 443, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: jp01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|01|LINAZ中转, server: azjp.orange7.cf, port: 18179, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: jp01.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|03|LINAZ中转, server: azhk.orange7.cf, port: 19542, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: jpmax03.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|02|LIN02AZ中转, server: azjp.orange7.cf, port: 36129, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: jpmax02.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|05|LIN, server: jpmax05.170809.xyz, port: 443, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: jpmax05.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|03|LIN, server: jp03.170809.xyz, port: 444, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: jp03.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|02|LIN, server: jp02.170809.xyz, port: 443, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: jp02.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|02|LINAZ中转, server: azjp.orange7.cf, port: 10050, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: jp02.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|04|OC, server: jp04.170809.xyz, port: 443, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: jp04.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|05|OC, server: jp05.170809.xyz, port: 443, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: jp05.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|04|OCAZ中转, server: azjp.orange7.cf, port: 38323, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: jp04.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本|05|OCAZ中转, server: azjp.orange7.cf, port: 18498, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: jp05.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国|高速|01|DO, server: usmax01.170809.xyz, port: 444, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, skip-cert-verify: true, udp: true}
+  - {name: 美国|01|DO, server: us01.170809.xyz, port: 443, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, skip-cert-verify: true, udp: true}
+  - {name: 美国|03|RN, server: usmax03.170809.xyz, port: 443, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: usmax03.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|08奈飞, server: hkmax08.170809.xyz, port: 443, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: hkmax08.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|08奈飞三网中转, server: node1.9218561.xyz, port: 35567, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: hkmax08.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|07奈飞AZ中转, server: azhk.orange7.cf, port: 13055, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: hkmax07.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|07奈飞移动中转, server: szcm.9218561.xyz, port: 61311, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: hkmax07.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|10奈飞, server: hkmax10.170809.xyz, port: 443, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: hkmax10.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|10奈飞三网中转, server: node1.9218561.xyz, port: 18440, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: hkmax10.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|12奈飞, server: hkmax12.170809.xyz, port: 443, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: hkmax12.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|12奈飞移动中转, server: shcu.9218561.xyz, port: 46808, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: hkmax12.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|06奈飞AZ中转, server: hkmax06.170809.xyz, port: 443, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: hkmax06.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|03AZ中转, server: azhk.orange7.cf, port: 53106, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: hkmax03.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|20AZ中转, server: azhk.orange7.cf, port: 23245, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: hkmax20.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|22奈飞, server: hkmax22.170809.xyz, port: 443, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: hkmax22.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|22奈飞AZ中转, server: azhk.orange7.cf, port: 43599, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: hkmax22.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|10AZ中转, server: azhk.orange7.cf, port: 21696, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: hk10.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|12AZ中转, server: azhk.orange7.cf, port: 39109, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: hk12.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|21AZ中转, server: azhk.orange7.cf, port: 47684, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: hkmax21.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|17AZ中转, server: azhk.orange7.cf, port: 60353, type: trojan, password: e5454d25-57b0-415c-9efb-3a18f3bf873f, sni: hkmax17.170809.xyz, skip-cert-verify: true, udp: true}
