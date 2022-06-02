@@ -135,8 +135,8 @@ trojan://82a115db-6e59-4319-973lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65
 trojan://82lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@tky3.ssgnode.ga:443?allowInsecure=0#[JP]tky3.ssgnode.ga:443-82lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
 trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@45.42.160.16:443?allowInsecure=0&sni=turkmenistan.gov.tm#[US]45.42.160.16:443-8723E8EE-D100-A8BF-4E77-F734A7A3651B
 trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@daily-1-cn-route.teacher2040.com:41605?allowInsecure=0&sni=daily-tls-1.teacher2040.com#[HK]daily-1-cn-route.teacher2040.com:41605-8723E8EE-D100-A8BF-4E77-F734A7A3651B
-trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@daily-3-cn-route.teacher2040.com:43603?allowInsecure=0&sni=daily-tls-1.teacher2040.com#[CN]daily-3-cn-route.teacher2040.com:43603-8723E8EE-D100-A8BF-4E77-F734A7A3651B
-trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@daily-4-cn-route.teacher2040.com:43604?allowInsecure=0&sni=daily-tls-1.teacher2040.com#[CN]daily-4-cn-route.teacher2040.com:43604-8723E8EE-D100-A8BF-4E77-F734A7A3651B
+trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@daily-3-cn-route.teacher2040.com:43603?allowInsecure=0&sni=daily-tls-1.teacher2040.com#[HK]daily-3-cn-route.teacher2040.com:43603-8723E8EE-D100-A8BF-4E77-F734A7A3651B
+trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@daily-4-cn-route.teacher2040.com:43604?allowInsecure=0&sni=daily-tls-1.teacher2040.com#[HK]daily-4-cn-route.teacher2040.com:43604-8723E8EE-D100-A8BF-4E77-F734A7A3651B
 trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@sg-cn.teacher2050.com:43508?allowInsecure=0&sni=sg-cn.teacher2050.com#[HK]sg-cn.teacher2050.com:43508-8723E8EE-D100-A8BF-4E77-F734A7A3651B
 trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@sg.teacher2050.com:43244?allowInsecure=0&sni=sg.teacher2050.com#[SG]sg.teacher2050.com:43244-8723E8EE-D100-A8BF-4E77-F734A7A3651B
 trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@streaming-cn.teacher2040.com:43500?allowInsecure=0&sni=streaming-cn.teacher2040.com#[HK]streaming-cn.teacher2040.com:43500-8723E8EE-D100-A8BF-4E77-F734A7A3651B
