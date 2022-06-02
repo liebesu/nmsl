@@ -9,13 +9,14 @@ from asyncore import write
 
 import geoip2.database
 import requests
+import yaml
 from requests.adapters import HTTPAdapter
 
 
 class sub_convert():
     def get_node_from_sub(url_raw='', server_host='http://127.0.0.1:25500'):
         # 使用远程订阅转换服务
-        # server_host = 'https://api.v1.mk'
+        server_host = 'https://api.v1.mk'
         # 使用本地订阅转换服务
         # 分割订阅链接
         urls = url_raw.split('|')
@@ -89,7 +90,7 @@ class sub_convert():
                         password = sub_convert.base64_decode(
                             node_part[0]).split(':')[-1]
                         name_renamed = server_head + \
-                            node_part[1] + '-' + password
+                            node_part[1] + '(' + password + ')'
                         node_part[2] = urllib.parse.quote(
                             name_renamed, safe='')
                         node_raw = node_part[0] + '@' + \
@@ -105,9 +106,9 @@ class sub_convert():
                         server = node_part_head[-2]
                         server_head = sub_convert.find_country(
                             server)
-                        password = node_part_head[-3]
+                        password = sub_convert.base64_decode(node_part_head[-3])
                         name_renamed = server_head + \
-                            server + ':' + server_port + '-' + password
+                            server + ':' + server_port + '(' + password + ')'
                         node_part[1] = urllib.parse.quote(
                             name_renamed, safe='')
                         node_raw = node_part[0] + '#' + node_part[1]
@@ -127,7 +128,7 @@ class sub_convert():
                     password = sub_convert.base64_decode(node_part_head[-1])
                     name_renamed = server_head + \
                         node_part_head[0] + ':' + \
-                        node_part_head[1] + '-' + password
+                        node_part_head[1] + '(' + password + ')'
                     node_part_foot = node_part[-1].split('&')
                     for i in range(len(node_part_foot)):
                         if 'remarks' in node_part_foot[i]:
@@ -147,7 +148,7 @@ class sub_convert():
                     node_json = json.loads(
                         sub_convert.base64_decode(node_del_head))
                     name_renamed = sub_convert.find_country(
-                        node_json['add']) + node_json['add'] + ':' + node_json['port'] + '-' + node_json['id']
+                        node_json['add']) + node_json['add'] + ':' + node_json['port'] + '(' + node_json['id'] + ')'
                     node_json['ps'] = name_renamed
                     node_json_dumps = json.dumps(node_json)
                     node_raw = sub_convert.base64_encode(node_json_dumps)
@@ -163,9 +164,9 @@ class sub_convert():
                         node_part[1].split(':')[0])
                     password = node_part[0]
                     name_renamed = server_head + \
-                        node_part[1].split('?')[0] + '-' + password
+                        node_part[1].split('?')[0] + '(' + password + ')'
                     node_raw = node_part[0] + '@' + \
-                        node_part[1] + '#' + name_renamed
+                        node_part[1] + '#' + urllib.parse.quote(name_renamed)
                     node = 'trojan://' + node_raw
                     node_list_formated_array.append(node)
                 except Exception as err:
@@ -178,6 +179,73 @@ class sub_convert():
     # 使用外部subconverter转换订阅链接为链接url
 
     def find_country(server):
+        emoji = {
+            'AD': '🇦🇩', 'AE': '🇦🇪', 'AF': '🇦🇫', 'AG': '🇦🇬',
+            'AI': '🇦🇮', 'AL': '🇦🇱', 'AM': '🇦🇲', 'AO': '🇦🇴',
+            'AQ': '🇦🇶', 'AR': '🇦🇷', 'AS': '🇦🇸', 'AT': '🇦🇹',
+            'AU': '🇦🇺', 'AW': '🇦🇼', 'AX': '🇦🇽', 'AZ': '🇦🇿',
+            'BA': '🇧🇦', 'BB': '🇧🇧', 'BD': '🇧🇩', 'BE': '🇧🇪',
+            'BF': '🇧🇫', 'BG': '🇧🇬', 'BH': '🇧🇭', 'BI': '🇧🇮',
+            'BJ': '🇧🇯', 'BL': '🇧🇱', 'BM': '🇧🇲', 'BN': '🇧🇳',
+            'BO': '🇧🇴', 'BQ': '🇧🇶', 'BR': '🇧🇷', 'BS': '🇧🇸',
+            'BT': '🇧🇹', 'BV': '🇧🇻', 'BW': '🇧🇼', 'BY': '🇧🇾',
+            'BZ': '🇧🇿', 'CA': '🇨🇦', 'CC': '🇨🇨', 'CD': '🇨🇩',
+            'CF': '🇨🇫', 'CG': '🇨🇬', 'CH': '🇨🇭', 'CI': '🇨🇮',
+            'CK': '🇨🇰', 'CL': '🇨🇱', 'CM': '🇨🇲', 'CN': '🇨🇳',
+            'CO': '🇨🇴', 'CR': '🇨🇷', 'CU': '🇨🇺', 'CV': '🇨🇻',
+            'CW': '🇨🇼', 'CX': '🇨🇽', 'CY': '🇨🇾', 'CZ': '🇨🇿',
+            'DE': '🇩🇪', 'DJ': '🇩🇯', 'DK': '🇩🇰', 'DM': '🇩🇲',
+            'DO': '🇩🇴', 'DZ': '🇩🇿', 'EC': '🇪🇨', 'EE': '🇪🇪',
+            'EG': '🇪🇬', 'EH': '🇪🇭', 'ER': '🇪🇷', 'ES': '🇪🇸',
+            'ET': '🇪🇹', 'EU': '🇪🇺', 'FI': '🇫🇮', 'FJ': '🇫🇯',
+            'FK': '🇫🇰', 'FM': '🇫🇲', 'FO': '🇫🇴', 'FR': '🇫🇷',
+            'GA': '🇬🇦', 'GB': '🇬🇧', 'GD': '🇬🇩', 'GE': '🇬🇪',
+            'GF': '🇬🇫', 'GG': '🇬🇬', 'GH': '🇬🇭', 'GI': '🇬🇮',
+            'GL': '🇬🇱', 'GM': '🇬🇲', 'GN': '🇬🇳', 'GP': '🇬🇵',
+            'GQ': '🇬🇶', 'GR': '🇬🇷', 'GS': '🇬🇸', 'GT': '🇬🇹',
+            'GU': '🇬🇺', 'GW': '🇬🇼', 'GY': '🇬🇾', 'HK': '🇭🇰',
+            'HM': '🇭🇲', 'HN': '🇭🇳', 'HR': '🇭🇷', 'HT': '🇭🇹',
+            'HU': '🇭🇺', 'ID': '🇮🇩', 'IE': '🇮🇪', 'IL': '🇮🇱',
+            'IM': '🇮🇲', 'IN': '🇮🇳', 'IO': '🇮🇴', 'IQ': '🇮🇶',
+            'IR': '🇮🇷', 'IS': '🇮🇸', 'IT': '🇮🇹', 'JE': '🇯🇪',
+            'JM': '🇯🇲', 'JO': '🇯🇴', 'JP': '🇯🇵', 'KE': '🇰🇪',
+            'KG': '🇰🇬', 'KH': '🇰🇭', 'KI': '🇰🇮', 'KM': '🇰🇲',
+            'KN': '🇰🇳', 'KP': '🇰🇵', 'KR': '🇰🇷', 'KW': '🇰🇼',
+            'KY': '🇰🇾', 'KZ': '🇰🇿', 'LA': '🇱🇦', 'LB': '🇱🇧',
+            'LC': '🇱🇨', 'LI': '🇱🇮', 'LK': '🇱🇰', 'LR': '🇱🇷',
+            'LS': '🇱🇸', 'LT': '🇱🇹', 'LU': '🇱🇺', 'LV': '🇱🇻',
+            'LY': '🇱🇾', 'MA': '🇲🇦', 'MC': '🇲🇨', 'MD': '🇲🇩',
+            'ME': '🇲🇪', 'MF': '🇲🇫', 'MG': '🇲🇬', 'MH': '🇲🇭',
+            'MK': '🇲🇰', 'ML': '🇲🇱', 'MM': '🇲🇲', 'MN': '🇲🇳',
+            'MO': '🇲🇴', 'MP': '🇲🇵', 'MQ': '🇲🇶', 'MR': '🇲🇷',
+            'MS': '🇲🇸', 'MT': '🇲🇹', 'MU': '🇲🇺', 'MV': '🇲🇻',
+            'MW': '🇲🇼', 'MX': '🇲🇽', 'MY': '🇲🇾', 'MZ': '🇲🇿',
+            'NA': '🇳🇦', 'NC': '🇳🇨', 'NE': '🇳🇪', 'NF': '🇳🇫',
+            'NG': '🇳🇬', 'NI': '🇳🇮', 'NL': '🇳🇱', 'NO': '🇳🇴',
+            'NP': '🇳🇵', 'NR': '🇳🇷', 'NU': '🇳🇺', 'NZ': '🇳🇿',
+            'OM': '🇴🇲', 'PA': '🇵🇦', 'PE': '🇵🇪', 'PF': '🇵🇫',
+            'PG': '🇵🇬', 'PH': '🇵🇭', 'PK': '🇵🇰', 'PL': '🇵🇱',
+            'PM': '🇵🇲', 'PN': '🇵🇳', 'PR': '🇵🇷', 'PS': '🇵🇸',
+            'PT': '🇵🇹', 'PW': '🇵🇼', 'PY': '🇵🇾', 'QA': '🇶🇦',
+            'RE': '🇷🇪', 'RO': '🇷🇴', 'RS': '🇷🇸', 'RU': '🇷🇺',
+            'RW': '🇷🇼', 'SA': '🇸🇦', 'SB': '🇸🇧', 'SC': '🇸🇨',
+            'SD': '🇸🇩', 'SE': '🇸🇪', 'SG': '🇸🇬', 'SH': '🇸🇭',
+            'SI': '🇸🇮', 'SJ': '🇸🇯', 'SK': '🇸🇰', 'SL': '🇸🇱',
+            'SM': '🇸🇲', 'SN': '🇸🇳', 'SO': '🇸🇴', 'SR': '🇸🇷',
+            'SS': '🇸🇸', 'ST': '🇸🇹', 'SV': '🇸🇻', 'SX': '🇸🇽',
+            'SY': '🇸🇾', 'SZ': '🇸🇿', 'TC': '🇹🇨', 'TD': '🇹🇩',
+            'TF': '🇹🇫', 'TG': '🇹🇬', 'TH': '🇹🇭', 'TJ': '🇹🇯',
+            'TK': '🇹🇰', 'TL': '🇹🇱', 'TM': '🇹🇲', 'TN': '🇹🇳',
+            'TO': '🇹🇴', 'TR': '🇹🇷', 'TT': '🇹🇹', 'TV': '🇹🇻',
+            'TW': '🇹🇼', 'TZ': '🇹🇿', 'UA': '🇺🇦', 'UG': '🇺🇬',
+            'UM': '🇺🇲', 'US': '🇺🇸', 'UY': '🇺🇾', 'UZ': '🇺🇿',
+            'VA': '🇻🇦', 'VC': '🇻🇨', 'VE': '🇻🇪', 'VG': '🇻🇬',
+            'VI': '🇻🇮', 'VN': '🇻🇳', 'VU': '🇻🇺', 'WF': '🇼🇫',
+            'WS': '🇼🇸', 'XK': '🇽🇰', 'YE': '🇾🇪', 'YT': '🇾🇹',
+            'ZA': '🇿🇦', 'ZM': '🇿🇲', 'ZW': '🇿🇼',
+            'RELAY': '🏁',
+            'NOWHERE': '🇦🇶',
+        }
         if server.replace('.', '').isdigit():
             ip = server
         else:
@@ -198,16 +266,17 @@ class sub_convert():
             country_code = 'RELAY'
         elif country_code == 'PRIVATE':
             country_code = 'RELAY'
-        return '[' + country_code + ']'
+        if country_code in emoji:
+            name_emoji = emoji[country_code]
+        else:
+            name_emoji = emoji['NOWHERE']
+        return name_emoji + '[' + country_code + ']'
 
     def write_to_node(node_list_array, path):
-        length = 1000
-        for i in range(0, len(node_list_array), length):
-            nodes_part_array = node_list_array[i:i + length]
-            node_list = '\n'.join(nodes_part_array)
-            node_list_file = open(f'{path}{(i+1)//length}.txt', 'w', encoding='utf-8')
-            node_list_file.write(node_list)
-            node_list_file.close()
+        node_list = '\n'.join(node_list_array)
+        node_list_file = open(path, 'w', encoding='utf-8')
+        node_list_file.write(node_list)
+        node_list_file.close()
 
     def write_to_base64(node_list_array, path):
         node_list = '\n'.join(node_list_array)
@@ -216,22 +285,16 @@ class sub_convert():
         node_list_base64_file.write(node_list_base64)
         node_list_base64_file.close()
 
-    def write_to_clash(file_list_array, path, server_host='http://127.0.0.1:25500'):
+    def write_to_clash(node_list_array, path):
         # 使用远程订阅转换服务
         # server_host = 'https://api.v1.mk'
-        for i in range(len(file_list_array)):
-            url_head = 'https://raw.githubusercontent.com/songtao1873/nmsl/main/sub/node/'
-            url = url_head + file_list_array[i]
-            file_part_encoded = urllib.parse.quote(url, safe='')
-            converted_url = server_host + '/sub?target=clash&url=' + \
-                file_part_encoded + '&list=true'
-            try:
-                nodes_part_converted = requests.get(converted_url)
-                nodes_part_file = open(
-                    f'{path}{i}.yaml', 'w', encoding='utf-8')
-                nodes_part_file.write(nodes_part_converted.text)
-            except Exception as err:
-                print(err)
+        for i in range(0, len(node_list_array), 500):
+            node_list_array_part = node_list_array[i:i + 500]
+            node_list_part = sub_convert.yaml_encode(node_list_array_part)
+            node_list_part_file = open(
+                f'{path}{(i+1)//500}.yaml', 'w', encoding='utf-8')
+            node_list_part_file.write(node_list_part)
+            node_list_part_file.close()
 
     def base64_encode(url_content):  # 将 URL 内容转换为 Base64
         base64_content = base64.b64encode(
@@ -257,3 +320,181 @@ class sub_convert():
             base64_content = base64.b64decode(url_content)
             base64_content_format = base64_content
             return base64_content
+
+    def yaml_encode(lines):  # 将 URL 内容转换为 YAML (输出默认 YAML 格式)
+        url_list = []
+        for line in lines:
+            yaml_url = {}
+            if 'vmess://' in line:
+                try:
+                    vmess_json_config = json.loads(
+                        sub_convert.base64_decode(line.replace('vmess://', '')))
+                    vmess_default_config = {
+                        'v': 'Vmess Node', 'ps': 'Vmess Node', 'add': '0.0.0.0', 'port': 0, 'id': '',
+                        'aid': 0, 'scy': 'auto', 'net': '', 'type': '', 'host': vmess_json_config['add'], 'path': '/', 'tls': ''
+                    }
+                    vmess_default_config.update(vmess_json_config)
+                    vmess_config = vmess_default_config
+
+                    yaml_url = {}
+                    #yaml_config_str = ['name', 'server', 'port', 'type', 'uuid', 'alterId', 'cipher', 'tls', 'skip-cert-verify', 'network', 'ws-path', 'ws-headers']
+                    #vmess_config_str = ['ps', 'add', 'port', 'id', 'aid', 'scy', 'tls', 'net', 'host', 'path']
+                    # 生成 yaml 节点字典
+                    if vmess_config['id'] == '' or vmess_config['id'] is None:
+                        print('节点格式错误')
+                    else:
+                        yaml_url.setdefault(
+                            'name', urllib.parse.unquote(str(vmess_config['ps'])))
+                        yaml_url.setdefault('server', vmess_config['add'])
+                        yaml_url.setdefault('port', int(vmess_config['port']))
+                        yaml_url.setdefault('type', 'vmess')
+                        yaml_url.setdefault('uuid', vmess_config['id'])
+                        yaml_url.setdefault(
+                            'alterId', int(vmess_config['aid']))
+                        yaml_url.setdefault('cipher', vmess_config['scy'])
+                        yaml_url.setdefault('skip-cert-vertify', True)
+                        if vmess_config['net'] == '' or vmess_config['net'] is False or vmess_config['net'] is None:
+                            yaml_url.setdefault('network', 'tcp')
+                        else:
+                            yaml_url.setdefault('network', vmess_config['net'])
+                        if vmess_config['path'] == '' or vmess_config['path'] is False or vmess_config['path'] is None:
+                            yaml_url.setdefault('ws-path', '/')
+                        else:
+                            yaml_url.setdefault(
+                                'ws-path', vmess_config['path'])
+                        if vmess_config['net'] == 'h2' or vmess_config['net'] == 'grpc':
+                            yaml_url.setdefault('tls', True)
+                        elif vmess_config['tls'] == '' or vmess_config['tls'] is False or vmess_config['tls'] is None:
+                            yaml_url.setdefault('tls', False)
+                        else:
+                            yaml_url.setdefault('tls', True)
+                        if vmess_config['host'] == '':
+                            yaml_url.setdefault(
+                                'ws-headers', {'Host': vmess_config['add']})
+                        else:
+                            yaml_url.setdefault(
+                                'ws-headers', {'Host': vmess_config['host']})
+
+                        url_list.append(yaml_url)
+                except Exception as err:
+                    print(f'yaml_encode 解析 vmess 节点发生错误: {err}')
+                    pass
+
+            if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line:
+                if '#' not in line:
+                    line = line + '#SS%20Node'
+                try:
+                    ss_content = line.replace('ss://', '')
+                    # https://www.runoob.com/python/att-string-split.html
+                    part_list = ss_content.split('#', 1)
+                    yaml_url.setdefault(
+                        'name', urllib.parse.unquote(part_list[1]))
+                    if '@' in part_list[0]:
+                        mix_part = part_list[0].split('@', 1)
+                        method_part = sub_convert.base64_decode(mix_part[0])
+                        server_part = f'{method_part}@{mix_part[1]}'
+                    else:
+                        server_part = sub_convert.base64_decode(part_list[0])
+
+                    # 使用多个分隔符 https://blog.csdn.net/shidamowang/article/details/80254476 https://zhuanlan.zhihu.com/p/92287240
+                    server_part_list = server_part.split(':', 1)
+                    method_part = server_part_list[0]
+                    server_part_list = server_part_list[1].rsplit('@', 1)
+                    password_part = server_part_list[0]
+                    server_part_list = server_part_list[1].split(':', 1)
+
+                    yaml_url.setdefault('server', server_part_list[0])
+                    yaml_url.setdefault('port', server_part_list[1])
+                    yaml_url.setdefault('type', 'ss')
+                    yaml_url.setdefault('cipher', method_part)
+                    yaml_url.setdefault('password', password_part)
+
+                    url_list.append(yaml_url)
+                except Exception as err:
+                    print(f'yaml_encode 解析 ss 节点发生错误: {err}')
+                    pass
+
+            if 'ssr://' in line:
+                try:
+                    ssr_content = sub_convert.base64_decode(
+                        line.replace('ssr://', ''))
+
+                    part_list = re.split('/\?', ssr_content)
+                    if '&' in part_list[1]:
+                        # 将 SSR content /？后部分参数分割
+                        ssr_part = re.split('&', part_list[1])
+                        for item in ssr_part:
+                            if 'remarks=' in item:
+                                remarks_part = item.replace('remarks=', '')
+                        try:
+                            remarks = sub_convert.base64_decode(remarks_part)
+                        except Exception:
+                            remarks = 'ssr'
+                    else:
+                        remarks_part = part_list[1].replace('remarks=', '')
+                        try:
+                            remarks = sub_convert.base64_decode(remarks_part)
+                        except Exception:
+                            remarks = 'ssr'
+                            print(f'SSR format error, content:{remarks_part}')
+                    yaml_url.setdefault('name', urllib.parse.unquote(remarks))
+
+                    server_part_list = re.split(':', part_list[0])
+                    yaml_url.setdefault('server', server_part_list[0])
+                    yaml_url.setdefault('port', server_part_list[1])
+                    yaml_url.setdefault('type', 'ssr')
+                    yaml_url.setdefault('cipher', server_part_list[3])
+                    yaml_url.setdefault('password', server_part_list[5])
+
+                    url_list.append(yaml_url)
+                except Exception as err:
+                    print(f'yaml_encode 解析 ssr 节点发生错误: {err}')
+                    pass
+
+            if 'trojan://' in line:
+                try:
+                    url_content = line.replace('trojan://', '')
+                    # https://www.runoob.com/python/att-string-split.html
+                    part_list = re.split('#', url_content, maxsplit=1)
+                    yaml_url.setdefault(
+                        'name', urllib.parse.unquote(part_list[1]))
+
+                    server_part = part_list[0].replace('trojan://', '')
+                    # 使用多个分隔符 https://blog.csdn.net/shidamowang/article/details/80254476 https://zhuanlan.zhihu.com/p/92287240
+                    server_part_list = re.split(':|@|\?|&', server_part)
+                    yaml_url.setdefault('server', server_part_list[1])
+                    yaml_url.setdefault('port', server_part_list[2])
+                    yaml_url.setdefault('type', 'trojan')
+                    yaml_url.setdefault('password', server_part_list[0])
+                    server_part_list = server_part_list[3:]
+
+                    for config in server_part_list:
+                        if 'sni=' in config:
+                            yaml_url.setdefault('sni', config[4:])
+                        elif 'allowInsecure=' in config or 'tls=' in config:
+                            if config[-1] == 0:
+                                yaml_url.setdefault('tls', False)
+                            else:
+                                yaml_url.setdefault('tls', True)
+                        elif 'type=' in config:
+                            yaml_url.setdefault('network', config[5:])
+                        elif 'path=' in config:
+                            yaml_url.setdefault('ws-path', config[5:])
+                        elif 'security=' in config:
+                            if config[9:] != 'tls':
+                                yaml_url.setdefault('tls', False)
+                            else:
+                                yaml_url.setdefault('tls', True)
+
+                    yaml_url.setdefault('skip-cert-verify', True)
+
+                    url_list.append(yaml_url)
+                except Exception as err:
+                    print(f'yaml_encode 解析 trojan 节点发生错误: {err}')
+                    pass
+
+        yaml_content_dic = {'proxies': url_list}
+        yaml_content_raw = yaml.dump(yaml_content_dic, default_flow_style=False,
+                                     sort_keys=False, allow_unicode=True, width=750, indent=2)
+        yaml_content = sub_convert.format(yaml_content_raw)
+        return yaml_content

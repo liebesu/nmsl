@@ -50,10 +50,11 @@ class sub_merge():
         content_array = content_list.split('\n')[:-1]
         content_array_deduplication = list(set(content_array))
         # 写入文件
-        sub_convert.write_to_node(content_array_deduplication, './sub/node/')
+        sub_convert.write_to_node(
+            content_array_deduplication, './sub/node.txt')
         sub_convert.write_to_base64(
             content_array_deduplication, './sub/base64')
-        # sub_convert.node_to_clash(content_array_deduplication, './sub/')
+        sub_convert.write_to_clash(content_array_deduplication, './sub/clash/')
         print('Done!\n')
 
     def read_list(json_file):  # 将 sub_list.json Url 内容读取为列表
