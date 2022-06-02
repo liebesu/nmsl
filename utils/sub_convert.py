@@ -106,14 +106,14 @@ class sub_convert():
                         server = node_part_head[-2]
                         server_head = sub_convert.find_country(
                             server)
-                        password = sub_convert.base64_decode(node_part_head[-3])
+                        password = node_part_head[-3]
                         name_renamed = server_head + \
                             server + ':' + server_port + '(' + password + ')'
                         node_part[1] = urllib.parse.quote(
                             name_renamed, safe='')
                         node_raw = node_part[0] + '#' + node_part[1]
                         node = 'ss://' + node_raw
-                        node_list_formated_array.append(node)
+                    node_list_formated_array.append(node)
                 except Exception as err:
                     print(f'改名 ss 节点发生错误: {err}')
             elif 'ssr://' in node:
