@@ -367,12 +367,13 @@ class sub_convert():
                             yaml_url.setdefault('tls', 'false')
                         else:
                             yaml_url.setdefault('tls', 'true')
-                        if vmess_config['host'] == '':
-                            yaml_url.setdefault(
-                                'ws-headers', {'Host': vmess_config['add']})
-                        else:
-                            yaml_url.setdefault(
-                                'ws-headers', {'Host': vmess_config['host']})
+                        yaml_url.setdefault('ws-headers', {'Host': vmess_config['add']})
+                        # if vmess_config['host'] == '':
+                        #     yaml_url.setdefault(
+                        #         'ws-headers', {'Host': vmess_config['add']})
+                        # else:
+                        #     yaml_url.setdefault(
+                        #         'ws-headers', {'Host': vmess_config['host']})
 
                 except Exception as err:
                     print(f'yaml_encode 解析 vmess 节点发生错误: {err}')
