@@ -48,7 +48,7 @@ class sub_merge():
         content_list = ''.join(content_list_array)
         # 去重
         content_array = content_list.split('\n')[:-1]
-        content_array_deduplication = list(set(content_array))
+        content_array_deduplication = sub_convert.duplicate_removal(content_array)
         # 写入文件
         sub_convert.write_to_node(
             content_array_deduplication, './sub/node.txt')

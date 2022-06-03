@@ -5,6 +5,7 @@ import json
 import re
 import socket
 import urllib.parse
+from platform import node
 
 import geoip2.database
 import requests
@@ -175,8 +176,58 @@ class sub_convert():
             return node_list_formated
         else:
             return node_list_formated + '\n'
-    # 使用外部subconverter转换订阅链接为链接url
 
+    def duplicate_removal(node_list):
+        node_list_formated_array = []
+        node_name_array = []
+        for node in node_list:
+            node_name = sub_convert.get_node_name(node)
+            if node_name not in node_name_array:
+                node_name_array.append(node_name)
+                node_list_formated_array.append(node)
+        node_list_formated = '\n'.join(node_list_formated_array)
+        return node_list_formated
+    
+    def get_node_name(node):
+        if 'ss://' in node and 'vless://' not in node and 'vmess://' not in node:
+            try:
+                node_del_head = node.replace('ss://', '')
+                if '@' in node_del_head:
+                    node_part = re.split('@|#', node_del_head, maxsplit=2)
+                    name = urllib.parse.unquote(node_part[2])
+                else:
+                    node_part = node_del_head.split('#')
+                    name = urllib.parse.unquote(node_part[1])
+            except Exception as err:
+                print(f'改名 ss 节点发生错误: {err}')
+        elif 'ssr://' in node:
+            try:
+                node_del_head = node.replace('ssr://', '')
+                node_part = sub_convert.base64_decode(
+                    node_del_head).split('/?')
+                node_part_foot = node_part[-1].split('&')
+                for i in range(len(node_part_foot)):
+                    if 'remarks' in node_part_foot[i]:
+                        name = node_part_foot[i].replace('remarks=', '')
+                        break
+            except Exception as err:
+                print(f'获取节点名错误: {err}')
+        elif 'vmess://' in node:
+            try:
+                node_del_head = node.replace('vmess://', '')
+                node_json = json.loads(
+                    sub_convert.base64_decode(node_del_head))
+                name = node_json['ps']
+            except Exception as err:
+                print(f'获取节点名错误: {err}')
+        elif 'trojan://' in node:
+            try:
+                node_del_head = node.replace('trojan://', '')
+                node_part = re.split('@|#', node_del_head, maxsplit=2)
+                name = urllib.parse.unquote(node_part[-1])
+            except Exception as err:
+                print(f'获取节点名错误: {err}')
+        return name
     def find_country(server):
         emoji = {
             'AD': '🇦🇩', 'AE': '🇦🇪', 'AF': '🇦🇫', 'AG': '🇦🇬',
