@@ -5,18 +5,16 @@ import json
 import re
 import socket
 import urllib.parse
-from asyncore import write
 
 import geoip2.database
 import requests
-import yaml
 from requests.adapters import HTTPAdapter
 
 
 class sub_convert():
     def get_node_from_sub(url_raw='', server_host='http://127.0.0.1:25500'):
         # 使用远程订阅转换服务
-        server_host = 'https://api.v1.mk'
+        # server_host = 'https://api.v1.mk'
         # 使用本地订阅转换服务
         # 分割订阅链接
         urls = url_raw.split('|')
@@ -89,8 +87,7 @@ class sub_convert():
                             node_part[1].split(':')[0])
                         password = sub_convert.base64_decode(
                             node_part[0]).split(':')[-1]
-                        name_renamed = server_head + \
-                            node_part[1] + '(' + password + ')'
+                        name_renamed = server_head + '(ss)' + node_part[1] + '(' + password + ')'
                         node_part[2] = urllib.parse.quote(
                             name_renamed, safe='')
                         node_raw = node_part[0] + '@' + \
@@ -108,7 +105,8 @@ class sub_convert():
                             server)
                         password = node_part_head[-3]
                         name_renamed = server_head + \
-                            server + ':' + server_port + '(' + password + ')'
+                            '(ss)' + server + ':' + \
+                            server_port + '(' + password + ')'
                         node_part[1] = urllib.parse.quote(
                             name_renamed, safe='')
                         node_raw = node_part[0] + '#' + node_part[1]
@@ -127,7 +125,7 @@ class sub_convert():
                         node_part_head[0])
                     password = sub_convert.base64_decode(node_part_head[-1])
                     name_renamed = server_head + \
-                        node_part_head[0] + ':' + \
+                        '(ssr)' + node_part_head[0] + ':' + \
                         node_part_head[1] + '(' + password + ')'
                     node_part_foot = node_part[-1].split('&')
                     for i in range(len(node_part_foot)):
@@ -148,7 +146,7 @@ class sub_convert():
                     node_json = json.loads(
                         sub_convert.base64_decode(node_del_head))
                     name_renamed = sub_convert.find_country(
-                        node_json['add']) + node_json['add'] + ':' + node_json['port'] + '(' + node_json['id'] + ')'
+                        node_json['add']) + '(vmess)' + node_json['add'] + ':' + node_json['port'] + '(' + node_json['id'] + ')'
                     node_json['ps'] = name_renamed
                     node_json_dumps = json.dumps(node_json)
                     node_raw = sub_convert.base64_encode(node_json_dumps)
@@ -164,7 +162,8 @@ class sub_convert():
                         node_part[1].split(':')[0])
                     password = node_part[0]
                     name_renamed = server_head + \
-                        node_part[1].split('?')[0] + '(' + password + ')'
+                        '(trojan)' + node_part[1].split('?')[0] + \
+                        '(' + password + ')'
                     node_raw = node_part[0] + '@' + \
                         node_part[1] + '#' + urllib.parse.quote(name_renamed)
                     node = 'trojan://' + node_raw
@@ -288,11 +287,11 @@ class sub_convert():
     def write_to_clash(node_list_array, path):
         # 使用远程订阅转换服务
         # server_host = 'https://api.v1.mk'
-        for i in range(0, len(node_list_array), 500):
-            node_list_array_part = node_list_array[i:i + 500]
+        for i in range(0, len(node_list_array), 1000):
+            node_list_array_part = node_list_array[i:i + 1000]
             node_list_part = sub_convert.yaml_encode(node_list_array_part)
             node_list_part_file = open(
-                f'{path}{(i+1)//500}.yaml', 'w', encoding='utf-8')
+                f'{path}{(i+1)//1000}.yaml', 'w', encoding='utf-8')
             node_list_part_file.write(node_list_part)
             node_list_part_file.close()
 
@@ -340,11 +339,11 @@ class sub_convert():
                     #yaml_config_str = ['name', 'server', 'port', 'type', 'uuid', 'alterId', 'cipher', 'tls', 'skip-cert-verify', 'network', 'ws-path', 'ws-headers']
                     #vmess_config_str = ['ps', 'add', 'port', 'id', 'aid', 'scy', 'tls', 'net', 'host', 'path']
                     # 生成 yaml 节点字典
-                    if vmess_config['id'] == '' or vmess_config['id'] is None:
+                    if vmess_config['id'] == '':
                         print('节点格式错误')
                     else:
                         yaml_url.setdefault(
-                            'name', urllib.parse.unquote(str(vmess_config['ps'])))
+                            'name', '"' + urllib.parse.unquote(str(vmess_config['ps'])) + '"')
                         yaml_url.setdefault('server', vmess_config['add'])
                         yaml_url.setdefault('port', int(vmess_config['port']))
                         yaml_url.setdefault('type', 'vmess')
@@ -352,22 +351,22 @@ class sub_convert():
                         yaml_url.setdefault(
                             'alterId', int(vmess_config['aid']))
                         yaml_url.setdefault('cipher', vmess_config['scy'])
-                        yaml_url.setdefault('skip-cert-vertify', True)
-                        if vmess_config['net'] == '' or vmess_config['net'] is False or vmess_config['net'] is None:
+                        yaml_url.setdefault('skip-cert-vertify', 'true')
+                        if vmess_config['net'] == '' or vmess_config['net'] is False:
                             yaml_url.setdefault('network', 'tcp')
                         else:
                             yaml_url.setdefault('network', vmess_config['net'])
-                        if vmess_config['path'] == '' or vmess_config['path'] is False or vmess_config['path'] is None:
+                        if vmess_config['path'] == '' or vmess_config['path'] is False:
                             yaml_url.setdefault('ws-path', '/')
                         else:
                             yaml_url.setdefault(
-                                'ws-path', vmess_config['path'])
+                                'ws-path', vmess_config['path'].split('?')[0])
                         if vmess_config['net'] == 'h2' or vmess_config['net'] == 'grpc':
-                            yaml_url.setdefault('tls', True)
-                        elif vmess_config['tls'] == '' or vmess_config['tls'] is False or vmess_config['tls'] is None:
-                            yaml_url.setdefault('tls', False)
+                            yaml_url.setdefault('tls', 'true')
+                        elif vmess_config['tls'] == '' or vmess_config['tls'] is False:
+                            yaml_url.setdefault('tls', 'false')
                         else:
-                            yaml_url.setdefault('tls', True)
+                            yaml_url.setdefault('tls', 'true')
                         if vmess_config['host'] == '':
                             yaml_url.setdefault(
                                 'ws-headers', {'Host': vmess_config['add']})
@@ -375,7 +374,6 @@ class sub_convert():
                             yaml_url.setdefault(
                                 'ws-headers', {'Host': vmess_config['host']})
 
-                        url_list.append(yaml_url)
                 except Exception as err:
                     print(f'yaml_encode 解析 vmess 节点发生错误: {err}')
                     pass
@@ -388,7 +386,7 @@ class sub_convert():
                     # https://www.runoob.com/python/att-string-split.html
                     part_list = ss_content.split('#', 1)
                     yaml_url.setdefault(
-                        'name', urllib.parse.unquote(part_list[1]))
+                        'name', '"' + urllib.parse.unquote(part_list[1]) + '"')
                     if '@' in part_list[0]:
                         mix_part = part_list[0].split('@', 1)
                         method_part = sub_convert.base64_decode(mix_part[0])
@@ -408,8 +406,6 @@ class sub_convert():
                     yaml_url.setdefault('type', 'ss')
                     yaml_url.setdefault('cipher', method_part)
                     yaml_url.setdefault('password', password_part)
-
-                    url_list.append(yaml_url)
                 except Exception as err:
                     print(f'yaml_encode 解析 ss 节点发生错误: {err}')
                     pass
@@ -437,7 +433,8 @@ class sub_convert():
                         except Exception:
                             remarks = 'ssr'
                             print(f'SSR format error, content:{remarks_part}')
-                    yaml_url.setdefault('name', urllib.parse.unquote(remarks))
+                    yaml_url.setdefault(
+                        'name', '"' + urllib.parse.unquote(remarks) + '"')
 
                     server_part_list = re.split(':', part_list[0])
                     yaml_url.setdefault('server', server_part_list[0])
@@ -445,8 +442,25 @@ class sub_convert():
                     yaml_url.setdefault('type', 'ssr')
                     yaml_url.setdefault('cipher', server_part_list[3])
                     yaml_url.setdefault('password', server_part_list[5])
-
-                    url_list.append(yaml_url)
+                    yaml_url.setdefault('protocol', server_part_list[2])
+                    yaml_url.setdefault('obfs', server_part_list[4])
+                    for item in ssr_part:
+                        if 'obfsparam=' in item:
+                            obfs_param = sub_convert.base64_decode(
+                                item.replace('obfsparam=', ''))
+                            if obfs_param != '':
+                                yaml_url.setdefault('obfs-param', obfs_param)
+                            else:
+                                yaml_url.setdefault('obfs-param', '""')
+                        elif 'protoparam=' in item:
+                            protocol_param = sub_convert.base64_decode(
+                                item.replace('protoparam=', ''))
+                            if protocol_param != '':
+                                yaml_url.setdefault(
+                                    'protocol-param', protocol_param)
+                            else:
+                                yaml_url.setdefault(
+                                    'protocol-param', '""')
                 except Exception as err:
                     print(f'yaml_encode 解析 ssr 节点发生错误: {err}')
                     pass
@@ -457,7 +471,7 @@ class sub_convert():
                     # https://www.runoob.com/python/att-string-split.html
                     part_list = re.split('#', url_content, maxsplit=1)
                     yaml_url.setdefault(
-                        'name', urllib.parse.unquote(part_list[1]))
+                        'name', '"' + urllib.parse.unquote(part_list[1]) + '"')
 
                     server_part = part_list[0].replace('trojan://', '')
                     # 使用多个分隔符 https://blog.csdn.net/shidamowang/article/details/80254476 https://zhuanlan.zhihu.com/p/92287240
@@ -466,35 +480,37 @@ class sub_convert():
                     yaml_url.setdefault('port', server_part_list[2])
                     yaml_url.setdefault('type', 'trojan')
                     yaml_url.setdefault('password', server_part_list[0])
-                    server_part_list = server_part_list[3:]
+                    yaml_url.setdefault('sni', server_part_list[1])
+                    server_part_list_parameters = server_part_list[3:]
 
-                    for config in server_part_list:
+                    for config in server_part_list_parameters:
                         if 'sni=' in config:
                             yaml_url.setdefault('sni', config[4:])
                         elif 'allowInsecure=' in config or 'tls=' in config:
                             if config[-1] == 0:
-                                yaml_url.setdefault('tls', False)
+                                yaml_url.setdefault('tls', 'false')
                             else:
-                                yaml_url.setdefault('tls', True)
+                                yaml_url.setdefault('tls', 'true')
                         elif 'type=' in config:
                             yaml_url.setdefault('network', config[5:])
                         elif 'path=' in config:
-                            yaml_url.setdefault('ws-path', config[5:])
+                            yaml_url.setdefault('ws-path', config[5:].split('?')[0])
                         elif 'security=' in config:
                             if config[9:] != 'tls':
-                                yaml_url.setdefault('tls', False)
+                                yaml_url.setdefault('tls', 'false')
                             else:
-                                yaml_url.setdefault('tls', True)
+                                yaml_url.setdefault('tls', 'true')
 
-                    yaml_url.setdefault('skip-cert-verify', True)
-
-                    url_list.append(yaml_url)
+                    yaml_url.setdefault('skip-cert-verify', 'true')
                 except Exception as err:
                     print(f'yaml_encode 解析 trojan 节点发生错误: {err}')
                     pass
+            yaml_node_raw = str(yaml_url)
+            yaml_node_body = yaml_node_raw.replace('\'', '')
+            yaml_node_head = '  - '
+            yaml_node = yaml_node_head + yaml_node_body
+            url_list.append(yaml_node)
+        yaml_head = 'proxies:\n'
+        yaml_content = yaml_head + '\n'.join(url_list)
 
-        yaml_content_dic = {'proxies': url_list}
-        yaml_content_raw = yaml.dump(yaml_content_dic, default_flow_style=False,
-                                     sort_keys=False, allow_unicode=True, width=750, indent=2)
-        yaml_content = sub_convert.format(yaml_content_raw)
         return yaml_content

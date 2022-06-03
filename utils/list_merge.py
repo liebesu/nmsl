@@ -33,7 +33,7 @@ class sub_merge():
                 print(f'Writing error of {remarks} to {ids:0>2d}.txt\n')
                 file = open(f'{sub_list_path}{ids:0>2d}.txt',
                             'w', encoding='utf-8')
-                file.write('节点解析出错，请检查订阅链接：{ids} 是否正确')
+                file.write(f'节点解析出错，请检查订阅链接：{ids} 是否正确')
                 file.close()
             else:
                 content_list_array.append(content)
