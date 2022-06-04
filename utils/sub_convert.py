@@ -409,7 +409,7 @@ class sub_convert():
                             yaml_url.setdefault('ws-path', '/')
                         else:
                             yaml_url.setdefault(
-                                'ws-path', vmess_config['path'].split('?')[0])
+                                'ws-path', urllib.parse.unquote(vmess_config['path'].split('?')[0]))
                         if vmess_config['net'] == 'h2' or vmess_config['net'] == 'grpc':
                             yaml_url.setdefault('tls', 'true')
                         elif vmess_config['tls'] == '' or vmess_config['tls'] is False:
@@ -508,7 +508,7 @@ class sub_convert():
                     yaml_url.setdefault('server', server_part_list[0])
                     yaml_url.setdefault('port', server_part_list[1])
                     yaml_url.setdefault('type', 'ssr')
-                    if server_part_list[3] == 'chacha20':
+                    if server_part_list[3] == 'chacha20' or server_part_list[3] == 'rc4':
                         continue
                     else:
                         yaml_url.setdefault('cipher', server_part_list[3])
