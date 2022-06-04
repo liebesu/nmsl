@@ -654,7 +654,6 @@ proxies:
   - {name: "[ss]🇮🇩[ID]45.133.181.58:8388(qzj5NqakK4YvYYU87eFF)", server: 45.133.181.58, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
   - {name: "[ss]🇮🇩[ID]45.133.181.58:8389(qzj5NqakK4YvYYU87eFF)", server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
   - {name: "[ss]🇦🇶[NOWHERE]free-node-8.fnyun.xyz:443(rJGkYJcOuyyL)", server: free-node-8.fnyun.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: rJGkYJcOuyyL}
-  - {name: "[ss]🇫🇷[FR]141.95.0.26:826(sF43Xt2gONqcgFX563)", server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
   - {name: "[ss]🇦🇶[NOWHERE]stdarkmarlow.telecom-altyn-asyr.xyz:7318(949bc669e038573d)", server: stdarkmarlow.telecom-altyn-asyr.xyz, port: 7318, type: ss, cipher: chacha20-ietf, password: 949bc669e038573d}
   - {name: "[ss]🇭🇰[HK]52.175.58.151:52289(ㅤ)", server: 52.175.58.151, port: 52289, type: ss, cipher: chacha20-poly1305, password: ㅤ}
   - {name: "[ss]🇨🇳[CN]14.29.124.168:16011(QazEdcTgb159@$*)", server: 14.29.124.168, port: 16011, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}

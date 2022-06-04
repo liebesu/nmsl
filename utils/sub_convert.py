@@ -180,9 +180,12 @@ class sub_convert():
         node_name_dr_array = []
         for node in node_list:
             node_name = sub_convert.get_node_name(node)
-            if node_name not in node_name_dr_array:
-                node_name_dr_array.append(node_name)
-                node_list_dr_array.append(node)
+            if '127.' not in node_name or 'localhost' in node_name:
+                if node_name not in node_name_dr_array:
+                    node_name_dr_array.append(node_name)
+                    node_list_dr_array.append(node)
+            else:
+                continue
         return node_list_dr_array
 
     def get_node_name(node):
@@ -447,7 +450,10 @@ class sub_convert():
                     yaml_url.setdefault('server', server_list[0])
                     yaml_url.setdefault('port', server_parameters[0])
                     yaml_url.setdefault('type', 'ss')
-                    yaml_url.setdefault('cipher', encrypted_list[0])
+                    if encrypted_list[0] == 'chacha20-poly1305':
+                        continue
+                    else:
+                        yaml_url.setdefault('cipher', encrypted_list[0])
                     yaml_url.setdefault('password', encrypted_list[1])
                     if len(server_parameters) > 1:
                         parameters_raw = urllib.parse.unquote(server_parameters[1])
@@ -502,7 +508,10 @@ class sub_convert():
                     yaml_url.setdefault('server', server_part_list[0])
                     yaml_url.setdefault('port', server_part_list[1])
                     yaml_url.setdefault('type', 'ssr')
-                    yaml_url.setdefault('cipher', server_part_list[3])
+                    if server_part_list[3] == 'chacha20':
+                        continue
+                    else:
+                        yaml_url.setdefault('cipher', server_part_list[3])
                     yaml_url.setdefault('password', server_part_list[5])
                     yaml_url.setdefault('protocol', server_part_list[2])
                     yaml_url.setdefault('obfs', server_part_list[4])
