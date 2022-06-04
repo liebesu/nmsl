@@ -144,8 +144,8 @@ class sub_convert():
                     node_del_head = node.replace('vmess://', '')
                     node_json = json.loads(
                         sub_convert.base64_decode(node_del_head))
-                    name_renamed = sub_convert.find_country(
-                        '[vmess]' + node_json['add']) + node_json['add'] + ':' + node_json['port'] + '(' + node_json['id'] + ')'
+                    name_renamed = '[vmess]' + sub_convert.find_country(
+                        node_json['add']) + node_json['add'] + ':' + node_json['port'] + '(' + node_json['id'] + ')'
                     node_json['ps'] = name_renamed
                     node_json_dumps = json.dumps(node_json)
                     node_raw = sub_convert.base64_encode(node_json_dumps)
