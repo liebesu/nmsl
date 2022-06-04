@@ -409,7 +409,7 @@ class sub_convert():
                             yaml_url.setdefault('ws-path', '/')
                         else:
                             yaml_url.setdefault(
-                                'ws-path', urllib.parse.unquote(vmess_config['path'].split('?')[0]))
+                                'ws-path', urllib.parse.unquote(str(vmess_config['path']).split('?')[0]))
                         if vmess_config['net'] == 'h2' or vmess_config['net'] == 'grpc':
                             yaml_url.setdefault('tls', 'true')
                         elif vmess_config['tls'] == '' or vmess_config['tls'] is False:
