@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import json
+from calendar import month
 from datetime import datetime, timedelta
 
 import requests
@@ -33,7 +34,7 @@ def check_url(url):  # 判断远程远程链接是否已经更新
 
 class update_url():
 
-    def update_main(update_enable_list=[]):
+    def update_main(update_enable_list=[0, 21, 25, 37, 43]):
         if len(update_enable_list) > 0:
             for id in update_enable_list:
                 status = update_url.update(id)
@@ -88,13 +89,29 @@ class update_url():
             # remarks: v2raydy/v2ray, 将原链接更新至 https://https://raw.githubusercontent.com/v2raydy/v2ray/main/%MM-%(DD - 1)%str%1.txt
             # 得到当前日期前一天 https://blog.csdn.net/wanghuafengc/article/details/42458721
             yesterday = (datetime.today() + timedelta(-1)).strftime('%Y%m%d')
+            month = (datetime.today() + timedelta(-1)).strftime('%Y%m') +'/'
             front_url = 'https://nodefree.org/dy/'
             end_url = '.txt'
-            url_update = front_url + yesterday + end_url
+            url_update = front_url + month + yesterday + end_url
             if check_url(url_update):
                 return [43, url_update]
             else:
                 return [43, 404]
+        
+        elif id == 25:
+            # remarks: v2raydy/v2ray, 将原链接更新至 https://https://raw.githubusercontent.com/v2raydy/v2ray/main/%MM-%(DD - 1)%str%1.txt
+            # 得到当前日期前一天 https://blog.csdn.net/wanghuafengc/article/details/42458721
+            yesterday = (datetime.today() + timedelta(-1)).strftime('%Y%m%d')
+            month = (datetime.today() + timedelta(-1)).strftime('%Y%m') +'/'
+            year = (datetime.today() + timedelta(-1)).strftime('%Y') +'/'
+            front_url = 'https://v2rayshare.com/wp-content/uploads/'
+            end_url = '.txt'
+            url_update = front_url + year + month + yesterday + end_url
+            if check_url(url_update):
+                return [25, url_update]
+            else:
+                return [25, 404]
+                
         elif id == 37:
             url_raw = 'https://raw.githubusercontent.com/Pawdroid/Free-servers/main/README.md'
             try:
@@ -115,5 +132,5 @@ class update_url():
                 return [37, 404]
 
 
-if __name__ == '__main__':
-    update_url.update_main([0, 21, 43, 37])
+# if __name__ == '__main__':
+#     update_url.update_main([0, 21, 43, 37])
