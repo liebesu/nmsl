@@ -1,4 +1,16 @@
 proxies:
+  - {name: "[ss]🇺🇸[US]38.107.226.49:3306(Y6R9pAtvxxzmGC)", server: 38.107.226.49, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇺🇸[US]38.114.114.19:3389(Y6R9pAtvxxzmGC)", server: 38.114.114.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇺🇸[US]38.114.114.49:3306(Y6R9pAtvxxzmGC)", server: 38.114.114.49, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇺🇸[US]38.114.114.49:3389(Y6R9pAtvxxzmGC)", server: 38.114.114.49, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇺🇸[US]38.114.114.67:5001(Y6R9pAtvxxzmGC)", server: 38.114.114.67, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇺🇸[US]38.121.43.71:3306(Y6R9pAtvxxzmGC)", server: 38.121.43.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇺🇸[US]38.121.43.71:3389(Y6R9pAtvxxzmGC)", server: 38.121.43.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇺🇸[US]38.143.66.20:5000(Y6R9pAtvxxzmGC)", server: 38.143.66.20, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇺🇸[US]38.143.66.71:3389(Y6R9pAtvxxzmGC)", server: 38.143.66.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇺🇸[US]38.143.66.71:5000(Y6R9pAtvxxzmGC)", server: 38.143.66.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇺🇸[US]38.143.66.71:5001(Y6R9pAtvxxzmGC)", server: 38.143.66.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇺🇸[US]38.143.66.71:5601(Y6R9pAtvxxzmGC)", server: 38.143.66.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇺🇸[US]38.143.66.71:8888(Y6R9pAtvxxzmGC)", server: 38.143.66.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇺🇸[US]38.64.138.145:5000(Y6R9pAtvxxzmGC)", server: 38.64.138.145, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇺🇸[US]38.64.138.145:5001(Y6R9pAtvxxzmGC)", server: 38.64.138.145, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
@@ -987,15 +999,3 @@ proxies:
   - {name: "[ss]🇺🇸[US]169.197.142.4:6379(zDNVedRFPQexG9v)", server: 169.197.142.4, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
   - {name: "[ss]🇺🇸[US]169.197.143.157:6379(zDNVedRFPQexG9v)", server: 169.197.143.157, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
   - {name: "[ss]🇦🇺[AU]172.105.180.227:6379(zDNVedRFPQexG9v)", server: 172.105.180.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "[ss]🇦🇺[AU]172.105.184.113:6379(zDNVedRFPQexG9v)", server: 172.105.184.113, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "[ss]🇬🇧[GB]172.99.190.35:6379(zDNVedRFPQexG9v)", server: 172.99.190.35, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "[ss]🇩🇪[DE]193.108.117.75:6379(zDNVedRFPQexG9v)", server: 193.108.117.75, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "[ss]🇨🇦[CA]198.57.27.172:6379(zDNVedRFPQexG9v)", server: 198.57.27.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "[ss]🇨🇦[CA]198.57.27.218:6379(zDNVedRFPQexG9v)", server: 198.57.27.218, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "[ss]🇺🇸[US]38.114.114.19:6379(zDNVedRFPQexG9v)", server: 38.114.114.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "[ss]🇺🇸[US]38.143.66.71:6379(zDNVedRFPQexG9v)", server: 38.143.66.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "[ss]🇺🇸[US]38.64.138.145:6379(zDNVedRFPQexG9v)", server: 38.64.138.145, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "[ss]🇺🇸[US]38.75.136.102:6379(zDNVedRFPQexG9v)", server: 38.75.136.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "[ss]🇺🇸[US]38.75.136.93:6379(zDNVedRFPQexG9v)", server: 38.75.136.93, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "[ss]🇺🇸[US]38.75.137.88:6379(zDNVedRFPQexG9v)", server: 38.75.137.88, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "[ss]🇺🇸[US]38.86.135.27:6379(zDNVedRFPQexG9v)", server: 38.86.135.27, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
