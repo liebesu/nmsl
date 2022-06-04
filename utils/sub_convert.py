@@ -85,10 +85,11 @@ class sub_convert():
                         node_part = re.split('@|#', node_del_head, maxsplit=2)
                         server_head = sub_convert.find_country(
                             node_part[1].split(':')[0])
+                        server_body = node_part[1].split('/?')[0]
                         password = sub_convert.base64_decode(
                             node_part[0]).split(':')[-1]
                         name_renamed = '[ss]' + server_head + \
-                            node_part[1] + '(' + password + ')'
+                            server_body + '(' + password + ')'
                         node_part[2] = urllib.parse.quote(
                             name_renamed, safe='')
                         node_raw = node_part[0] + '@' + \
@@ -100,7 +101,7 @@ class sub_convert():
                             node_part[0])
                         node_part_head = re.split(
                             '@|:', node_part_head_decoded, maxsplit=0)
-                        server_port = node_part_head[-1]
+                        server_port = node_part_head[-1].split('/?')[0]
                         server = node_part_head[-2]
                         server_head = sub_convert.find_country(
                             server)
@@ -188,12 +189,8 @@ class sub_convert():
         if 'ss://' in node and 'vless://' not in node and 'vmess://' not in node:
             try:
                 node_del_head = node.replace('ss://', '')
-                if '@' in node_del_head:
-                    node_part = re.split('@|#', node_del_head, maxsplit=2)
-                    name = urllib.parse.unquote(node_part[2])
-                else:
-                    node_part = node_del_head.split('#')
-                    name = urllib.parse.unquote(node_part[1])
+                node_part = node_del_head.split('#')
+                name = urllib.parse.unquote(node_part[1])
             except Exception as err:
                 print(f'改名 ss 节点发生错误: {err}')
         elif 'ssr://' in node:
@@ -439,24 +436,37 @@ class sub_convert():
                     yaml_url.setdefault(
                         'name', '"' + urllib.parse.unquote(part_list[1]) + '"')
                     if '@' in part_list[0]:
-                        mix_part = part_list[0].split('@', 1)
-                        method_part = sub_convert.base64_decode(mix_part[0])
-                        server_part = f'{method_part}@{mix_part[1]}'
+                        part_list_headpart = part_list[0].split('@', 1)
+                        encrypted_part = sub_convert.base64_decode(part_list_headpart[0])
+                        server_part = f'{encrypted_part}@{part_list_headpart[1]}'
                     else:
                         server_part = sub_convert.base64_decode(part_list[0])
 
                     # 使用多个分隔符 https://blog.csdn.net/shidamowang/article/details/80254476 https://zhuanlan.zhihu.com/p/92287240
-                    server_part_list = server_part.split(':', 1)
-                    method_part = server_part_list[0]
-                    server_part_list = server_part_list[1].rsplit('@', 1)
-                    password_part = server_part_list[0]
-                    server_part_list = server_part_list[1].split(':', 1)
-
-                    yaml_url.setdefault('server', server_part_list[0])
-                    yaml_url.setdefault('port', server_part_list[1])
+                    server_part_list = re.split(':|@|/?', server_part, maxsplit=4)
+                    yaml_url.setdefault('server', server_part_list[2])
+                    yaml_url.setdefault('port', server_part_list[3])
                     yaml_url.setdefault('type', 'ss')
-                    yaml_url.setdefault('cipher', method_part)
-                    yaml_url.setdefault('password', password_part)
+                    yaml_url.setdefault('cipher', server_part_list[0])
+                    yaml_url.setdefault('password', server_part_list[1])
+                    if server_part_list[5] != '':
+                        parameters = server_part_list[5].split(';')
+                        for parameter in parameters:
+                            if 'plugin=' in parameter:
+                                if 'obfs' in parameter.split('=')[1]:
+                                    yaml_url.setdefault('plugin', 'obfs')
+                            elif 'obfs=' in parameter:
+                                yaml_url.setdefault('plugin-opts', {'mode': parameter.split('=')[1]})
+                            elif 'obfs-host=' in parameter:
+                                yaml_url.setdefault('plugin-opts', {'host': parameter.split('=')[1]})
+                            elif 'obfs-uri=' in parameter:
+                                yaml_url.setdefault('plugin-opts', {'uri': parameter.split('=')[1]})
+                            elif 'obfs-path=' in parameter:
+                                yaml_url.setdefault('plugin-opts', {'path': parameter.split('=')[1]})
+                            elif 'obfs-header=' in parameter:
+                                yaml_url.setdefault('plugin-opts', {'header': parameter.split('=')[1]})
+                            elif 'obfs-body=' in parameter:
+                                yaml_url.setdefault('plugin-opts', {'body': parameter.split('=')[1]})
                 except Exception as err:
                     print(f'yaml_encode 解析 ss 节点发生错误: {err}')
                     pass
