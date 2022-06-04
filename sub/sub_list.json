@@ -101,8 +101,8 @@
     "id": 14,
     "remarks": "ldir92664/Vmess-Actions",
     "site": "https://github.com/ldir92664/Vmess-Actions",
-    "url": "https://raw.githubusercontent.com/ldir92664/Vmess-Actions/main/subscribe/clash.yml|https://raw.githubusercontent.com/ldir92664/Vmess-Actions/main/subscribe/clash-pro.yml|https://raw.githubusercontent.com/ldir92664/Vmess-Actions/main/subscribe/clash-bihai.yml|https://raw.githubusercontent.com/ldir92664/Vmess-Actions/main/subscribe/ss.txt|https://raw.githubusercontent.com/ldir92664/Vmess-Actions/main/subscribe/ssr.txt|https://raw.githubusercontent.com/ldir92664/Vmess-Actions/main/subscribe/trojan.txt|https://raw.githubusercontent.com/ldir92664/Vmess-Actions/main/subscribe/vmess.txt",
-    "enabled": true
+    "url": "",
+    "enabled": false
   },
   {
     "id": 15,
@@ -277,14 +277,14 @@
     "remarks": "songkaik/Sub",
     "site": "https://github.com/songkaik/Sub",
     "url": "https://raw.githubusercontent.com/songkaik/Sub/main/v2rayN",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 40,
     "remarks": "yosefwang/subscription",
     "site": "https://github.com/yosefwang/subscription",
     "url": "https://raw.githubusercontent.com/yosefwang/subscription/main/README.md",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 41,

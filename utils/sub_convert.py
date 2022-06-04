@@ -58,13 +58,13 @@ class sub_convert():
                 lines = resp.text.split('\n')
                 for list in lines:
                     if 'ss://' in list:
-                        sub_content += list + '\n'
+                        sub_content += (list + '\n')
                     elif 'ssr://' in list:
-                        sub_content += list + '\n'
+                        sub_content += (list + '\n')
                     elif 'vmess://' in list:
-                        sub_content += list + '\n'
+                        sub_content += (list + '\n')
                     elif 'trojan://' in list:
-                        sub_content += list + '\n'
+                        sub_content += (list + '\n')
                     else:
                         continue
                 return sub_content
