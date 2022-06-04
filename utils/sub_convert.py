@@ -192,7 +192,7 @@ class sub_convert():
                 node_part = node_del_head.split('#')
                 name = urllib.parse.unquote(node_part[1])
             except Exception as err:
-                print(f'改名 ss 节点发生错误: {err}')
+                print(f'获取节点名错误: {err}')
         elif 'ssr://' in node:
             try:
                 node_del_head = node.replace('ssr://', '')
@@ -437,34 +437,35 @@ class sub_convert():
                         'name', '"' + urllib.parse.unquote(part_list[1]) + '"')
                     if '@' in part_list[0]:
                         part_list_headpart = part_list[0].split('@', 1)
-                        encrypted_part = sub_convert.base64_decode(part_list_headpart[0])
-                        server_part = f'{encrypted_part}@{part_list_headpart[1]}'
+                        encrypted_list = sub_convert.base64_decode(part_list_headpart[0]).split(':')
                     else:
-                        server_part = sub_convert.base64_decode(part_list[0])
-
+                        part_list_headpart = sub_convert.base64_decode(part_list[0]).split('@', 1)
+                        encrypted_list = part_list_headpart[0].split(':')
+                    server_list = part_list_headpart[1].split(':')
+                    server_parameters = server_list[1].split('/?')
                     # 使用多个分隔符 https://blog.csdn.net/shidamowang/article/details/80254476 https://zhuanlan.zhihu.com/p/92287240
-                    server_part_list = re.split(':|@|/?', server_part, maxsplit=4)
-                    yaml_url.setdefault('server', server_part_list[2])
-                    yaml_url.setdefault('port', server_part_list[3])
+                    yaml_url.setdefault('server', server_list[0])
+                    yaml_url.setdefault('port', server_parameters[0])
                     yaml_url.setdefault('type', 'ss')
-                    yaml_url.setdefault('cipher', server_part_list[0])
-                    yaml_url.setdefault('password', server_part_list[1])
-                    if server_part_list[5] != '':
-                        parameters = server_part_list[5].split(';')
+                    yaml_url.setdefault('cipher', encrypted_list[0])
+                    yaml_url.setdefault('password', encrypted_list[1])
+                    if len(server_parameters) > 1:
+                        parameters_raw = urllib.parse.unquote(server_parameters[1])
+                        parameters = parameters_raw.split(';')
                         for parameter in parameters:
                             if 'plugin=' in parameter:
                                 if 'obfs' in parameter.split('=')[1]:
                                     yaml_url.setdefault('plugin', 'obfs')
                             elif 'obfs=' in parameter:
-                                yaml_url.setdefault('plugin-opts', {'mode': parameter.split('=')[1]})
+                                yaml_url.setdefault('plugin-opts', {}).setdefault('mode', parameter.split('=')[1])
                             elif 'obfs-host=' in parameter:
-                                yaml_url.setdefault('plugin-opts', {'host': parameter.split('=')[1]})
+                                yaml_url.setdefault('plugin-opts', {}).setdefault('host', parameter.split('=')[1])
                             elif 'obfs-uri=' in parameter:
-                                yaml_url.setdefault('plugin-opts', {'uri': parameter.split('=')[1]})
+                                yaml_url.setdefault('plugin-opts', {}).setdefault('uri', parameter.split('=')[1])
                             elif 'obfs-path=' in parameter:
-                                yaml_url.setdefault('plugin-opts', {'path': parameter.split('=')[1]})
+                                yaml_url.setdefault('plugin-opts', {}).setdefault('path', parameter.split('=')[1])
                             elif 'obfs-header=' in parameter:
-                                yaml_url.setdefault('plugin-opts', {'header': parameter.split('=')[1]})
+                                yaml_url.setdefault('plugin-opts', {}).setdefault('header', parameter.split('=')[1])
                             elif 'obfs-body=' in parameter:
                                 yaml_url.setdefault('plugin-opts', {'body': parameter.split('=')[1]})
                 except Exception as err:
