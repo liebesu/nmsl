@@ -5,7 +5,6 @@ import json
 import re
 import socket
 import urllib.parse
-from platform import node
 
 import geoip2.database
 import requests
@@ -88,7 +87,8 @@ class sub_convert():
                             node_part[1].split(':')[0])
                         password = sub_convert.base64_decode(
                             node_part[0]).split(':')[-1]
-                        name_renamed = server_head + '(ss)' + node_part[1] + '(' + password + ')'
+                        name_renamed = '[ss]' + server_head + \
+                            node_part[1] + '(' + password + ')'
                         node_part[2] = urllib.parse.quote(
                             name_renamed, safe='')
                         node_raw = node_part[0] + '@' + \
@@ -105,9 +105,8 @@ class sub_convert():
                         server_head = sub_convert.find_country(
                             server)
                         password = node_part_head[-3]
-                        name_renamed = server_head + \
-                            '(ss)' + server + ':' + \
-                            server_port + '(' + password + ')'
+                        name_renamed = '[ss]' + server_head + server + \
+                            ':' + server_port + '(' + password + ')'
                         node_part[1] = urllib.parse.quote(
                             name_renamed, safe='')
                         node_raw = node_part[0] + '#' + node_part[1]
@@ -125,8 +124,7 @@ class sub_convert():
                     server_head = sub_convert.find_country(
                         node_part_head[0])
                     password = sub_convert.base64_decode(node_part_head[-1])
-                    name_renamed = server_head + \
-                        '(ssr)' + node_part_head[0] + ':' + \
+                    name_renamed = '[ssr]' + server_head + node_part_head[0] + ':' + \
                         node_part_head[1] + '(' + password + ')'
                     node_part_foot = node_part[-1].split('&')
                     for i in range(len(node_part_foot)):
@@ -147,7 +145,7 @@ class sub_convert():
                     node_json = json.loads(
                         sub_convert.base64_decode(node_del_head))
                     name_renamed = sub_convert.find_country(
-                        node_json['add']) + '(vmess)' + node_json['add'] + ':' + node_json['port'] + '(' + node_json['id'] + ')'
+                        '[vmess]' + node_json['add']) + node_json['add'] + ':' + node_json['port'] + '(' + node_json['id'] + ')'
                     node_json['ps'] = name_renamed
                     node_json_dumps = json.dumps(node_json)
                     node_raw = sub_convert.base64_encode(node_json_dumps)
@@ -162,9 +160,8 @@ class sub_convert():
                     server_head = sub_convert.find_country(
                         node_part[1].split(':')[0])
                     password = node_part[0]
-                    name_renamed = server_head + \
-                        '(trojan)' + node_part[1].split('?')[0] + \
-                        '(' + password + ')'
+                    name_renamed = '[trojan]' + server_head + \
+                        node_part[1].split('?')[0] + '(' + password + ')'
                     node_raw = node_part[0] + '@' + \
                         node_part[1] + '#' + urllib.parse.quote(name_renamed)
                     node = 'trojan://' + node_raw
@@ -178,16 +175,15 @@ class sub_convert():
             return node_list_formated + '\n'
 
     def duplicate_removal(node_list):
-        node_list_formated_array = []
-        node_name_array = []
+        node_list_dr_array = []
+        node_name_dr_array = []
         for node in node_list:
             node_name = sub_convert.get_node_name(node)
-            if node_name not in node_name_array:
-                node_name_array.append(node_name)
-                node_list_formated_array.append(node)
-        node_list_formated = '\n'.join(node_list_formated_array)
-        return node_list_formated
-    
+            if node_name not in node_name_dr_array:
+                node_name_dr_array.append(node_name)
+                node_list_dr_array.append(node)
+        return node_list_dr_array
+
     def get_node_name(node):
         if 'ss://' in node and 'vless://' not in node and 'vmess://' not in node:
             try:
@@ -208,7 +204,8 @@ class sub_convert():
                 node_part_foot = node_part[-1].split('&')
                 for i in range(len(node_part_foot)):
                     if 'remarks' in node_part_foot[i]:
-                        name = node_part_foot[i].replace('remarks=', '')
+                        name = sub_convert.base64_decode(
+                            node_part_foot[i].replace('remarks=', ''))
                         break
             except Exception as err:
                 print(f'获取节点名错误: {err}')
@@ -228,6 +225,7 @@ class sub_convert():
             except Exception as err:
                 print(f'获取节点名错误: {err}')
         return name
+
     def find_country(server):
         emoji = {
             'AD': '🇦🇩', 'AE': '🇦🇪', 'AF': '🇦🇫', 'AG': '🇦🇬',
@@ -418,7 +416,8 @@ class sub_convert():
                             yaml_url.setdefault('tls', 'false')
                         else:
                             yaml_url.setdefault('tls', 'true')
-                        yaml_url.setdefault('ws-headers', {'Host': vmess_config['add']})
+                        yaml_url.setdefault(
+                            'ws-headers', {'Host': vmess_config['add']})
                         # if vmess_config['host'] == '':
                         #     yaml_url.setdefault(
                         #         'ws-headers', {'Host': vmess_config['add']})
@@ -546,7 +545,8 @@ class sub_convert():
                         elif 'type=' in config:
                             yaml_url.setdefault('network', config[5:])
                         elif 'path=' in config:
-                            yaml_url.setdefault('ws-path', config[5:].split('?')[0])
+                            yaml_url.setdefault(
+                                'ws-path', config[5:].split('?')[0])
                         elif 'security=' in config:
                             if config[9:] != 'tls':
                                 yaml_url.setdefault('tls', 'false')

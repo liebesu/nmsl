@@ -1,4 +1,4 @@
-trojan://41123c28-be87-4cc3-a3d6-b4d64490f417@circlecloud123.com:443?allowInsecure=0&sni=cdn.qchwnd.moe#%F0%9F%8F%81%5BRELAY%5D%28trojan%29circlecloud123.com%3A443%2841123c28-be87-4cc3-a3d6-b4d64490f417%29
+trojan://41123c28-be87-4cc3-a3d6-b4d64490f417@circlecloud123.com:443?allowInsecure=0&sni=cdn.qchwnd.moe#%F0%9F%87%BA%F0%9F%87%B8%5BUS%5D%28trojan%29circlecloud123.com%3A443%2841123c28-be87-4cc3-a3d6-b4d64490f417%29
 trojan://41123c28-be87-4cc3-a3d6-b4d64490f417@ocikr.n.optage.moe:62500?allowInsecure=0&sni=cdn.qchwnd.moe#%F0%9F%87%B0%F0%9F%87%B7%5BKR%5D%28trojan%29ocikr.n.optage.moe%3A62500%2841123c28-be87-4cc3-a3d6-b4d64490f417%29
 trojan://41123c28-be87-4cc3-a3d6-b4d64490f417@azhk.n.optage.moe:62500?allowInsecure=0&sni=cdn.qchwnd.moe#%F0%9F%87%AD%F0%9F%87%B0%5BHK%5D%28trojan%29azhk.n.optage.moe%3A62500%2841123c28-be87-4cc3-a3d6-b4d64490f417%29
 trojan://41123c28-be87-4cc3-a3d6-b4d64490f417@ocijp.n.optage.moe:62500?allowInsecure=0&sni=cdn.qchwnd.moe#%F0%9F%87%AF%F0%9F%87%B5%5BJP%5D%28trojan%29ocijp.n.optage.moe%3A62500%2841123c28-be87-4cc3-a3d6-b4d64490f417%29
