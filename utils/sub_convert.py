@@ -50,24 +50,20 @@ class sub_convert():
         s.mount('https://', HTTPAdapter(max_retries=5))
         try:
             print('Downloading from:' + raw_input)
-            resp = s.get(raw_input, timeout=5)
-            if '404 not' in resp.text or 'Couldn\'t' in resp.text:
-                print('订阅链接不存在')
-                return ''
-            else:
-                lines = resp.text.split('\n')
-                for list in lines:
-                    if 'ss://' in list:
-                        sub_content += (list + '\n')
-                    elif 'ssr://' in list:
-                        sub_content += (list + '\n')
-                    elif 'vmess://' in list:
-                        sub_content += (list + '\n')
-                    elif 'trojan://' in list:
-                        sub_content += (list + '\n')
-                    else:
-                        continue
-                return sub_content
+            resp = s.get(raw_input, timeout=5)            
+            lines = resp.text.split('\n')
+            for line in lines:
+                if 'ss://' in line:
+                    sub_content += (line + '\n')
+                elif 'ssr://' in line:
+                    sub_content += (line + '\n')
+                elif 'vmess://' in line:
+                    sub_content += (line + '\n')
+                elif 'trojan://' in line:
+                    sub_content += (line + '\n')
+                else:
+                    continue
+            return sub_content
         except Exception as err:
             print(err)
             return ''
