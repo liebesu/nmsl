@@ -392,7 +392,7 @@ class sub_convert():
                         print('节点格式错误')
                     else:
                         yaml_url.setdefault(
-                            'name', '"' + urllib.parse.unquote(str(vmess_config['ps'])) + '"')
+                            'name', '"' + urllib.parse.unquote(vmess_config['ps']) + '"')
                         yaml_url.setdefault('server', vmess_config['add'])
                         yaml_url.setdefault('port', int(vmess_config['port']))
                         yaml_url.setdefault('type', 'vmess')
@@ -409,7 +409,7 @@ class sub_convert():
                             yaml_url.setdefault('ws-path', '/')
                         else:
                             yaml_url.setdefault(
-                                'ws-path', urllib.parse.unquote(str(vmess_config['path']).split('?')[0]))
+                                'ws-path', urllib.parse.unquote(vmess_config['path']).split('?')[0])
                         if vmess_config['net'] == 'h2' or vmess_config['net'] == 'grpc':
                             yaml_url.setdefault('tls', 'true')
                         elif vmess_config['tls'] == '' or vmess_config['tls'] is False:
