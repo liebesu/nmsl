@@ -27,7 +27,7 @@ class sub_convert():
             try:
                 resp = requests.get(converted_url)
                 # 如果解析出错，将原始链接内容拷贝下来
-                if 'node ' in resp.text:
+                if 'node' in resp.text:
                     print(resp.text + '\n下载订阅文件……')
                     node_list = sub_convert.convert(url)
                 else:
@@ -141,7 +141,7 @@ class sub_convert():
                     node_json = json.loads(
                         sub_convert.base64_decode(node_del_head))
                     name_renamed = '[vmess]' + sub_convert.find_country(
-                        node_json['add']) + node_json['add'] + ':' + node_json['port'] + '(' + node_json['id'] + ')'
+                        node_json['add']) + node_json['add'] + ':' + str(node_json['port']) + '(' + node_json['id'] + ')'
                     node_json['ps'] = name_renamed
                     node_json_dumps = json.dumps(node_json)
                     node_raw = sub_convert.base64_encode(node_json_dumps)
