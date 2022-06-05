@@ -26,15 +26,16 @@ class sub_convert():
             converted_url = server_host+'/sub?target=mixed&url='+url_quote+'&list=true'
             try:
                 resp = requests.get(converted_url)
-                node_list = resp.text
+                # 如果解析出错，将原始链接内容拷贝下来
+                if 'node ' in resp.text:
+                    print(resp.text + '\n下载订阅文件……')
+                    node_list = sub_convert.convert(url)
+                else:
+                    node_list = resp.text
             except Exception as err:
                 # 链接有问题，直接返回原始错误
                 print('网络错误，检查订阅转换服务器是否失效:' + '\n' +
                       converted_url + '\n' + err + '\n')
-            # 如果解析出错，将原始链接内容拷贝下来
-            if resp.text == 'No nodes were found!':
-                print(resp.text + '\n下载订阅文件……')
-                node_list = sub_convert.convert(url)
             # 改名
             node_list_formated = sub_convert.format(node_list)
             sub_content.append(node_list_formated)
@@ -56,8 +57,6 @@ class sub_convert():
                 if 'ss://' in line:
                     sub_content += (line + '\n')
                 elif 'ssr://' in line:
-                    sub_content += (line + '\n')
-                elif 'vmess://' in line:
                     sub_content += (line + '\n')
                 elif 'trojan://' in line:
                     sub_content += (line + '\n')
