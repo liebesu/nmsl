@@ -51,7 +51,7 @@ class sub_convert():
         try:
             print('Downloading from:' + raw_input)
             resp = s.get(raw_input, timeout=5)
-            if '404' or 'Couldn\'t' in resp.text:
+            if '404 not' in resp.text or 'Couldn\'t' in resp.text:
                 print('订阅链接不存在')
                 return ''
             else:
