@@ -30,7 +30,7 @@ class sub_convert():
                 s.mount('https://', HTTPAdapter(max_retries=5))
                 resp = s.get(converted_url, timeout=30)
                 # 如果解析出错，将原始链接内容拷贝下来
-                if 'node' in resp.text:
+                if 'No nodes were found!' in resp.text:
                     print(resp.text + '\n下载订阅文件……')
                     node_list = sub_convert.convert(url)
                 else:
