@@ -25,7 +25,10 @@ class sub_convert():
             # 转换并获取订阅链接数据
             converted_url = server_host+'/sub?target=mixed&url='+url_quote+'&list=true'
             try:
-                resp = requests.get(converted_url)
+                s = requests.Session()
+                s.mount('http://', HTTPAdapter(max_retries=5))
+                s.mount('https://', HTTPAdapter(max_retries=5))
+                resp = s.get(converted_url, timeout=30)
                 # 如果解析出错，将原始链接内容拷贝下来
                 if 'node' in resp.text:
                     print(resp.text + '\n下载订阅文件……')
