@@ -70,7 +70,7 @@ trojan://d66013c645b93c5c@5.44.249.43:3389?allowInsecure=1#%5Btrojan%5D%F0%9F%87
 trojan://9a27800ca7b52ee0@5.44.249.43:3389?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5D5.44.249.43%3A3389%289a27800ca7b52ee0%29
 trojan://cd39f62aed7b90f6@5.44.249.43:3389?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5D5.44.249.43%3A3389%28cd39f62aed7b90f6%29
 trojan://ca4596fb9bc63cf2@5.44.249.43:3389?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5D5.44.249.43%3A3389%28ca4596fb9bc63cf2%29
-trojan://12dbfb53-1249-47e6-bf2c-795a92727034@azhk.n.optage.moe:44602?allowInsecure=1&sni=azhk.n.optage.moe#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dazhk.n.optage.moe%3A44602%2812dbfb53-1249-47e6-bf2c-795a92727034%29
+trojan://12dbfb53-1249-47e6-bf2c-795a92727034@azhk.n.optage.moe:44602?allowInsecure=1&sni=azhk.n.optage.moe#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazhk.n.optage.moe%3A44602%2812dbfb53-1249-47e6-bf2c-795a92727034%29
 trojan://711aabc21e45ae31@5.44.249.43:3389?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5D5.44.249.43%3A3389%28711aabc21e45ae31%29
 trojan://12dbfb53-1249-47e6-bf2c-795a92727034@azhk.r.optage.moe:44605?allowInsecure=1&sni=azhk.r.optage.moe#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazhk.r.optage.moe%3A44605%2812dbfb53-1249-47e6-bf2c-795a92727034%29
 trojan://ca4596fb9bc63cf2@103.172.116.113:3389?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5D103.172.116.113%3A3389%28ca4596fb9bc63cf2%29
