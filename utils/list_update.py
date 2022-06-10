@@ -64,7 +64,7 @@ class update_url():
             # 得到当前日期前一天 https://blog.csdn.net/wanghuafengc/article/details/42458721
             yesterday = (datetime.today() + timedelta(-1)).strftime('%m%d')
             front_url = 'https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/'
-            end_url = '.txt'
+            end_url = 'clash.yml'
             # 修改字符串中的某一位字符 https://www.zhihu.com/question/31800070/answer/53345749
             url_update = front_url + yesterday + end_url
             if check_url(url_update):
