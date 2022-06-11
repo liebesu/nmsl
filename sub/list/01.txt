@@ -132,7 +132,7 @@ trojan://d5f3d3e1-c913-49cd-bf90-bf4e2ab9d0eb@az.az-bgp.chuangshi999.xyz:22818?a
 trojan://d5f3d3e1-c913-49cd-bf90-bf4e2ab9d0eb@az.az-bgp.chuangshi999.xyz:64340?allowInsecure=1&sni=rb1.riben1.xyz#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Daz.az-bgp.chuangshi999.xyz%3A64340%28d5f3d3e1-c913-49cd-bf90-bf4e2ab9d0eb%29
 trojan://358d79d8-5fbd-40c2-81c8-e9fcb4eb7cc3@cn.shcu.986888.xyz:26052?allowInsecure=1&sni=jpc6.qcjs.one#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dcn.shcu.986888.xyz%3A26052%28358d79d8-5fbd-40c2-81c8-e9fcb4eb7cc3%29
 trojan://358d79d8-5fbd-40c2-81c8-e9fcb4eb7cc3@cn.shcu.986888.xyz:61925?allowInsecure=1&sni=usc3.qcjs.one#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dcn.shcu.986888.xyz%3A61925%28358d79d8-5fbd-40c2-81c8-e9fcb4eb7cc3%29
-trojan://f1f68ae758@sakula.necirly.ml:443?allowInsecure=1&sni=sakula.necirly.ml#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Dsakula.necirly.ml%3A443%28f1f68ae758%29
+trojan://f1f68ae758@sakula.necirly.ml:443?allowInsecure=1&sni=sakula.necirly.ml#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dsakula.necirly.ml%3A443%28f1f68ae758%29
 trojan://3yFq7NCP53mVfpXJz3@au2-1.nigirocloud.com:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%BA%5BAU%5Dau2-1.nigirocloud.com%3A443%283yFq7NCP53mVfpXJz3%29
 trojan://9337f0d6-c004-4e14-8d50-c944558ed322@shcm.pdjc.cc:42000?allowInsecure=1&sni=us-a.bbbb.pw#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dshcm.pdjc.cc%3A42000%289337f0d6-c004-4e14-8d50-c944558ed322%29
 trojan://358d79d8-5fbd-40c2-81c8-e9fcb4eb7cc3@cn.shcu.986888.xyz:27632?allowInsecure=1&sni=jpc5.qcjs.one#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dcn.shcu.986888.xyz%3A27632%28358d79d8-5fbd-40c2-81c8-e9fcb4eb7cc3%29
