@@ -52,7 +52,7 @@ trojan://2c100ffe-4f52-4133-8c5c-d053fed7b270@cu-cs.okvpn.xyz:20006?allowInsecur
 trojan://2c100ffe-4f52-4133-8c5c-d053fed7b270@cm-gz.okvpn.xyz:20006?allowInsecure=1&sni=cm-gz.okvpn.xyz#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dcm-gz.okvpn.xyz%3A20006%282c100ffe-4f52-4133-8c5c-d053fed7b270%29
 trojan://3yFq7NCP53mVfpXJz3@212.81.47.13:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%BA%5BAU%5D212.81.47.13%3A443%283yFq7NCP53mVfpXJz3%29
 trojan://3yFq7NCP53mVfpXJz3@212.81.47.11:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%BA%5BAU%5D212.81.47.11%3A443%283yFq7NCP53mVfpXJz3%29
-trojan://2b815eb6-3982-4f09-9181-3c02c479d4d1@bai-piao-wang-zhe-iplc12.98848.xyz:19222?allowInsecure=1&sni=bai-piao-wang-zhe-iplc12.98848.xyz#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dbai-piao-wang-zhe-iplc12.98848.xyz%3A19222%282b815eb6-3982-4f09-9181-3c02c479d4d1%29
+trojan://2b815eb6-3982-4f09-9181-3c02c479d4d1@bai-piao-wang-zhe-iplc12.98848.xyz:19222?allowInsecure=1&sni=bai-piao-wang-zhe-iplc12.98848.xyz#%5Btrojan%5D%F0%9F%8F%81%5BRELAY%5Dbai-piao-wang-zhe-iplc12.98848.xyz%3A19222%282b815eb6-3982-4f09-9181-3c02c479d4d1%29
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s4.hazz.win:12340?allowInsecure=1&sni=s4.hazz.win#%5Btrojan%5D%F0%9F%87%A9%F0%9F%87%AA%5BDE%5Ds4.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
 trojan://10b3df8b-2316-4b43-843a-d165ce6603aa@hk64.fans8.xyz:443?allowInsecure=1&sni=hk64.fans8.xyz#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dhk64.fans8.xyz%3A443%2810b3df8b-2316-4b43-843a-d165ce6603aa%29
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s3.hazz.win:12340?allowInsecure=1&sni=s3.hazz.win#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Ds3.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
