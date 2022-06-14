@@ -196,7 +196,7 @@ trojan://7259391b-9f01-4ede-90dc-3955cf1c4998@transit1.fanqiang.eu:15022?allowIn
 trojan://93768960-75fc-34e5-8025-7ff0cc5a0aa6@azhj001.xiba1.xyz:20726?allowInsecure=1&sni=ssl.ssl12.xyz#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazhj001.xiba1.xyz%3A20726%2893768960-75fc-34e5-8025-7ff0cc5a0aa6%29
 trojan://93768960-75fc-34e5-8025-7ff0cc5a0aa6@azqt001.xiba1.xyz:20733?allowInsecure=1&sni=ssl.ssl12.xyz#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazqt001.xiba1.xyz%3A20733%2893768960-75fc-34e5-8025-7ff0cc5a0aa6%29
 trojan://93768960-75fc-34e5-8025-7ff0cc5a0aa6@azgy001.xiba1.xyz:20712?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazgy001.xiba1.xyz%3A20712%2893768960-75fc-34e5-8025-7ff0cc5a0aa6%29
-trojan://c8bae3de-16ed-4247-8a99-f38ef79a4b51@bai-piao-wang-zhe10.98848.xyz:48240?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dbai-piao-wang-zhe10.98848.xyz%3A48240%28c8bae3de-16ed-4247-8a99-f38ef79a4b51%29
+trojan://c8bae3de-16ed-4247-8a99-f38ef79a4b51@bai-piao-wang-zhe10.98848.xyz:48240?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%A6%5BCA%5Dbai-piao-wang-zhe10.98848.xyz%3A48240%28c8bae3de-16ed-4247-8a99-f38ef79a4b51%29
 trojan://93768960-75fc-34e5-8025-7ff0cc5a0aa6@azgy001.xiba1.xyz:20714?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazgy001.xiba1.xyz%3A20714%2893768960-75fc-34e5-8025-7ff0cc5a0aa6%29
 trojan://7TFhMMPRFjkEe9Bl@vip-kl-01.click:443?allowInsecure=1&sni=vip-kl-01.click#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dvip-kl-01.click%3A443%287TFhMMPRFjkEe9Bl%29
 trojan://d80412a5-1757-48a5-b493-e2de1265cc11@59.148.152.78:12306?allowInsecure=1&sni=douyincdn.com#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5D59.148.152.78%3A12306%28d80412a5-1757-48a5-b493-e2de1265cc11%29
