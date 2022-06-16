@@ -1,5 +1,5 @@
 trojan://cf9be019-1f76-3ceb-a67a-247d45b4725a@ru1.nodegz.top:1234?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B7%F0%9F%87%BA%5BRU%5Dru1.nodegz.top%3A1234%28cf9be019-1f76-3ceb-a67a-247d45b4725a%29
-trojan://89ab0c6f-21c7-4545-bc13-d9526c1b6868@transfer3.gzfxd.xyz:36900?allowInsecure=1&sni=hkaz.crunode.top#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dtransfer3.gzfxd.xyz%3A36900%2889ab0c6f-21c7-4545-bc13-d9526c1b6868%29
+trojan://89ab0c6f-21c7-4545-bc13-d9526c1b6868@transfer3.gzfxd.xyz:36900?allowInsecure=1&sni=hkaz.crunode.top#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dtransfer3.gzfxd.xyz%3A36900%2889ab0c6f-21c7-4545-bc13-d9526c1b6868%29
 trojan://89ab0c6f-21c7-4545-bc13-d9526c1b6868@lt.gzfxd.xyz:18792?allowInsecure=1&sni=kh1.nodegz.top#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dlt.gzfxd.xyz%3A18792%2889ab0c6f-21c7-4545-bc13-d9526c1b6868%29
 trojan://a580d839-ee41-4df1-bf03-6789dca32e30@jgwdb1.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Djgwdb1.gaox.ml%3A443%28a580d839-ee41-4df1-bf03-6789dca32e30%29
 trojan://c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26@jgwxn2.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%BA%5BAU%5Djgwxn2.gaox.ml%3A443%28c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26%29

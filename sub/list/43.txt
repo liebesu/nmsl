@@ -100,8 +100,8 @@ trojan://93768960-75fc-34e5-8025-7ff0cc5a0aa6@azqt001.xiba1.xyz:20730?allowInsec
 trojan://93768960-75fc-34e5-8025-7ff0cc5a0aa6@azqt001.xiba1.xyz:20729?allowInsecure=0&sni=ssl.ssl12.xyz#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazqt001.xiba1.xyz%3A20729%2893768960-75fc-34e5-8025-7ff0cc5a0aa6%29
 trojan://93768960-75fc-34e5-8025-7ff0cc5a0aa6@azqt001.xiba1.xyz:20732?allowInsecure=0&sni=ssl.ssl12.xyz#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazqt001.xiba1.xyz%3A20732%2893768960-75fc-34e5-8025-7ff0cc5a0aa6%29
 trojan://93768960-75fc-34e5-8025-7ff0cc5a0aa6@azqt001.xiba1.xyz:20728?allowInsecure=0&sni=ssl.ssl12.xyz#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazqt001.xiba1.xyz%3A20728%2893768960-75fc-34e5-8025-7ff0cc5a0aa6%29
-trojan://c8bae3de-16ed-4247-8a99-f38ef79a4b51@bai-piao-wang-zhe10.98848.xyz:48240?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dbai-piao-wang-zhe10.98848.xyz%3A48240%28c8bae3de-16ed-4247-8a99-f38ef79a4b51%29
-trojan://mDmaAWoWXB@bai-piao-wang-zhe10.98848.xyz:22168?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dbai-piao-wang-zhe10.98848.xyz%3A22168%28mDmaAWoWXB%29
+trojan://c8bae3de-16ed-4247-8a99-f38ef79a4b51@bai-piao-wang-zhe10.98848.xyz:48240?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%A6%5BCA%5Dbai-piao-wang-zhe10.98848.xyz%3A48240%28c8bae3de-16ed-4247-8a99-f38ef79a4b51%29
+trojan://mDmaAWoWXB@bai-piao-wang-zhe10.98848.xyz:22168?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%A6%5BCA%5Dbai-piao-wang-zhe10.98848.xyz%3A22168%28mDmaAWoWXB%29
 trojan://2b815eb6-3982-4f09-9181-3c02c479d4d1@bai-piao-wang-zhe-iplc12.98848.xyz:19222?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dbai-piao-wang-zhe-iplc12.98848.xyz%3A19222%282b815eb6-3982-4f09-9181-3c02c479d4d1%29
 trojan://2a7d25c4-4eb8-44ea-a078-f70b9836561f@gy01.20220512.cyou:56655?allowInsecure=0&sni=gy01.20220512.cyou#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dgy01.20220512.cyou%3A56655%282a7d25c4-4eb8-44ea-a078-f70b9836561f%29
 trojan://d06a3f01-1ff0-4792-9b8e-a5a604bc74a2@jgwdb4.gaox.ml:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Djgwdb4.gaox.ml%3A443%28d06a3f01-1ff0-4792-9b8e-a5a604bc74a2%29
