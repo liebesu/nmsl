@@ -8,7 +8,7 @@ trojan://08964210-e7b8-11ec-95aa-1239d0255272@w12.udpgw.com:443?allowInsecure=0#
 trojan://q8uTrVmj95aTrFAa@jike-vip-03.xyz:443?allowInsecure=0&sni=jike-vip-03.xyz#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Djike-vip-03.xyz%3A443%28q8uTrVmj95aTrFAa%29
 trojan://e8c1ab3c-89b3-4933-92df-682e6dce7819@jgwxn4.gaox.ml:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%BA%5BAU%5Djgwxn4.gaox.ml%3A443%28e8c1ab3c-89b3-4933-92df-682e6dce7819%29
 trojan://q8uTrVmj95aTrFAa@tw-oo-03.click:443?allowInsecure=0&sni=tw-oo-03.click#%5Btrojan%5D%F0%9F%87%B9%F0%9F%87%BC%5BTW%5Dtw-oo-03.click%3A443%28q8uTrVmj95aTrFAa%29
-trojan://f0de3134-aef4-45b5-a135-3a82321bbac6@bai-piao-wang-zhe10.98848.xyz:50858?allowInsecure=0&sni=bai-piao-wang-zhe10.98848.xyz#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dbai-piao-wang-zhe10.98848.xyz%3A50858%28f0de3134-aef4-45b5-a135-3a82321bbac6%29
+trojan://f0de3134-aef4-45b5-a135-3a82321bbac6@bai-piao-wang-zhe10.98848.xyz:50858?allowInsecure=0&sni=bai-piao-wang-zhe10.98848.xyz#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%A6%5BCA%5Dbai-piao-wang-zhe10.98848.xyz%3A50858%28f0de3134-aef4-45b5-a135-3a82321bbac6%29
 ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ@85.208.108.20:8080#%5Bss%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5D85.208.108.20%3A8080%28KixLvKzwjekG00rm%29
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@85.208.108.20:8009#%5Bss%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5D85.208.108.20%3A8009%28XKFKl2rULjIp74%29
 trojan://4ZPDeqJ6g766UKDJ@silicon.starspace.link:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dsilicon.starspace.link%3A443%284ZPDeqJ6g766UKDJ%29
