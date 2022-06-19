@@ -9,8 +9,8 @@
   {
     "id": 1,
     "remarks": "chfchf0306/clash",
-    "site": "https://github.com/chfchf0306/jeidian4.18",
-    "url": "https://raw.githubusercontent.com/chfchf0306/jeidian4.18/main/4.18",
+    "site": "https://github.com/chfchf0306/clash",
+    "url": "https://raw.githubusercontent.com/chfchf0306/clash/main/clash",
     "enabled": true
   },
   {
@@ -297,7 +297,7 @@
     "id": 42,
     "remarks": "skywolf627/ProxiesActions",
     "site": "https://github.com/skywolf627/ProxiesActions",
-    "url": "https://raw.githubusercontent.com/skywolf627/ProxiesActions/main/subscribe/vmess.txt",
+    "url": "https://raw.githubusercontent.com/skywolf627/VmessActions/main/subscribe/clash.yml",
     "enabled": true
   },
   {

@@ -60,13 +60,13 @@ class update_url():
     def update(id):
         if id == 0:
             # remarks: pojiezhiyuanjun/freev2, 将原链接更新至 https://raw.fastgit.org/pojiezhiyuanjun/freev2/master/%MM%(DD - 1).txt
-            # yesterday = (datetime.today() + timedelta(-1)).strftime('%m%d')
+            # today = datetime.today().strftime('%m%d')
             # 得到当前日期前一天 https://blog.csdn.net/wanghuafengc/article/details/42458721
-            yesterday = (datetime.today() + timedelta(-1)).strftime('%m%d')
+            today = datetime.today().strftime('%m%d')
             front_url = 'https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/'
             end_url = 'clash.yml'
             # 修改字符串中的某一位字符 https://www.zhihu.com/question/31800070/answer/53345749
-            url_update = front_url + yesterday + end_url
+            url_update = front_url + today + end_url
             if check_url(url_update):
                 return [0, url_update]
             else:
@@ -74,13 +74,13 @@ class update_url():
         elif id == 21:
             # remarks: v2raydy/v2ray, 将原链接更新至 https://https://raw.githubusercontent.com/v2raydy/v2ray/main/%MM-%(DD - 1)%str%1.txt
             # 得到当前日期前一天 https://blog.csdn.net/wanghuafengc/article/details/42458721
-            yesterday = (datetime.today() + timedelta(-1)).strftime('%m-%d')
+            today = datetime.today().strftime('%m-%d')
 
             front_url = 'https://raw.githubusercontent.com/v2raydy/v2ray/main/'
             end_url = '1.txt'
             for ch in 'abcdefghijklmnopqrstuvwxy':
                 # 修改字符串中的某一位字符 https://www.zhihu.com/question/31800070/answer/53345749
-                url_update = front_url + yesterday + ch + end_url
+                url_update = front_url + today + ch + end_url
                 if check_url(url_update):
                     return [21, url_update]
                 else:
@@ -88,11 +88,11 @@ class update_url():
         elif id == 43:
             # remarks: v2raydy/v2ray, 将原链接更新至 https://https://raw.githubusercontent.com/v2raydy/v2ray/main/%MM-%(DD - 1)%str%1.txt
             # 得到当前日期前一天 https://blog.csdn.net/wanghuafengc/article/details/42458721
-            yesterday = (datetime.today() + timedelta(-1)).strftime('%Y%m%d')
-            month = (datetime.today() + timedelta(-1)).strftime('%Y%m') +'/'
+            today = datetime.today().strftime('%Y%m%d')
+            month = datetime.today().strftime('%Y%m') +'/'
             front_url = 'https://nodefree.org/dy/'
             end_url = '.txt'
-            url_update = front_url + month + yesterday + end_url
+            url_update = front_url + month + today + end_url
             if check_url(url_update):
                 return [43, url_update]
             else:
@@ -101,12 +101,12 @@ class update_url():
         elif id == 25:
             # remarks: v2raydy/v2ray, 将原链接更新至 https://https://raw.githubusercontent.com/v2raydy/v2ray/main/%MM-%(DD - 1)%str%1.txt
             # 得到当前日期前一天 https://blog.csdn.net/wanghuafengc/article/details/42458721
-            yesterday = (datetime.today() + timedelta(-1)).strftime('%Y%m%d')
-            month = (datetime.today() + timedelta(-1)).strftime('%Y%m') +'/'
-            year = (datetime.today() + timedelta(-1)).strftime('%Y') +'/'
+            today = datetime.today().strftime('%Y%m%d')
+            month = datetime.today().strftime('%Y%m') +'/'
+            year = datetime.today().strftime('%Y') +'/'
             front_url = 'https://v2rayshare.com/wp-content/uploads/'
             end_url = '.txt'
-            url_update = front_url + year + month + yesterday + end_url
+            url_update = front_url + year + month + today + end_url
             if check_url(url_update):
                 return [25, url_update]
             else:
