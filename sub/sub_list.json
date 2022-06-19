@@ -284,7 +284,7 @@
     "remarks": "webdao/v2ray",
     "site": "https://github.com/webdao/v2ray",
     "url": "https://raw.githubusercontent.com/webdao/v2ray/master/nodes.txt",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 41,
@@ -297,8 +297,8 @@
     "id": 42,
     "remarks": "skywolf627/ProxiesActions",
     "site": "https://github.com/skywolf627/ProxiesActions",
-    "url": "https://raw.githubusercontent.com/skywolf627/VmessActions/main/subscribe/clash.yml",
-    "enabled": true
+    "url": "https://raw.githubusercontent.com/skywolf627/VmessActions/main/subscribe/vmess.txt",
+    "enabled": false
   },
   {
     "id": 43,
