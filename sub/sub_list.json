@@ -213,7 +213,7 @@
     "id": 30,
     "remarks": "songtao1873/wdnmd",
     "site": "https://github.com/songtao1873/wdnmd",
-    "url": "https://raw.githubusercontent.com/songtao1873/wdnmd/main/data/2022_06_19/BLmatE.txt",
+    "url": "https://raw.githubusercontent.com/songtao1873/wdnmd/main/data/pjzyj.txt|https://raw.githubusercontent.com/songtao1873/wdnmd/main/data/qwzqbp.txt",
     "enabled": true
   },
   {
@@ -267,24 +267,24 @@
   },
   {
     "id": 38,
-    "remarks": "km-hello/SubLink",
-    "site": "https://github.com/km-hello/SubLink",
-    "url": "https://raw.githubusercontent.com/km-hello/SubLink/master/link",
-    "enabled": false
+    "remarks": "Filterrr/Subscribtion-v2ray",
+    "site": "https://github.com/Filterrr/Subscribtion-v2ray",
+    "url": "https://xfxdy.qiqis.ml/v2/v2ray.txt",
+    "enabled": true
   },
   {
     "id": 39,
-    "remarks": "songkaik/Sub",
-    "site": "https://github.com/songkaik/Sub",
-    "url": "https://raw.githubusercontent.com/songkaik/Sub/main/v2rayN",
-    "enabled": false
+    "remarks": "jiquanxiang/abc",
+    "site": "https://github.com/jiquanxiang/abc",
+    "url": "https://raw.githubusercontent.com/jiquanxiang/abc/main/v7",
+    "enabled": true
   },
   {
     "id": 40,
-    "remarks": "yosefwang/subscription",
-    "site": "https://github.com/yosefwang/subscription",
-    "url": "https://raw.githubusercontent.com/yosefwang/subscription/main/README.md",
-    "enabled": false
+    "remarks": "webdao/v2ray",
+    "site": "https://github.com/webdao/v2ray",
+    "url": "https://raw.githubusercontent.com/webdao/v2ray/master/nodes.txt",
+    "enabled": true
   },
   {
     "id": 41,
@@ -339,15 +339,15 @@
     "id": 48,
     "remarks": "chongdong1230/dxz",
     "site": "https://github.com/chongdong1230/dxz",
-    "url": "https://raw.githubusercontent.com/chongdong1230/dxz/main/clash|https://raw.githubusercontent.com/chongdong1230/dxz/main/v2ray",
+    "url": "https://raw.githubusercontent.com/chongdong1230/dxz/main/clash",
     "enabled": true
   },
   {
     "id": 49,
-    "remarks": "zzCx5JZ1Ce/subscription",
-    "site": "https://github.com/zzCx5JZ1Ce/subscription",
-    "url": "https://raw.githubusercontent.com/zzCx5JZ1Ce/subscription/main/.pro/.ec|https://raw.githubusercontent.com/zzCx5JZ1Ce/subscription/main/.pro/.vm",
-    "enabled": false
+    "remarks": "lcx12901/v2ray-",
+    "site": "https://github.com/lcx12901/v2ray-",
+    "url": "https://raw.githubusercontent.com/lcx12901/v2ray-/master/sspool.herokuapp.com/yzcloud.yaml",
+    "enabled": true
   },
   {
     "id": 50,
