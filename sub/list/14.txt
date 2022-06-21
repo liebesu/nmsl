@@ -5,8 +5,8 @@ trojan://64e4a3ac-7699-4614-9c53-9e1da3dccf5a@618hk.fans8.xyz:443?allowInsecure=
 trojan://a580d839-ee41-4df1-bf03-6789dca32e30@jgwdb1.gaox.ml:443?allowInsecure=0&sni=jgwdb1.gaox.ml#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Djgwdb1.gaox.ml%3A443%28a580d839-ee41-4df1-bf03-6789dca32e30%29
 trojan://c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26@jgwxn2.gaox.ml:443?allowInsecure=0&sni=jgwxn2.gaox.ml#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%BA%5BAU%5Djgwxn2.gaox.ml%3A443%28c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26%29
 trojan://64e4a3ac-7699-4614-9c53-9e1da3dccf5a@611hk01.fans8.xyz:443?allowInsecure=0&sni=611hk01.fans8.xyz#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5D611hk01.fans8.xyz%3A443%2864e4a3ac-7699-4614-9c53-9e1da3dccf5a%29
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd1.xxcv.cc:20070?allowInsecure=0&sni=gzyd1.xxcv.cc#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dgzyd1.xxcv.cc%3A20070%286f6ae34d-fe7f-4ca1-a912-ecc01386bdc4%29
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd1.xxcv.cc:20100?allowInsecure=0&sni=gzyd1.xxcv.cc#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dgzyd1.xxcv.cc%3A20100%286f6ae34d-fe7f-4ca1-a912-ecc01386bdc4%29
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd1.xxcv.cc:20070?allowInsecure=0&sni=gzyd1.xxcv.cc#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dgzyd1.xxcv.cc%3A20070%286f6ae34d-fe7f-4ca1-a912-ecc01386bdc4%29
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd1.xxcv.cc:20100?allowInsecure=0&sni=gzyd1.xxcv.cc#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dgzyd1.xxcv.cc%3A20100%286f6ae34d-fe7f-4ca1-a912-ecc01386bdc4%29
 trojan://3gLlCYBipVwr6Y5F@v2cross.com.02.v2ce.com:443?allowInsecure=0&sni=v2cross.com.02.v2ce.com#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%BF%5BCZ%5Dv2cross.com.02.v2ce.com%3A443%283gLlCYBipVwr6Y5F%29
 trojan://mMQ6qJB9xbhiRvgg@v2cross.com.01.v2ce.com:443?allowInsecure=0&sni=v2cross.com.01.v2ce.com#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%BF%5BCZ%5Dv2cross.com.01.v2ce.com%3A443%28mMQ6qJB9xbhiRvgg%29
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s4.hazz.win:12340?allowInsecure=0&sni=s4.hazz.win#%5Btrojan%5D%F0%9F%87%A9%F0%9F%87%AA%5BDE%5Ds4.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
