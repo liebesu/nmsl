@@ -77,8 +77,8 @@ trojan://c3c448da2363a6f7@116.129.254.47:3389?allowInsecure=0#%5Btrojan%5D%F0%9F
 trojan://a13820c547fa34c5c45515c12f0cd576@jp2.91js.pw:10051?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Djp2.91js.pw%3A10051%28a13820c547fa34c5c45515c12f0cd576%29
 trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@hnyd.xxcv.cc:20030?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dhnyd.xxcv.cc%3A20030%286f6ae34d-fe7f-4ca1-a912-ecc01386bdc4%29
 trojan://9a27800ca7b52ee0@116.129.253.130:3389?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5D116.129.253.130%3A3389%289a27800ca7b52ee0%29
-trojan://9a992a09-e9b1-3fe1-a822-e79bd80d3874@transfer3.gzfxd.xyz:43215?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dtransfer3.gzfxd.xyz%3A43215%289a992a09-e9b1-3fe1-a822-e79bd80d3874%29
-trojan://9a992a09-e9b1-3fe1-a822-e79bd80d3874@transfer3.gzfxd.xyz:54670?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dtransfer3.gzfxd.xyz%3A54670%289a992a09-e9b1-3fe1-a822-e79bd80d3874%29
+trojan://9a992a09-e9b1-3fe1-a822-e79bd80d3874@transfer3.gzfxd.xyz:43215?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dtransfer3.gzfxd.xyz%3A43215%289a992a09-e9b1-3fe1-a822-e79bd80d3874%29
+trojan://9a992a09-e9b1-3fe1-a822-e79bd80d3874@transfer3.gzfxd.xyz:54670?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dtransfer3.gzfxd.xyz%3A54670%289a992a09-e9b1-3fe1-a822-e79bd80d3874%29
 trojan://9a992a09-e9b1-3fe1-a822-e79bd80d3874@transfer.gzfxd.xyz:10111?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dtransfer.gzfxd.xyz%3A10111%289a992a09-e9b1-3fe1-a822-e79bd80d3874%29
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxSzRXRW9iVGVlQlM@noah.monolink.net:996#%5Bss%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dnoah.monolink.net%3A996%28qK4WEobTeeBS%29
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxSzRXRW9iVGVlQlM@liam.monolink.net:995#%5Bss%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dliam.monolink.net%3A995%28qK4WEobTeeBS%29
