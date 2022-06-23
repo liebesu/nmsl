@@ -37,7 +37,7 @@ trojan://a13820c547fa34c5c45515c12f0cd576@zz6.91js.pw:10051?allowInsecure=0#%5Bt
 trojan://a13820c547fa34c5c45515c12f0cd576@jp2.91js.pw:10051?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Djp2.91js.pw%3A10051%28a13820c547fa34c5c45515c12f0cd576%29
 trojan://63d7b7bb-e526-3ea5-a61f-9da6df645da0@scloud51.jafiyun.life:22051?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dscloud51.jafiyun.life%3A22051%2863d7b7bb-e526-3ea5-a61f-9da6df645da0%29
 trojan://d46abf38-3a4c-3dfc-91e0-d8d3f1616c73@gz-cm1-kl.hinetwork.tw:11112?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dgz-cm1-kl.hinetwork.tw%3A11112%28d46abf38-3a4c-3dfc-91e0-d8d3f1616c73%29
-trojan://bfaf0f2b-c727-32ea-ab28-25e438fda91f@mlxy-zf.jiashumao.net:27171?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dmlxy-zf.jiashumao.net%3A27171%28bfaf0f2b-c727-32ea-ab28-25e438fda91f%29
+trojan://bfaf0f2b-c727-32ea-ab28-25e438fda91f@mlxy-zf.jiashumao.net:27171?allowInsecure=0#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%A8%5BSC%5Dmlxy-zf.jiashumao.net%3A27171%28bfaf0f2b-c727-32ea-ab28-25e438fda91f%29
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxSzRXRW9iVGVlQlM@noah.monolink.net:996#%5Bss%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dnoah.monolink.net%3A996%28qK4WEobTeeBS%29
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxSzRXRW9iVGVlQlM@liam.monolink.net:995#%5Bss%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dliam.monolink.net%3A995%28qK4WEobTeeBS%29
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxSzRXRW9iVGVlQlM@cn3.monolink.net:998#%5Bss%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dcn3.monolink.net%3A998%28qK4WEobTeeBS%29
