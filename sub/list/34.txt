@@ -5,7 +5,7 @@ trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s2.hazz.win:12340?allowInsecure=1&
 trojan://e2e306b5-0f53-3afd-80c9-0d9e31567597@azhj001.xiba1.xyz:20719?allowInsecure=1&sni=azhj001.xiba1.xyz#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazhj001.xiba1.xyz%3A20719%28e2e306b5-0f53-3afd-80c9-0d9e31567597%29
 trojan://e2e306b5-0f53-3afd-80c9-0d9e31567597@azhj001.xiba1.xyz:20720?allowInsecure=1&sni=azhj001.xiba1.xyz#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazhj001.xiba1.xyz%3A20720%28e2e306b5-0f53-3afd-80c9-0d9e31567597%29
 trojan://e2e306b5-0f53-3afd-80c9-0d9e31567597@azhj001.xiba1.xyz:20725?allowInsecure=1&sni=azhj001.xiba1.xyz#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazhj001.xiba1.xyz%3A20725%28e2e306b5-0f53-3afd-80c9-0d9e31567597%29
-trojan://52face98-c4cb-4299-aa38-9546085b0619@azhk.relay.qchwnd.moe:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dazhk.relay.qchwnd.moe%3A443%2852face98-c4cb-4299-aa38-9546085b0619%29
+trojan://52face98-c4cb-4299-aa38-9546085b0619@azhk.relay.qchwnd.moe:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazhk.relay.qchwnd.moe%3A443%2852face98-c4cb-4299-aa38-9546085b0619%29
 trojan://e2e306b5-0f53-3afd-80c9-0d9e31567597@azhj001.xiba1.xyz:20723?allowInsecure=1&sni=azhj001.xiba1.xyz#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazhj001.xiba1.xyz%3A20723%28e2e306b5-0f53-3afd-80c9-0d9e31567597%29
 trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@www.anloe.ga:9063?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dwww.anloe.ga%3A9063%28b64b0f9c-23df-3112-a790-d8aa068aa2fe%29
 trojan://a3fa58b581353bb375d2ddad0f327938@72.167.45.6:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5D72.167.45.6%3A443%28a3fa58b581353bb375d2ddad0f327938%29
