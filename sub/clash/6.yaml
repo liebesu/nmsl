@@ -1,7 +1,4 @@
 proxies:
-  - {name: "[ss]🇨🇦[CA]134.195.196.154:3389(Y6R9pAtvxxzmGC)", server: 134.195.196.154, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "[ss]🇺🇸[US]167.88.62.24:5500(KixLvKzwjekG00rm)", server: 167.88.62.24, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: "[ss]🇺🇸[US]167.88.63.61:2376(faBAoD54k87UJG7)", server: 167.88.63.61, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: "[ss]🇺🇸[US]169.197.142.39:8888(Y6R9pAtvxxzmGC)", server: 169.197.142.39, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇸🇬[SG]172.104.50.106:6697(TEzjfAYq2IjtuoS)", server: 172.104.50.106, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: "[ss]🇸🇬[SG]45.118.133.51:8009(XKFKl2rULjIp74)", server: 45.118.133.51, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
@@ -243,6 +240,7 @@ proxies:
   - {name: "[vmess]🇭🇰[HK]hk13.ningmengshui.xyz:80(01981120-6a45-4e7a-9dc6-18f7f1cee658)", server: hk13.ningmengshui.xyz, port: 80, type: vmess, uuid: 01981120-6a45-4e7a-9dc6-18f7f1cee658, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /v47-unlimitndxd, tls: false, ws-headers: {Host: hk13.ningmengshui.xyz}}
   - {name: "[vmess]🇭🇰[HK]hk8.ningmengshui.xyz:80(01981120-6a45-4e7a-9dc6-18f7f1cee658)", server: hk8.ningmengshui.xyz, port: 80, type: vmess, uuid: 01981120-6a45-4e7a-9dc6-18f7f1cee658, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /v47-unlimitndxd, tls: false, ws-headers: {Host: hk8.ningmengshui.xyz}}
   - {name: "[vmess]🇨🇳[CN]36.138.197.169:24055(6861c307-5efd-3b8a-b7fa-248ad8dde74e)", server: 36.138.197.169, port: 24055, type: vmess, uuid: 6861c307-5efd-3b8a-b7fa-248ad8dde74e, alterId: 2, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, tls: false, ws-headers: {Host: 36.138.197.169}}
+  - {name: "[ss]🇺🇸[US]c8s1.jamjams.net:30162(eWh5br48eraTyoJS)", server: c8s1.jamjams.net, port: 30162, type: ss, cipher: aes-256-gcm, password: eWh5br48eraTyoJS}
   - {name: "[vmess]🇭🇰[HK]hk3.ningmengshui.xyz:80(01981120-6a45-4e7a-9dc6-18f7f1cee658)", server: hk3.ningmengshui.xyz, port: 80, type: vmess, uuid: 01981120-6a45-4e7a-9dc6-18f7f1cee658, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /v1252N93nZez6Py, tls: false, ws-headers: {Host: hk3.ningmengshui.xyz}}
   - {name: "[vmess]🇨🇳[CN]36.138.197.169:24052(6861c307-5efd-3b8a-b7fa-248ad8dde74e)", server: 36.138.197.169, port: 24052, type: vmess, uuid: 6861c307-5efd-3b8a-b7fa-248ad8dde74e, alterId: 2, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, tls: false, ws-headers: {Host: 36.138.197.169}}
   - {name: "[vmess]🇨🇳[CN]36.138.197.169:2506(6861c307-5efd-3b8a-b7fa-248ad8dde74e)", server: 36.138.197.169, port: 2506, type: vmess, uuid: 6861c307-5efd-3b8a-b7fa-248ad8dde74e, alterId: 2, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, tls: false, ws-headers: {Host: 36.138.197.169}}
@@ -682,7 +680,6 @@ proxies:
   - {name: "[ss]🇮🇹[IT]cn1.relay.iepl.pw:50300(b6040656-96c5-4748-a73c-5a8f15ed7531)", server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531}
   - {name: "[ss]🇨🇳[CN]101.132.192.212:30003(desperadoj.com_free_proxy_d39m)", server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
   - {name: "[ss]🇨🇳[CN]music.desperadoj.com:30003(desperadoj.com_free_proxy_d39m)", server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: "[ss]🇦🇺[AU]185.167.116.38:9006(FAdUvMJUq5vDgKEq)", server: 185.167.116.38, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
   - {name: "[ss]🇦🇺[AU]185.167.116.38:9046(NvS8N4Vf8qAGPSCL)", server: 185.167.116.38, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL}
   - {name: "[ss]🇦🇺[AU]185.167.116.38:9037(TN2YqghxeFDKZfLU)", server: 185.167.116.38, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU}
   - {name: "[ss]🇦🇺[AU]185.167.116.252:9080(VP8ZPxQpJtZRCjfZ)", server: 185.167.116.252, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ}
@@ -765,6 +762,7 @@ proxies:
   - {name: "[trojan]🇨🇳[CN]jp-tyo-04-tr.cdn.savoy.click:889(SfobRIcergHchqBFzzua)", server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: SfobRIcergHchqBFzzua, sni: jp-tyo-04-tr.cdn.savoy.click, tls: true, skip-cert-verify: true}
   - {name: "[trojan]🇨🇳[CN]jp-tyo-04-tr.cdn.savoy.click:889(UiLPqefVfielqkDjEwBV)", server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: UiLPqefVfielqkDjEwBV, sni: jp-tyo-04-tr.cdn.savoy.click, tls: true, skip-cert-verify: true}
   - {name: "[trojan]🇹🇼[TW]2.58.242.43:443(YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT)", server: 2.58.242.43, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, sni: 2.58.242.43, tls: true, skip-cert-verify: true}
+  - {name: "[trojan]🇺🇸[US]72.167.45.6:443(a3fa58b581353bb375d2ddad0f327938)", server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: 72.167.45.6, tls: true, skip-cert-verify: true}
   - {name: "[trojan]🇨🇳[CN]cn.speedabc.xyz:42004(af630252-aecc-45cf-b174-5e0782396874)", server: cn.speedabc.xyz, port: 42004, type: trojan, password: af630252-aecc-45cf-b174-5e0782396874, sni: cn.speedabc.xyz, tls: true, skip-cert-verify: true}
   - {name: "[trojan]🇺🇸[US]tj-11.t8737.shop:11223(afbba9fe-80f3-4fbd-837c-35ede864fea6)", server: tj-11.t8737.shop, port: 11223, type: trojan, password: afbba9fe-80f3-4fbd-837c-35ede864fea6, sni: tj-11.t8737.shop, tls: true, skip-cert-verify: true}
   - {name: "[trojan]🇭🇰[HK]s256.s2022.xyz:38209(c8054dfc-513e-3558-9d2a-bccd10494898)", server: s256.s2022.xyz, port: 38209, type: trojan, password: c8054dfc-513e-3558-9d2a-bccd10494898, sni: s256.s2022.xyz, tls: true, skip-cert-verify: true}
