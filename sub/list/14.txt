@@ -20,7 +20,7 @@ trojan://02e653c9-7c93-46a9-999d-11834bd0c577@jgwld1.gaox.ml:443?allowInsecure=0
 trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@144.24.90.94:28443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5D144.24.90.94%3A28443%286f6ae34d-fe7f-4ca1-a912-ecc01386bdc4%29
 trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@144.24.77.154:28443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5D144.24.77.154%3A28443%286f6ae34d-fe7f-4ca1-a912-ecc01386bdc4%29
 trojan://63d7b7bb-e526-3ea5-a61f-9da6df645da0@scloud58.jafiyun.life:22058?allowInsecure=0&sni=scloud58.jafiyun.life#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dscloud58.jafiyun.life%3A22058%2863d7b7bb-e526-3ea5-a61f-9da6df645da0%29
-trojan://63d7b7bb-e526-3ea5-a61f-9da6df645da0@jp05.jafiyun.life:21232?allowInsecure=0&sni=jp05.jafiyun.life#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Djp05.jafiyun.life%3A21232%2863d7b7bb-e526-3ea5-a61f-9da6df645da0%29
+trojan://63d7b7bb-e526-3ea5-a61f-9da6df645da0@jp05.jafiyun.life:21232?allowInsecure=0&sni=jp05.jafiyun.life#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Djp05.jafiyun.life%3A21232%2863d7b7bb-e526-3ea5-a61f-9da6df645da0%29
 trojan://8d2d5953-d649-4034-94f2-72f2df2623da@jgwdb3.gaox.ml:443?allowInsecure=0&sni=jgwdb3.gaox.ml#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Djgwdb3.gaox.ml%3A443%288d2d5953-d649-4034-94f2-72f2df2623da%29
 trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@172.105.255.202:28443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%BA%5BAU%5D172.105.255.202%3A28443%286f6ae34d-fe7f-4ca1-a912-ecc01386bdc4%29
 trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@3.35.48.120:28443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5D3.35.48.120%3A28443%286f6ae34d-fe7f-4ca1-a912-ecc01386bdc4%29
