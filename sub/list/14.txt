@@ -13,7 +13,7 @@ trojan://mMQ6qJB9xbhiRvgg@v2cross.com.01.v2ce.com:443?allowInsecure=0&sni=v2cros
 trojan://3gLlCYBipVwr6Y5F@v2cross.com.02.v2ce.com:443?allowInsecure=0&sni=v2cross.com.02.v2ce.com#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%BF%5BCZ%5Dv2cross.com.02.v2ce.com%3A443%283gLlCYBipVwr6Y5F%29
 trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@172.104.251.52:28443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A9%F0%9F%87%AA%5BDE%5D172.104.251.52%3A28443%286f6ae34d-fe7f-4ca1-a912-ecc01386bdc4%29
 trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@172.104.244.36:28443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A9%F0%9F%87%AA%5BDE%5D172.104.244.36%3A28443%286f6ae34d-fe7f-4ca1-a912-ecc01386bdc4%29
-trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s4.hazz.win:12340?allowInsecure=0&sni=s4.hazz.win#%5Btrojan%5D%F0%9F%87%A9%F0%9F%87%AA%5BDE%5Ds4.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s4.hazz.win:12340?allowInsecure=0&sni=s4.hazz.win#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Ds4.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
 trojan://iKR3Ft@193.178.210.29:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5D193.178.210.29%3A443%28iKR3Ft%29
 trojan://d7fd8aaa-4581-4281-80aa-4b63e5e1f157@jgwld2.gaox.ml:443?allowInsecure=0&sni=jgwld2.gaox.ml#%5Btrojan%5D%F0%9F%87%AC%F0%9F%87%A7%5BGB%5Djgwld2.gaox.ml%3A443%28d7fd8aaa-4581-4281-80aa-4b63e5e1f157%29
 trojan://02e653c9-7c93-46a9-999d-11834bd0c577@jgwld1.gaox.ml:443?allowInsecure=0&sni=jgwld1.gaox.ml#%5Btrojan%5D%F0%9F%87%AC%F0%9F%87%A7%5BGB%5Djgwld1.gaox.ml%3A443%2802e653c9-7c93-46a9-999d-11834bd0c577%29
