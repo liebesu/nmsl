@@ -510,7 +510,7 @@ class sub_convert():
                         continue
                     else:
                         yaml_url.setdefault('cipher', server_part_list[3])
-                    yaml_url.setdefault('password', sub_convert.base64_decode.server_part_list[5])
+                    yaml_url.setdefault('password', sub_convert.base64_decode(server_part_list[5]))
                     yaml_url.setdefault('protocol', server_part_list[2])
                     yaml_url.setdefault('obfs', server_part_list[4])
                     for item in ssr_part:
