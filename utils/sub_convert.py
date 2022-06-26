@@ -526,7 +526,7 @@ class sub_convert():
                                 item.replace('protoparam=', ''))
                             if protocol_param != '':
                                 yaml_url.setdefault(
-                                    'protocol-param', protocol_param)
+                                    'protocol-param', protocol_param.replace('[', '').replace(']', ''))
                             else:
                                 yaml_url.setdefault(
                                     'protocol-param', '""')
