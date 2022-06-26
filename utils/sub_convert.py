@@ -518,7 +518,7 @@ class sub_convert():
                             obfs_param = sub_convert.base64_decode(
                                 item.replace('obfsparam=', ''))
                             if obfs_param != '':
-                                yaml_url.setdefault('obfs-param', obfs_param)
+                                yaml_url.setdefault('obfs-param', obfs_param.replace('[', '').replace(']', ''))
                             else:
                                 yaml_url.setdefault('obfs-param', '""')
                         elif 'protoparam=' in item:
