@@ -122,7 +122,7 @@ class sub_convert():
                     node_part_head = node_part[0].split(':')
                     server_head = sub_convert.find_country(
                         node_part_head[0])
-                    password = sub_convert.base64_decode(node_part_head[-1])
+                    password = sub_convert.base64_decode(node_part_head[5])
                     name_renamed = '[ssr]' + server_head + node_part_head[0] + ':' + \
                         node_part_head[1] + '(' + password + ')'
                     node_part_foot = node_part[-1].split('&')
