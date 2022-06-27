@@ -408,7 +408,7 @@ ss://YWVzLTI1Ni1jZmI6ck5CZk51dUFORkNBazdLQg@185.167.116.24:9056#%5Bss%5D%F0%9F%8
 ss://YWVzLTI1Ni1jZmI6VVRKQTU3eXBrMlhLUXBubQ@185.167.116.24:9033#%5Bss%5D%F0%9F%87%A6%F0%9F%87%BA%5BAU%5D185.167.116.24%3A9033%28UTJA57ypk2XKQpnm%29
 ss://YWVzLTI1Ni1jZmI6ZGFGWWFncURkQmRBNlZUWA@185.167.116.250:9073#%5Bss%5D%F0%9F%87%A6%F0%9F%87%BA%5BAU%5D185.167.116.250%3A9073%28daFYagqDdBdA6VTX%29
 trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@kr01.wangxd.life:3052?allowInsecure=1&sni=kr01.wangxd.life#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Dkr01.wangxd.life%3A3052%283a2c0c6c-9ee5-c05f-c951-fcd73831983e%29
-trojan://6db23a93-95fa-4e1c-aa7c-6c1885e1c0d4@azhk.n.optage.moe:62500?allowInsecure=1&sni=azhk.n.optage.moe#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Dazhk.n.optage.moe%3A62500%286db23a93-95fa-4e1c-aa7c-6c1885e1c0d4%29
+trojan://6db23a93-95fa-4e1c-aa7c-6c1885e1c0d4@azhk.n.optage.moe:62500?allowInsecure=1&sni=azhk.n.optage.moe#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazhk.n.optage.moe%3A62500%286db23a93-95fa-4e1c-aa7c-6c1885e1c0d4%29
 trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-us02.yiyodns.xyz:443?allowInsecure=1&sni=tj-us02.yiyodns.xyz#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dtj-us02.yiyodns.xyz%3A443%287dafe71e-2be6-302f-bdfc-e6319a3299bc%29
 trojan://93768960-75fc-34e5-8025-7ff0cc5a0aa6@azqt001.xiba1.xyz:20743?allowInsecure=1&sni=azqt001.xiba1.xyz#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Dazqt001.xiba1.xyz%3A20743%2893768960-75fc-34e5-8025-7ff0cc5a0aa6%29
 trojan://93768960-75fc-34e5-8025-7ff0cc5a0aa6@azqt001.xiba1.xyz:20733?allowInsecure=1&sni=azqt001.xiba1.xyz#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Dazqt001.xiba1.xyz%3A20733%2893768960-75fc-34e5-8025-7ff0cc5a0aa6%29
