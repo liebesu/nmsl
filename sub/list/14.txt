@@ -381,7 +381,7 @@ trojan://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@167.88.61.2:443?allowIn
 trojan://640e3ef0-9c44-49a8-98f6-0895b11eecd6@t03.ssrsub.com.xyz:443?allowInsecure=0&sni=t03.ssrsub.com.xyz#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dt03.ssrsub.com.xyz%3A443%28640e3ef0-9c44-49a8-98f6-0895b11eecd6%29
 trojan://28d98f761aca9d636f44db62544628eb@72.167.45.6:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5D72.167.45.6%3A443%2828d98f761aca9d636f44db62544628eb%29
 trojan://a3fa58b581353bb375d2ddad0f327938@72.167.45.6:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5D72.167.45.6%3A443%28a3fa58b581353bb375d2ddad0f327938%29
-trojan://52face98-c4cb-4299-aa38-9546085b0619@azhk.relay.qchwnd.moe:443?allowInsecure=0&sni=azhk.relay.qchwnd.moe#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Dazhk.relay.qchwnd.moe%3A443%2852face98-c4cb-4299-aa38-9546085b0619%29
+trojan://52face98-c4cb-4299-aa38-9546085b0619@azhk.relay.qchwnd.moe:443?allowInsecure=0&sni=azhk.relay.qchwnd.moe#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dazhk.relay.qchwnd.moe%3A443%2852face98-c4cb-4299-aa38-9546085b0619%29
 trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@us2.tcpbbr.net:443?allowInsecure=0&sni=us2.tcpbbr.net#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dus2.tcpbbr.net%3A443%287b4066ae-accc-11eb-a8bf-f23c91cfbbc9%29
 trojan://share.mjj-home.com@share.softbank.mjj-home.com:443?allowInsecure=0&sni=share.softbank.mjj-home.com#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Dshare.softbank.mjj-home.com%3A443%28share.mjj-home.com%29
 trojan://28d98f761aca9d636f44db62544628eb@184.168.127.50:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5D184.168.127.50%3A443%2828d98f761aca9d636f44db62544628eb%29
