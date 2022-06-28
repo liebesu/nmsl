@@ -1,5 +1,5 @@
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s4.hazz.win:12340?allowInsecure=1&sni=s4.hazz.win#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Ds4.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
-trojan://c2d62c65-5d48-3d17-8982-b4e85377c8c1@azhj001.xiba1.xyz:20720?allowInsecure=1&sni=AZHJ001.xiba1.xyz#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Dazhj001.xiba1.xyz%3A20720%28c2d62c65-5d48-3d17-8982-b4e85377c8c1%29
+trojan://c2d62c65-5d48-3d17-8982-b4e85377c8c1@azhj001.xiba1.xyz:20720?allowInsecure=1&sni=AZHJ001.xiba1.xyz#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazhj001.xiba1.xyz%3A20720%28c2d62c65-5d48-3d17-8982-b4e85377c8c1%29
 trojan://c2d62c65-5d48-3d17-8982-b4e85377c8c1@azhj001.xiba1.xyz:20721?allowInsecure=1&sni=azhj001.xiba1.xyz#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazhj001.xiba1.xyz%3A20721%28c2d62c65-5d48-3d17-8982-b4e85377c8c1%29
 trojan://2a9b7d4b-f44e-3998-ac23-52e548a9d258@azhj001.xiba1.xyz:20721?allowInsecure=1&sni=azhj001.xiba1.xyz#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazhj001.xiba1.xyz%3A20721%282a9b7d4b-f44e-3998-ac23-52e548a9d258%29
 trojan://2a9b7d4b-f44e-3998-ac23-52e548a9d258@azhj001.xiba1.xyz:20724?allowInsecure=1&sni=ssl.ssl12.xyz#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazhj001.xiba1.xyz%3A20724%282a9b7d4b-f44e-3998-ac23-52e548a9d258%29
