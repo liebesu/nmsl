@@ -26,7 +26,7 @@ trojan://27e58714-2c0b-4fa4-afb6-b91ec041b1cf@hkbgp1.jiantian.xyz:19374?allowIns
 trojan://sharecentre@sg.sharecentrepro.tk:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dsg.sharecentrepro.tk%3A443%28sharecentre%29
 trojan://affae2e0-e84b-11ec-b09f-1239d0255272@trojan1.udpgw.com:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dtrojan1.udpgw.com%3A443%28affae2e0-e84b-11ec-b09f-1239d0255272%29
 trojan://8c72bafbd4837610@29d78fe.nf.gladns.com:3389?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5D29d78fe.nf.gladns.com%3A3389%288c72bafbd4837610%29
-trojan://8c72bafbd4837610@29d78fe.pi.gladns.com:3389?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5D29d78fe.pi.gladns.com%3A3389%288c72bafbd4837610%29
+trojan://8c72bafbd4837610@29d78fe.pi.gladns.com:3389?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B9%F0%9F%87%BC%5BTW%5D29d78fe.pi.gladns.com%3A3389%288c72bafbd4837610%29
 trojan://vGWCNNfBHwSY6m6M@v2cross.com.04.v2ce.com:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%BF%5BCZ%5Dv2cross.com.04.v2ce.com%3A443%28vGWCNNfBHwSY6m6M%29
 trojan://5y8y3CwxRVYhyfSY@ce.rutracker-cn.com:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%BF%5BCZ%5Dce.rutracker-cn.com%3A443%285y8y3CwxRVYhyfSY%29
 trojan://kGrwqmB1nEKUsDwE@v2cross.com.05.v2ce.com:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%BF%5BCZ%5Dv2cross.com.05.v2ce.com%3A443%28kGrwqmB1nEKUsDwE%29
@@ -57,5 +57,5 @@ trojan://e23f408a-012e-4030-8b31-02022031cb50@fhcamd1.gaox.ml:443?allowInsecure=
 trojan://5LN8SGTqxk336nFg@wireless.starspace.link:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dwireless.starspace.link%3A443%285LN8SGTqxk336nFg%29
 trojan://W8gVbKNAZlFzgGPn@storage.starspace.link:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dstorage.starspace.link%3A443%28W8gVbKNAZlFzgGPn%29
 trojan://54080134-2cba-4535-8599-95650bd9aa54@jgwhdlb2.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AE%F0%9F%87%B3%5BIN%5Djgwhdlb2.gaox.ml%3A443%2854080134-2cba-4535-8599-95650bd9aa54%29
-trojan://eeaaed50-6176-4abf-ac52-6ab6feae0af3@azhk.r.optage.moe:62503?allowInsecure=1&sni=azhk.r.optage.moe#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazhk.r.optage.moe%3A62503%28eeaaed50-6176-4abf-ac52-6ab6feae0af3%29
+trojan://eeaaed50-6176-4abf-ac52-6ab6feae0af3@azhk.r.optage.moe:62503?allowInsecure=1&sni=azhk.r.optage.moe#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Dazhk.r.optage.moe%3A62503%28eeaaed50-6176-4abf-ac52-6ab6feae0af3%29
 trojan://685022af-2086-454c-8725-8ff6b6ab1d13@bai-piao-wang-zhe10.98848.xyz:22168?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dbai-piao-wang-zhe10.98848.xyz%3A22168%28685022af-2086-454c-8725-8ff6b6ab1d13%29
