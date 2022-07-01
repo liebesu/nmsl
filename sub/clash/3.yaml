@@ -1,4 +1,5 @@
 proxies:
+  - {name: "[vmess]🇺🇸[US]170.178.189.59:443(cff9d860-7330-4ee1-b072-7142ddf1571d)", server: 170.178.189.59, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /path/173418141123, tls: true, ws-headers: {Host: 170.178.189.59}}
   - {name: "[ss]🇺🇸[US]38.121.43.71:6697(TEzjfAYq2IjtuoS)", server: 38.121.43.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: "[vmess]🇺🇸[US]170.178.189.54:443(7640a1e7-9701-428e-a4b2-19b3e7dd6f9f)", server: 170.178.189.54, port: 443, type: vmess, uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /path/173418141123, tls: true, ws-headers: {Host: 170.178.189.54}}
   - {name: "[vmess]🇺🇸[US]app.ssfree.ru:443(6ee654d6-c31e-11ec-b83f-000017022008)", server: app.ssfree.ru, port: 443, type: vmess, uuid: 6ee654d6-c31e-11ec-b83f-000017022008, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /getweather, tls: true, ws-headers: {Host: app.ssfree.ru}}
@@ -520,7 +521,7 @@ proxies:
   - {name: "[vmess]🇺🇸[US]104.25.175.69:443(3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2)", server: 104.25.175.69, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 104.25.175.69}}
   - {name: "[ss]🇺🇸[US]167.88.61.175:6679(TEzjfAYq2IjtuoS)", server: 167.88.61.175, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: "[ss]🇺🇸[US]38.68.135.123:443(pKEW8JPByTVTLtM)", server: 38.68.135.123, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: "[vmess]🏁[RELAY]hax.hax01.tk:443(e2e073ce-c1d4-43ed-89f5-ca978507548a)", server: hax.hax01.tk, port: 443, type: vmess, uuid: e2e073ce-c1d4-43ed-89f5-ca978507548a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: hax.hax01.tk}}
+  - {name: "[vmess]🇺🇸[US]hax.hax01.tk:443(e2e073ce-c1d4-43ed-89f5-ca978507548a)", server: hax.hax01.tk, port: 443, type: vmess, uuid: e2e073ce-c1d4-43ed-89f5-ca978507548a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: hax.hax01.tk}}
   - {name: "[vmess]🇺🇸[US]v19.emovpn.xyz:127(c9576ede-c2be-4800-bb86-221290531d71)", server: v19.emovpn.xyz, port: 127, type: vmess, uuid: c9576ede-c2be-4800-bb86-221290531d71, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: v19.emovpn.xyz}}
   - {name: "[ss]🇺🇸[US]169.197.143.15:808(G!yBwPWH3Vao)", server: 169.197.143.15, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: "[ss]🇺🇸[US]169.197.141.187:8119(cdBIDV42DCwnfIN)", server: 169.197.141.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
@@ -998,4 +999,3 @@ proxies:
   - {name: "[ss]🇳🇱[NL]37.120.192.158:800(G!yBwPWH3Vao)", server: 37.120.192.158, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: "[ss]🇳🇱[NL]37.120.192.158:804(G!yBwPWH3Vao)", server: 37.120.192.158, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: "[ss]🇳🇱[NL]37.120.192.158:809(G!yBwPWH3Vao)", server: 37.120.192.158, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: "[ss]🇳🇱[NL]37.120.192.158:803(G!yBwPWH3Vao)", server: 37.120.192.158, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
