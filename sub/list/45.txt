@@ -1,6 +1,6 @@
 ss://YWVzLTEyOC1nY206ODg4YmE3N2QtMzhkMy00YjlhLWJkYTMtYWI2Mzk4ODVlOGI4@ftp.cn.debian.cdnet.in:8030#%5Bss%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dftp.cn.debian.cdnet.in%3A8030%28888ba77d-38d3-4b9a-bda3-ab639885e8b8%29
 ss://YWVzLTEyOC1nY206ODg4YmE3N2QtMzhkMy00YjlhLWJkYTMtYWI2Mzk4ODVlOGI4@ftp.cn.debian.cdnet.in:8020#%5Bss%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dftp.cn.debian.cdnet.in%3A8020%28888ba77d-38d3-4b9a-bda3-ab639885e8b8%29
-trojan://d73e7fe4-88d2-4d9a-81c8-c9a97bbc1b84@az.az-bgp.chuangshi999.xyz:64340?allowInsecure=0&sni=rb1.riben1.xyz#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Daz.az-bgp.chuangshi999.xyz%3A64340%28d73e7fe4-88d2-4d9a-81c8-c9a97bbc1b84%29
+trojan://d73e7fe4-88d2-4d9a-81c8-c9a97bbc1b84@az.az-bgp.chuangshi999.xyz:64340?allowInsecure=0&sni=rb1.riben1.xyz#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Daz.az-bgp.chuangshi999.xyz%3A64340%28d73e7fe4-88d2-4d9a-81c8-c9a97bbc1b84%29
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s2.hazz.win:12340?allowInsecure=0&sni=s2.hazz.win#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Ds2.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
 trojan://d73e7fe4-88d2-4d9a-81c8-c9a97bbc1b84@az.az-bgp.chuangshi999.xyz:39675?allowInsecure=0&sni=aa1.liumeit.xyz#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Daz.az-bgp.chuangshi999.xyz%3A39675%28d73e7fe4-88d2-4d9a-81c8-c9a97bbc1b84%29
 trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-sg02.yiyodns.xyz:443?allowInsecure=0&sni=tj-sg02.yiyodns.xyz#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dtj-sg02.yiyodns.xyz%3A443%287dafe71e-2be6-302f-bdfc-e6319a3299bc%29
