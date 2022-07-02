@@ -1,7 +1,7 @@
 trojan://d6b70aec-bda5-4c5a-b37f-931ce32ded7b@630hk98.ok365.cyou:443?allowInsecure=0&sni=630hk98.ok365.cyou#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5D630hk98.ok365.cyou%3A443%28d6b70aec-bda5-4c5a-b37f-931ce32ded7b%29
 trojan://d6b70aec-bda5-4c5a-b37f-931ce32ded7b@626sg.ok365.cyou:443?allowInsecure=0&sni=626sg.ok365.cyou#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5D626sg.ok365.cyou%3A443%28d6b70aec-bda5-4c5a-b37f-931ce32ded7b%29
 trojan://d6b70aec-bda5-4c5a-b37f-931ce32ded7b@626sg05.ok365.cyou:80?allowInsecure=0&sni=626sg05.ok365.cyou#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5D626sg05.ok365.cyou%3A80%28d6b70aec-bda5-4c5a-b37f-931ce32ded7b%29
-trojan://f15cb689-5ba3-4e96-927b-1cd7859d0cdc@panor.qcjs.ml:11451?allowInsecure=1&sni=hkcdn1.qcjs.one#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dpanor.qcjs.ml%3A11451%28f15cb689-5ba3-4e96-927b-1cd7859d0cdc%29
+trojan://f15cb689-5ba3-4e96-927b-1cd7859d0cdc@panor.qcjs.ml:11451?allowInsecure=1&sni=hkcdn1.qcjs.one#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dpanor.qcjs.ml%3A11451%28f15cb689-5ba3-4e96-927b-1cd7859d0cdc%29
 trojan://d6b70aec-bda5-4c5a-b37f-931ce32ded7b@629hk.ok365.cyou:443?allowInsecure=0&sni=629hk.ok365.cyou#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5D629hk.ok365.cyou%3A443%28d6b70aec-bda5-4c5a-b37f-931ce32ded7b%29
 trojan://f15cb689-5ba3-4e96-927b-1cd7859d0cdc@oliver.qcjs.ml:11451?allowInsecure=1&sni=jpc1.qcjs.one#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Doliver.qcjs.ml%3A11451%28f15cb689-5ba3-4e96-927b-1cd7859d0cdc%29
 trojan://d6b70aec-bda5-4c5a-b37f-931ce32ded7b@625tw.ok365.cyou:443?allowInsecure=0&sni=625tw.ok365.cyou#%5Btrojan%5D%F0%9F%87%B9%F0%9F%87%BC%5BTW%5D625tw.ok365.cyou%3A443%28d6b70aec-bda5-4c5a-b37f-931ce32ded7b%29
