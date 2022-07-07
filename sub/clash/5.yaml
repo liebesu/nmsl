@@ -1,4 +1,18 @@
 proxies:
+  - {name: "[ss]🇩🇪[DE]139.162.130.101:5600(Y6R9pAtvxxzmGC)", server: 139.162.130.101, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇩🇪[DE]139.162.130.101:3306(Y6R9pAtvxxzmGC)", server: 139.162.130.101, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇺🇸[US]167.88.61.213:8888(Y6R9pAtvxxzmGC)", server: 167.88.61.213, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇺🇸[US]38.114.114.68:8090(PCnnH6SQSnfoS27)", server: 38.114.114.68, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "[ss]🇺🇸[US]38.114.114.143:2376(faBAoD54k87UJG7)", server: 38.114.114.143, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[ss]🇺🇸[US]167.88.61.50:8882(kDWvXYZoTBcGkC4)", server: 167.88.61.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: "[ss]🇺🇸[US]167.88.61.60:8008(XKFKl2rULjIp74)", server: 167.88.61.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: "[ss]🇺🇸[US]169.197.142.238:8000(KixLvKzwjekG00rm)", server: 169.197.142.238, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: "[ss]🇺🇸[US]38.114.114.49:8881(kDWvXYZoTBcGkC4)", server: 38.114.114.49, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: "[ss]🇦🇺[AU]172.105.190.20:5000(Y6R9pAtvxxzmGC)", server: 172.105.190.20, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇺🇸[US]167.88.62.66:5003(g5MeD6Ft3CWlJId)", server: 167.88.62.66, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "[ss]🇰🇷[KR]158.247.227.123:5600(Y6R9pAtvxxzmGC)", server: 158.247.227.123, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇺🇸[US]167.88.61.213:9102(e4FCWrgpkji3QY)", server: 167.88.61.213, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: "[ss]🇳🇿[NZ]103.62.49.141:810(G!yBwPWH3Vao)", server: 103.62.49.141, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: "[ss]🇬🇧[GB]212.38.189.174:5600(Y6R9pAtvxxzmGC)", server: 212.38.189.174, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇺🇸[US]38.68.134.9:9102(e4FCWrgpkji3QY)", server: 38.68.134.9, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: "[ss]🇺🇸[US]38.68.135.123:8888(Y6R9pAtvxxzmGC)", server: 38.68.135.123, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
@@ -486,10 +500,8 @@ proxies:
   - {name: "[ss]🇰🇷[KR]141.164.42.67:5601(Y6R9pAtvxxzmGC)", server: 141.164.42.67, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇺🇸[US]38.68.135.123:5004(g5MeD6Ft3CWlJId)", server: 38.68.135.123, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: "[ss]🇺🇸[US]38.68.134.48:8008(XKFKl2rULjIp74)", server: 38.68.134.48, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: "[trojan]🇺🇸[US]los1.v2ce.com:443(fIYU5DCiWZ6uYOou)", server: los1.v2ce.com, port: 443, type: trojan, password: fIYU5DCiWZ6uYOou, sni: los1.v2ce.com, tls: true, skip-cert-verify: true}
-  - {name: "[ss]🇨🇳[CN]14.29.124.174:11011(QazEdcTgb159@$*)", server: 14.29.124.174, port: 11011, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
   - {name: "[vmess]🇹🇼[TW]330tw.fans8.xyz:443(7f4ff2e1c08f35bdafe74a6a386907aa)", server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ray, tls: true, ws-headers: {Host: 330tw.fans8.xyz}}
-  - {name: "[vmess]🇭🇰[HK]bgpv2.ktyjsq.com:12005(9ea70d57-9cb6-3bd0-ae41-5601e516dcc6)", server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: bgpv2.ktyjsq.com}}
+  - {name: "[vmess]🇨🇳[CN]bgpv2.ktyjsq.com:12005(9ea70d57-9cb6-3bd0-ae41-5601e516dcc6)", server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: bgpv2.ktyjsq.com}}
   - {name: "[trojan]🇰🇷[KR]kr01.wangxd.life:3052(3a2c0c6c-9ee5-c05f-c951-fcd73831983e)", server: kr01.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr01.wangxd.life, tls: true, skip-cert-verify: true}
   - {name: "[trojan]🇨🇦[CA]bai-piao-wang-zhe-iplc12.98848.xyz:46956(8619878a-3677-4c2d-aca5-55dbd765825f)", server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 46956, type: trojan, password: 8619878a-3677-4c2d-aca5-55dbd765825f, sni: bai-piao-wang-zhe-iplc12.98848.xyz, tls: true, skip-cert-verify: true}
   - {name: "[ss]🇯🇵[JP]b5d28a9.sd.gladns.com:8474(a501c82c72d790b8)", server: b5d28a9.sd.gladns.com, port: 8474, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8}
@@ -986,15 +998,3 @@ proxies:
   - {name: "[trojan]🇨🇳[CN]dx.yhy520.xyz:58817(1f15de95-28f9-3859-ad06-2f5bbf08c260)", server: dx.yhy520.xyz, port: 58817, type: trojan, password: 1f15de95-28f9-3859-ad06-2f5bbf08c260, sni: dx.yhy520.xyz, tls: true, skip-cert-verify: true}
   - {name: "[trojan]🇨🇳[CN]dx.yhy520.xyz:58821(1f15de95-28f9-3859-ad06-2f5bbf08c260)", server: dx.yhy520.xyz, port: 58821, type: trojan, password: 1f15de95-28f9-3859-ad06-2f5bbf08c260, sni: dx.yhy520.xyz, tls: true, skip-cert-verify: true}
   - {name: "[trojan]🇨🇳[CN]dx.yhy520.xyz:58824(1f15de95-28f9-3859-ad06-2f5bbf08c260)", server: dx.yhy520.xyz, port: 58824, type: trojan, password: 1f15de95-28f9-3859-ad06-2f5bbf08c260, sni: dx.yhy520.xyz, tls: true, skip-cert-verify: true}
-  - {name: "[trojan]🇨🇳[CN]dx.yhy520.xyz:58825(1f15de95-28f9-3859-ad06-2f5bbf08c260)", server: dx.yhy520.xyz, port: 58825, type: trojan, password: 1f15de95-28f9-3859-ad06-2f5bbf08c260, sni: dx.yhy520.xyz, tls: true, skip-cert-verify: true}
-  - {name: "[trojan]🇨🇳[CN]dx.yhy520.xyz:58828(1f15de95-28f9-3859-ad06-2f5bbf08c260)", server: dx.yhy520.xyz, port: 58828, type: trojan, password: 1f15de95-28f9-3859-ad06-2f5bbf08c260, sni: dx.yhy520.xyz, tls: true, skip-cert-verify: true}
-  - {name: "[trojan]🇨🇳[CN]lt.yhy520.xyz:58802(1f15de95-28f9-3859-ad06-2f5bbf08c260)", server: lt.yhy520.xyz, port: 58802, type: trojan, password: 1f15de95-28f9-3859-ad06-2f5bbf08c260, sni: lt.yhy520.xyz, tls: true, skip-cert-verify: true}
-  - {name: "[trojan]🇨🇳[CN]lt.yhy520.xyz:58806(1f15de95-28f9-3859-ad06-2f5bbf08c260)", server: lt.yhy520.xyz, port: 58806, type: trojan, password: 1f15de95-28f9-3859-ad06-2f5bbf08c260, sni: lt.yhy520.xyz, tls: true, skip-cert-verify: true}
-  - {name: "[trojan]🇨🇳[CN]lt.yhy520.xyz:58808(1f15de95-28f9-3859-ad06-2f5bbf08c260)", server: lt.yhy520.xyz, port: 58808, type: trojan, password: 1f15de95-28f9-3859-ad06-2f5bbf08c260, sni: lt.yhy520.xyz, tls: true, skip-cert-verify: true}
-  - {name: "[trojan]🇨🇳[CN]lt.yhy520.xyz:58810(1f15de95-28f9-3859-ad06-2f5bbf08c260)", server: lt.yhy520.xyz, port: 58810, type: trojan, password: 1f15de95-28f9-3859-ad06-2f5bbf08c260, sni: lt.yhy520.xyz, tls: true, skip-cert-verify: true}
-  - {name: "[trojan]🇨🇳[CN]lt.yhy520.xyz:58812(1f15de95-28f9-3859-ad06-2f5bbf08c260)", server: lt.yhy520.xyz, port: 58812, type: trojan, password: 1f15de95-28f9-3859-ad06-2f5bbf08c260, sni: lt.yhy520.xyz, tls: true, skip-cert-verify: true}
-  - {name: "[trojan]🇨🇳[CN]lt.yhy520.xyz:58813(1f15de95-28f9-3859-ad06-2f5bbf08c260)", server: lt.yhy520.xyz, port: 58813, type: trojan, password: 1f15de95-28f9-3859-ad06-2f5bbf08c260, sni: lt.yhy520.xyz, tls: true, skip-cert-verify: true}
-  - {name: "[trojan]🇨🇳[CN]lt.yhy520.xyz:58818(1f15de95-28f9-3859-ad06-2f5bbf08c260)", server: lt.yhy520.xyz, port: 58818, type: trojan, password: 1f15de95-28f9-3859-ad06-2f5bbf08c260, sni: lt.yhy520.xyz, tls: true, skip-cert-verify: true}
-  - {name: "[trojan]🇨🇳[CN]lt.yhy520.xyz:58819(1f15de95-28f9-3859-ad06-2f5bbf08c260)", server: lt.yhy520.xyz, port: 58819, type: trojan, password: 1f15de95-28f9-3859-ad06-2f5bbf08c260, sni: lt.yhy520.xyz, tls: true, skip-cert-verify: true}
-  - {name: "[trojan]🇨🇳[CN]lt.yhy520.xyz:58820(1f15de95-28f9-3859-ad06-2f5bbf08c260)", server: lt.yhy520.xyz, port: 58820, type: trojan, password: 1f15de95-28f9-3859-ad06-2f5bbf08c260, sni: lt.yhy520.xyz, tls: true, skip-cert-verify: true}
-  - {name: "[trojan]🇨🇳[CN]lt.yhy520.xyz:58827(1f15de95-28f9-3859-ad06-2f5bbf08c260)", server: lt.yhy520.xyz, port: 58827, type: trojan, password: 1f15de95-28f9-3859-ad06-2f5bbf08c260, sni: lt.yhy520.xyz, tls: true, skip-cert-verify: true}
