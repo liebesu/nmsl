@@ -1,4 +1,11 @@
 proxies:
+  - {name: "[ss]🇨🇳[CN]btwbfhg.buizcy.xyz:28221(nexitally)", server: btwbfhg.buizcy.xyz, port: 28221, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}}
+  - {name: "[ss]🇨🇳[CN]btwbfhg.buizcy.xyz:30353(nexitally)", server: btwbfhg.buizcy.xyz, port: 30353, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}}
+  - {name: "[ss]🇨🇳[CN]btwbfhg.buizcy.xyz:31356(nexitally)", server: btwbfhg.buizcy.xyz, port: 31356, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}}
+  - {name: "[ss]🇨🇳[CN]jdmscys.ljqoal.xyz:31410(nexitally)", server: jdmscys.ljqoal.xyz, port: 31410, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}}
+  - {name: "[ss]🇨🇳[CN]jdmscys.ljqoal.xyz:26506(nexitally)", server: jdmscys.ljqoal.xyz, port: 26506, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}}
+  - {name: "[ss]🇨🇳[CN]jdmscys.ljqoal.xyz:25942(nexitally)", server: jdmscys.ljqoal.xyz, port: 25942, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}}
+  - {name: "[ss]🇨🇳[CN]jdmscys.ljqoal.xyz:31588(nexitally)", server: jdmscys.ljqoal.xyz, port: 31588, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}}
   - {name: "[ss]🇨🇳[CN]jdmscys.ljqoal.xyz:27250(nexitally)", server: jdmscys.ljqoal.xyz, port: 27250, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}}
   - {name: "[ss]🇨🇳[CN]jdmscys.ljqoal.xyz:27366(nexitally)", server: jdmscys.ljqoal.xyz, port: 27366, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}}
   - {name: "[ss]🇨🇳[CN]jdmscys.ljqoal.xyz:25190(nexitally)", server: jdmscys.ljqoal.xyz, port: 25190, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}}
@@ -870,7 +877,7 @@ proxies:
   - {name: "[ss]🇦🇶[NOWHERE]gk.shenseven.xyz:32087(5701fb16-1c35-40b2-84f9-9b953404cbcd)", server: gk.shenseven.xyz, port: 32087, type: ss, cipher: chacha20-ietf-poly1305, password: 5701fb16-1c35-40b2-84f9-9b953404cbcd}
   - {name: "[ss]🇨🇳[CN]122.9.62.37:4720(573d4c8f31e9e003ea3cb800aa29f00a4c744f63ed57a807cbbc6e725db1e21d)", server: 122.9.62.37, port: 4720, type: ss, cipher: chacha20-ietf-poly1305, password: 573d4c8f31e9e003ea3cb800aa29f00a4c744f63ed57a807cbbc6e725db1e21d}
   - {name: "[ss]🇦🇶[NOWHERE]free-node-2.fnyun.xyz:443(5RJNPYT4ewK4)", server: free-node-2.fnyun.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5RJNPYT4ewK4}
-  - {name: "[ss]🇨🇳[CN]hk-s-route.teacher2060.com:40603(76820787)", server: hk-s-route.teacher2060.com, port: 40603, type: ss, cipher: chacha20-ietf-poly1305, password: 76820787}
+  - {name: "[ss]🇨🇳[CN]hk-s-route.teacher2060.com:40603(76820787)", server: hk-s-route.teacher2060.com, port: 40603, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 76820787}
   - {name: "[ss]🇦🇶[NOWHERE]cm-1.ssp-node.com:16101(80e70717-6fd5-4625-825b-824775da691c)", server: cm-1.ssp-node.com, port: 16101, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c}
   - {name: "[ss]🇦🇶[NOWHERE]cm-1.ssp-node.com:16102(80e70717-6fd5-4625-825b-824775da691c)", server: cm-1.ssp-node.com, port: 16102, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c}
   - {name: "[ss]🇦🇶[NOWHERE]cm-1.ssp-node.com:16103(80e70717-6fd5-4625-825b-824775da691c)", server: cm-1.ssp-node.com, port: 16103, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c}
@@ -992,10 +999,3 @@ proxies:
   - {name: "[ss]🇦🇶[NOWHERE]cm.3sx.xyz:61001(ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9)", server: cm.3sx.xyz, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
   - {name: "[ss]🇦🇶[NOWHERE]cm.3sx.xyz:61002(ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9)", server: cm.3sx.xyz, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
   - {name: "[ss]🇦🇶[NOWHERE]cm.3sx.xyz:61023(ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9)", server: cm.3sx.xyz, port: 61023, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
-  - {name: "[ss]🇦🇶[NOWHERE]cm.3sx.xyz:61024(ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9)", server: cm.3sx.xyz, port: 61024, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
-  - {name: "[ss]🇦🇶[NOWHERE]iepl.3sx.xyz:11001(ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9)", server: iepl.3sx.xyz, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
-  - {name: "[ss]🇦🇶[NOWHERE]iepl.3sx.xyz:11002(ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9)", server: iepl.3sx.xyz, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
-  - {name: "[ss]🇦🇶[NOWHERE]iepl.3sx.xyz:21001(ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9)", server: iepl.3sx.xyz, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
-  - {name: "[ss]🇦🇶[NOWHERE]iepl.3sx.xyz:21002(ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9)", server: iepl.3sx.xyz, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
-  - {name: "[ss]🇦🇶[NOWHERE]iepl.3sx.xyz:21003(ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9)", server: iepl.3sx.xyz, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
-  - {name: "[ss]🇦🇶[NOWHERE]iepl.3sx.xyz:21004(ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9)", server: iepl.3sx.xyz, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
