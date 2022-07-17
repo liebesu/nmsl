@@ -5,6 +5,7 @@ import json
 import re
 import socket
 import urllib.parse
+from curses.ascii import isdigit
 
 import geoip2.database
 import requests
@@ -369,6 +370,7 @@ class sub_convert():
 
     def yaml_encode(lines):  # 将 URL 内容转换为 YAML (输出默认 YAML 格式)
         url_list = []
+        cipher_list = ['rc4', 'chacha20', 'chacha20-poly1305']
         for line in lines:
             yaml_url = {}
             if 'vmess://' in line:
@@ -381,8 +383,6 @@ class sub_convert():
                     }
                     vmess_default_config.update(vmess_json_config)
                     vmess_config = vmess_default_config
-
-                    yaml_url = {}
                     #yaml_config_str = ['name', 'server', 'port', 'type', 'uuid', 'alterId', 'cipher', 'tls', 'skip-cert-verify', 'network', 'ws-path', 'ws-headers']
                     #vmess_config_str = ['ps', 'add', 'port', 'id', 'aid', 'scy', 'tls', 'net', 'host', 'path']
                     # 生成 yaml 节点字典
@@ -448,11 +448,11 @@ class sub_convert():
                     yaml_url.setdefault('server', server_list[0])
                     yaml_url.setdefault('port', server_parameters[0])
                     yaml_url.setdefault('type', 'ss')
-                    if encrypted_list[0] == 'chacha20-poly1305':
-                        continue
+                    yaml_url.setdefault('cipher', encrypted_list[0])
+                    if encrypted_list[1].isdigit():
+                        yaml_url.setdefault('password', '!<str> ' + encrypted_list[1])
                     else:
-                        yaml_url.setdefault('cipher', encrypted_list[0])
-                    yaml_url.setdefault('password', encrypted_list[1])
+                        yaml_url.setdefault('password', encrypted_list[1])
                     if len(server_parameters) > 1:
                         parameters_raw = urllib.parse.unquote(server_parameters[1])
                         parameters = parameters_raw.split(';')
@@ -506,11 +506,11 @@ class sub_convert():
                     yaml_url.setdefault('server', server_part_list[0])
                     yaml_url.setdefault('port', server_part_list[1])
                     yaml_url.setdefault('type', 'ssr')
-                    if server_part_list[3] == 'chacha20' or server_part_list[3] == 'rc4':
-                        continue
+                    yaml_url.setdefault('cipher', server_part_list[3])
+                    if sub_convert.base64_decode(server_part_list[5]).isdigit():
+                        yaml_url.setdefault('password', '!<str> ' + sub_convert.base64_decode(server_part_list[5]))
                     else:
-                        yaml_url.setdefault('cipher', server_part_list[3])
-                    yaml_url.setdefault('password', sub_convert.base64_decode(server_part_list[5]))
+                        yaml_url.setdefault('password', sub_convert.base64_decode(server_part_list[5]))
                     yaml_url.setdefault('protocol', server_part_list[2])
                     yaml_url.setdefault('obfs', server_part_list[4])
                     for item in ssr_part:
@@ -548,7 +548,10 @@ class sub_convert():
                     yaml_url.setdefault('server', server_part_list[1])
                     yaml_url.setdefault('port', server_part_list[2])
                     yaml_url.setdefault('type', 'trojan')
-                    yaml_url.setdefault('password', server_part_list[0])
+                    if server_part_list[0].isdigit():
+                        yaml_url.setdefault('password', '!<str> ' + server_part_list[0])
+                    else:
+                        yaml_url.setdefault('password', server_part_list[0])
                     yaml_url.setdefault('sni', server_part_list[1])
                     server_part_list_parameters = server_part_list[3:]
 
@@ -575,6 +578,10 @@ class sub_convert():
                 except Exception as err:
                     print(f'yaml_encode 解析 trojan 节点发生错误: {err}')
                     pass
+            if 'cipher' in yaml_url:
+                for cipher in cipher_list:
+                    if yaml_url['cipher'] == cipher:
+                        continue
             yaml_node_raw = str(yaml_url)
             yaml_node_body = yaml_node_raw.replace('\'', '')
             yaml_node_head = '  - '
