@@ -370,7 +370,7 @@ class sub_convert():
 
     def yaml_encode(lines):  # 将 URL 内容转换为 YAML (输出默认 YAML 格式)
         url_list = []
-        cipher_list = ['rc4', 'chacha20', 'chacha20-poly1305']
+        cipher_list = ['rc4', 'chacha20-poly1305']
         for line in lines:
             yaml_url = {}
             if 'vmess://' in line:
