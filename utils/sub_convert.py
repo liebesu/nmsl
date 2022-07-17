@@ -581,7 +581,9 @@ class sub_convert():
             if 'cipher' in yaml_url:
                 for cipher in cipher_list:
                     if yaml_url['cipher'] == cipher:
-                        continue
+                        break
+                if yaml_url['cipher'] == cipher:
+                    continue
             yaml_node_raw = str(yaml_url)
             yaml_node_body = yaml_node_raw.replace('\'', '')
             yaml_node_head = '  - '
