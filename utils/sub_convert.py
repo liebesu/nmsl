@@ -579,10 +579,12 @@ class sub_convert():
                     print(f'yaml_encode 解析 trojan 节点发生错误: {err}')
                     pass
             if 'cipher' in yaml_url:
+                cipher_break_flag = False
                 for cipher in cipher_list:
                     if yaml_url['cipher'] == cipher:
+                        cipher_break_flag = True
                         break
-                if yaml_url['cipher'] == cipher:
+                if cipher_break_flag:
                     continue
             yaml_node_raw = str(yaml_url)
             yaml_node_body = yaml_node_raw.replace('\'', '')
