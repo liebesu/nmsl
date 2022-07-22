@@ -74,9 +74,11 @@ class sub_convert():
     def format(node_list):
         # 重命名
         node_list_formated_array = []
+        # 替换://://字符串，以修复后期toclash转换错误
+        node_list = node_list.replace('://://', '://')
         node_list_array = node_list.split('\n')
         for node in node_list_array:
-            # ss有多种情况待办
+            # ss有多种格式，需要分别处理
             if 'ss://' in node and 'vless://' not in node and 'vmess://' not in node:
                 try:
                     node_del_head = node.replace('ss://', '')
