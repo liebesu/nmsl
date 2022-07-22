@@ -3,7 +3,7 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAiW3ZtZXNzXVx1ZDgzY1x1ZGRlZFx1ZDgzY1x1ZGRmMFtIS100
 ss://YWVzLTI1Ni1jZmI6Yndoc2tyc2tyMDU@97.64.122.63:253#%5Bss%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5D97.64.122.63%3A253%28bwhskrskr05%29
 vmess://eyJ2IjogIjIiLCAicHMiOiAiW3ZtZXNzXVx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOFtVU101MS44MS4yMjMuMjA6NDQzKGMwMTU2NDUxLTRlZmItNDVlMi04NGZjLThkMzE1YzQ2NTBkYikiLCAiYWRkIjogIjUxLjgxLjIyMy4yMCIsICJwb3J0IjogIjQ0MyIsICJ0eXBlIjogImF1dG8iLCAiaWQiOiAiYzAxNTY0NTEtNGVmYi00NWUyLTg0ZmMtOGQzMTVjNDY1MGRiIiwgImFpZCI6ICIzMiIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiLyIsICJob3N0IjogIiIsICJ0bHMiOiAiIn0=
 ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ@38.143.66.20:5500#%5Bss%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5D38.143.66.20%3A5500%28KixLvKzwjekG00rm%29
-trojan://trojan-daozhu-uallen-qbit-azure-hk@trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dtrojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com%3A443%28trojan-daozhu-uallen-qbit-azure-hk%29
+trojan://trojan-daozhu-uallen-qbit-azure-hk@trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dtrojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com%3A443%28trojan-daozhu-uallen-qbit-azure-hk%29
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@78.129.253.9:808#%5Bss%5D%F0%9F%87%AC%F0%9F%87%A7%5BGB%5D78.129.253.9%3A808%28G%21yBwPWH3Vao%29
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@78.129.253.9:809#%5Bss%5D%F0%9F%87%AC%F0%9F%87%A7%5BGB%5D78.129.253.9%3A809%28G%21yBwPWH3Vao%29
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@196.247.59.154:806#%5Bss%5D%F0%9F%87%A8%F0%9F%87%A6%5BCA%5D196.247.59.154%3A806%28G%21yBwPWH3Vao%29
