@@ -151,7 +151,7 @@
     "remarks": "v2raydy/v2ray",
     "site": "https://github.com/v2raydy/v2ray",
     "url": "https://raw.githubusercontent.com/v2raydy/v2ray/main/02-22u1.txt",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 22,
