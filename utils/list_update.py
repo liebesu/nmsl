@@ -101,12 +101,12 @@ class update_url():
         elif id == 25:
             # remarks: v2raydy/v2ray, 将原链接更新至 https://https://raw.githubusercontent.com/v2raydy/v2ray/main/%MM-%(DD - 1)%str%1.txt
             # 得到当前日期前一天 https://blog.csdn.net/wanghuafengc/article/details/42458721
-            today = datetime.today().strftime('%Y%m%d')
+            yesterday = (datetime.today() + timedelta(-1)).strftime('%Y%m%d')
             month = datetime.today().strftime('%Y%m') +'/'
             year = datetime.today().strftime('%Y') +'/'
             front_url = 'https://v2rayshare.com/wp-content/uploads/'
             end_url = '.txt'
-            url_update = front_url + year + month + today + end_url
+            url_update = front_url + year + month + yesterday + end_url
             if check_url(url_update):
                 return [25, url_update]
             else:

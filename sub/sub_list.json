@@ -178,7 +178,7 @@
     "id": 25,
     "remarks": "FiFier/v2rayShare",
     "site": "https://github.com/FiFier/v2rayShare",
-    "url": "https://v2rayshare.com/wp-content/uploads/2022/06/20220604.txt",
+    "url": "https://v2rayshare.com/wp-content/uploads/2022/07/20220722.txt",
     "enabled": true
   },
   {
@@ -206,7 +206,7 @@
     "id": 29,
     "remarks": "FMYC2015/V2ray",
     "site": "https://github.com/FMYC2015/V2ray",
-    "url": "https://raw.githubusercontent.com/FMYC2015/V2ray/main/2022/2022-06-02",
+    "url": "https://raw.githubusercontent.com/FMYC2015/V2ray/main/Share.Base64",
     "enabled": true
   },
   {
@@ -281,10 +281,10 @@
   },
   {
     "id": 40,
-    "remarks": "webdao/v2ray",
-    "site": "https://github.com/webdao/v2ray",
-    "url": "https://raw.githubusercontent.com/webdao/v2ray/master/nodes.txt",
-    "enabled": false
+    "remarks": "mianfeifq/share",
+    "site": "https://github.com/mianfeifq/share",
+    "url": "https://raw.githubusercontent.com/mianfeifq/share/main/data2022071.txt",
+    "enabled": true
   },
   {
     "id": 41,
@@ -295,10 +295,10 @@
   },
   {
     "id": 42,
-    "remarks": "skywolf627/ProxiesActions",
-    "site": "https://github.com/skywolf627/ProxiesActions",
-    "url": "https://raw.githubusercontent.com/skywolf627/VmessActions/main/subscribe/vmess.txt",
-    "enabled": false
+    "remarks": "Rx5557770/v2ray_proxy",
+    "site": "https://github.com/Rx5557770/v2ray_proxy",
+    "url": "https://raw.githubusercontent.com/Rx5557770/v2ray_proxy/master/ws_V2ray|https://raw.githubusercontent.com/Rx5557770/v2ray_proxy/master/Proxy",
+    "enabled": true
   },
   {
     "id": 43,
@@ -354,6 +354,13 @@
     "remarks": "samjoeyang/subscribe",
     "site": "https://github.com/samjoeyang/subscribe",
     "url": "https://raw.githubusercontent.com/samjoeyang/subscribe/main/fly",
+    "enabled": true
+  },
+  {
+    "id": 51,
+    "remarks": "69z1zfw2fly/fly",
+    "site": "https://github.com/69z1zfw2fly/fly",
+    "url": "https://raw.githubusercontent.com/69z1zfw2fly/fly/main/1.yaml|https://raw.githubusercontent.com/69z1zfw2fly/fly/main/2.yaml",
     "enabled": true
   }
 ]
