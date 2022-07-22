@@ -449,7 +449,8 @@ class sub_convert():
                     yaml_url.setdefault('port', server_parameters[0])
                     yaml_url.setdefault('type', 'ss')
                     yaml_url.setdefault('cipher', encrypted_list[0])
-                    if encrypted_list[1].isdigit() or isinstance(encrypted_list[1], float):
+                    server_password = encrypted_list[1]
+                    if server_password.isdigit() or server_password.replace('.', '').isdigit():
                         yaml_url.setdefault('password', '!<str> ' + encrypted_list[1])
                     else:
                         yaml_url.setdefault('password', encrypted_list[1])
@@ -507,7 +508,8 @@ class sub_convert():
                     yaml_url.setdefault('port', server_part_list[1])
                     yaml_url.setdefault('type', 'ssr')
                     yaml_url.setdefault('cipher', server_part_list[3])
-                    if sub_convert.base64_decode(server_part_list[5]).isdigit() or isinstance(sub_convert.base64_decode(server_part_list[5]), float):
+                    server_password = sub_convert.base64_decode(server_part_list[5])
+                    if server_password.isdigit() or server_password.replace('.', '').isdigit():
                         yaml_url.setdefault('password', '!<str> ' + sub_convert.base64_decode(server_part_list[5]))
                     else:
                         yaml_url.setdefault('password', sub_convert.base64_decode(server_part_list[5]))
@@ -548,7 +550,8 @@ class sub_convert():
                     yaml_url.setdefault('server', server_part_list[1])
                     yaml_url.setdefault('port', server_part_list[2])
                     yaml_url.setdefault('type', 'trojan')
-                    if server_part_list[0].isdigit() or isinstance(server_part_list[0], float):
+                    server_password = server_part_list[0]
+                    if server_password.isdigit() or server_password.replace('.', '').isdigit():
                         yaml_url.setdefault('password', '!<str> ' + server_part_list[0])
                     else:
                         yaml_url.setdefault('password', server_part_list[0])
