@@ -1,6 +1,4 @@
 proxies:
-  - {name: "[vmess]🇺🇸[US]706cv4nbax36m5.cooc.icu:443(614439c2-6369-46d4-a69d-4cb0c676095f)", server: 706cv4nbax36m5.cooc.icu, port: 443, type: vmess, uuid: 614439c2-6369-46d4-a69d-4cb0c676095f, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 706cv4nbax36m5.cooc.icu}}
-  - {name: "[ss]🇨🇳[CN]xmw2cmo86mgq2n.cooc.icu:48001(614439c2-6369-46d4-a69d-4cb0c676095f)", server: xmw2cmo86mgq2n.cooc.icu, port: 48001, type: ss, cipher: chacha20-ietf-poly1305, password: 614439c2-6369-46d4-a69d-4cb0c676095f}
   - {name: "[ss]🇨🇳[CN]ldo5vrv29i1rhl.cooc.icu:55114(614439c2-6369-46d4-a69d-4cb0c676095f)", server: ldo5vrv29i1rhl.cooc.icu, port: 55114, type: ss, cipher: chacha20-ietf-poly1305, password: 614439c2-6369-46d4-a69d-4cb0c676095f}
   - {name: "[ss]🇨🇳[CN]97kftghlsi7uj.cooc.icu:55058(614439c2-6369-46d4-a69d-4cb0c676095f)", server: 97kftghlsi7uj.cooc.icu, port: 55058, type: ss, cipher: chacha20-ietf-poly1305, password: 614439c2-6369-46d4-a69d-4cb0c676095f}
   - {name: "[ss]🇨🇳[CN]73fftghlsidj6.cooc.icu:55056(614439c2-6369-46d4-a69d-4cb0c676095f)", server: 73fftghlsidj6.cooc.icu, port: 55056, type: ss, cipher: chacha20-ietf-poly1305, password: 614439c2-6369-46d4-a69d-4cb0c676095f}
@@ -999,3 +997,5 @@ proxies:
   - {name: "[ss]🇬🇧[GB]172.99.190.87:5000(Y6R9pAtvxxzmGC)", server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇦🇶[NOWHERE]free-node-7.fnyun.xyz:443(AicBTLz3aAjH)", server: free-node-7.fnyun.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: AicBTLz3aAjH}
   - {name: "[ss]🇦🇺[AU]172.105.171.80:3389(Y6R9pAtvxxzmGC)", server: 172.105.171.80, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇦🇺[AU]172.105.187.158:8888(Y6R9pAtvxxzmGC)", server: 172.105.187.158, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇬🇧[GB]172.99.190.246:2376(faBAoD54k87UJG7)", server: 172.99.190.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
