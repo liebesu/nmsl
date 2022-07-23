@@ -1,4 +1,6 @@
 proxies:
+  - {name: "[ss]🇸🇬[SG]194.124.35.23:811(G!yBwPWH3Vao)", server: 194.124.35.23, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "[ss]🇸🇬[SG]81.90.189.7:801(G!yBwPWH3Vao)", server: 81.90.189.7, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: "[ss]🇸🇬[SG]194.124.35.24:803(G!yBwPWH3Vao)", server: 194.124.35.24, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: "[ss]🇸🇬[SG]194.124.35.25:811(G!yBwPWH3Vao)", server: 194.124.35.25, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: "[ss]🇸🇬[SG]194.124.35.24:804(G!yBwPWH3Vao)", server: 194.124.35.24, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
@@ -996,5 +998,3 @@ proxies:
   - {name: "[vmess]🇰🇷[KR]hk18.bp777.buzz:21665(b79722de-579a-4882-8041-2c54c4922a71)", server: hk18.bp777.buzz, port: 21665, type: vmess, uuid: b79722de-579a-4882-8041-2c54c4922a71, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: hk18.bp777.buzz}}
   - {name: "[vmess]🇰🇷[KR]hk19.bp777.buzz:21665(b79722de-579a-4882-8041-2c54c4922a71)", server: hk19.bp777.buzz, port: 21665, type: vmess, uuid: b79722de-579a-4882-8041-2c54c4922a71, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: hk19.bp777.buzz}}
   - {name: "[vmess]🇰🇷[KR]hk20.bp777.buzz:21665(b79722de-579a-4882-8041-2c54c4922a71)", server: hk20.bp777.buzz, port: 21665, type: vmess, uuid: b79722de-579a-4882-8041-2c54c4922a71, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: hk20.bp777.buzz}}
-  - {name: "[vmess]🇰🇷[KR]hk01.bp777.buzz:21665(be4608be-8d4c-4a84-b135-68230a3228a4)", server: hk01.bp777.buzz, port: 21665, type: vmess, uuid: be4608be-8d4c-4a84-b135-68230a3228a4, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: hk01.bp777.buzz}}
-  - {name: "[vmess]🇰🇷[KR]hk02.bp777.buzz:21665(be4608be-8d4c-4a84-b135-68230a3228a4)", server: hk02.bp777.buzz, port: 21665, type: vmess, uuid: be4608be-8d4c-4a84-b135-68230a3228a4, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: hk02.bp777.buzz}}
