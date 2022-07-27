@@ -362,5 +362,12 @@
     "site": "https://github.com/69z1zfw2fly/fly",
     "url": "https://raw.githubusercontent.com/69z1zfw2fly/fly/main/1.yaml|https://raw.githubusercontent.com/69z1zfw2fly/fly/main/2.yaml",
     "enabled": true
+  },
+  {
+    "id": 52,
+    "remarks": "travelerv2.xyz",
+    "site": "http://www.travelerv2.xyz/",
+    "url": "http://www.travelerv2.xyz/link/WV6gJA6vOI4PdGGm?sub=1|http://www.travelerv2.xyz/link/WV6gJA6vOI4PdGGm?sub=2|http://www.travelerv2.xyz/link/WV6gJA6vOI4PdGGm?sub=3|http://www.travelerv2.xyz/link/WV6gJA6vOI4PdGGm?sub=4",
+    "enabled": true
   }
 ]
