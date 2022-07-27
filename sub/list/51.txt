@@ -79,7 +79,7 @@ trojan://58d32c66-43b1-4561-9951-d87c9123774e@jgwld4.gaox.ml:443?allowInsecure=1
 trojan://d7fd8aaa-4581-4281-80aa-4b63e5e1f157@jgwld2.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AC%F0%9F%87%A7%5BGB%5Djgwld2.gaox.ml%3A443%28d7fd8aaa-4581-4281-80aa-4b63e5e1f157%29
 trojan://02e653c9-7c93-46a9-999d-11834bd0c577@jgwld1.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AC%F0%9F%87%A7%5BGB%5Djgwld1.gaox.ml%3A443%2802e653c9-7c93-46a9-999d-11834bd0c577%29
 trojan://trojan-daozhu-uallen-qbit-azure-hk@trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dtrojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com%3A443%28trojan-daozhu-uallen-qbit-azure-hk%29
-trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20712?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dazgy001.xiba1.xyz%3A20712%287497242f-3044-3c77-bf48-14bb26c92a83%29
+trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20712?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dazgy001.xiba1.xyz%3A20712%287497242f-3044-3c77-bf48-14bb26c92a83%29
 trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20711?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dazgy001.xiba1.xyz%3A20711%287497242f-3044-3c77-bf48-14bb26c92a83%29
 trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20710?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dazgy001.xiba1.xyz%3A20710%287497242f-3044-3c77-bf48-14bb26c92a83%29
 trojan://69d0bd70-0e7c-45db-98f8-d1dc28ad73a2@715hk03.ok365.cyou:12388?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5D715hk03.ok365.cyou%3A12388%2869d0bd70-0e7c-45db-98f8-d1dc28ad73a2%29
@@ -91,7 +91,7 @@ trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?allowInsecure
 trojan://e05c749b-7c6b-41b8-9c71-9dcf685edf4a@jgwhdlb1.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AE%F0%9F%87%B3%5BIN%5Djgwhdlb1.gaox.ml%3A443%28e05c749b-7c6b-41b8-9c71-9dcf685edf4a%29
 trojan://ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428@musashino.freetrade.link:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Dmusashino.freetrade.link%3A443%28ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428%29
 trojan://8d2d5953-d649-4034-94f2-72f2df2623da@jgwdb3.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Djgwdb3.gaox.ml%3A443%288d2d5953-d649-4034-94f2-72f2df2623da%29
-trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Djgwdj3.gaox.ml%3A443%28da777aae-defb-41d0-a183-2c27da2b4677%29
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Djgwdj3.gaox.ml%3A443%28da777aae-defb-41d0-a183-2c27da2b4677%29
 trojan://d06a3f01-1ff0-4792-9b8e-a5a604bc74a2@jgwdb4.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Djgwdb4.gaox.ml%3A443%28d06a3f01-1ff0-4792-9b8e-a5a604bc74a2%29
 trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Djgwdb2.gaox.ml%3A443%28c19d1432-8b3e-4818-8837-3d160cf65908%29
 trojan://f2117e99-9b6e-47fd-b0a9-634a0b15b998@jgw2.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Djgw2.gaox.ml%3A443%28f2117e99-9b6e-47fd-b0a9-634a0b15b998%29
