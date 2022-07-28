@@ -1,5 +1,4 @@
 proxies:
-  - {name: "[ss]🇩🇪[DE]5.183.179.145:9014(KnJGad3FqTvjqbaX)", server: 5.183.179.145, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX}
   - {name: "[ss]🇩🇪[DE]5.183.179.166:9018(fG2artUmHfNT2cX7)", server: 5.183.179.166, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7}
   - {name: "[ss]🇬🇧[GB]172.99.190.92:7306(FoOiGlkAA9yPEGP)", server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: "[ss]🇬🇧[GB]172.99.190.188:7001(RexnBgU7EV5ADxG)", server: 172.99.190.188, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
@@ -999,3 +998,4 @@ proxies:
   - {name: "[ss]🇦🇶[NOWHERE]iiiii.3sx.xyz:61002(ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9)", server: iiiii.3sx.xyz, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
   - {name: "[ss]🇨🇳[CN]00178641680d4f73a85ff60e4cd27628sa.jkcloud.xyz:6700(b62bc77c-b2f2-4b6f-b48b-d872ecc83848)", server: 00178641680d4f73a85ff60e4cd27628sa.jkcloud.xyz, port: 6700, type: ss, cipher: chacha20-ietf-poly1305, password: b62bc77c-b2f2-4b6f-b48b-d872ecc83848}
   - {name: "[ss]🇨🇳[CN]00178641680d4f73a85ff60e4cd27628sa.jkcloud.xyz:6701(b62bc77c-b2f2-4b6f-b48b-d872ecc83848)", server: 00178641680d4f73a85ff60e4cd27628sa.jkcloud.xyz, port: 6701, type: ss, cipher: chacha20-ietf-poly1305, password: b62bc77c-b2f2-4b6f-b48b-d872ecc83848}
+  - {name: "[ss]🇨🇳[CN]00178641680d4f73a85ff60e4cd27629.jkcloud.xyz:6701(b62bc77c-b2f2-4b6f-b48b-d872ecc83848)", server: 00178641680d4f73a85ff60e4cd27629.jkcloud.xyz, port: 6701, type: ss, cipher: chacha20-ietf-poly1305, password: b62bc77c-b2f2-4b6f-b48b-d872ecc83848}

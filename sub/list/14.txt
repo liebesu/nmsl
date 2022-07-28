@@ -356,7 +356,7 @@ trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@lsj02.wangxd.life:3052?allowInsecu
 trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?allowInsecure=0&sni=jgwdj3.gaox.ml#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Djgwdj3.gaox.ml%3A443%28da777aae-defb-41d0-a183-2c27da2b4677%29
 trojan://5HfENR8nt2PR8reH@rooms.starspace.link:443?allowInsecure=0&sni=rooms.starspace.link#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Drooms.starspace.link%3A443%285HfENR8nt2PR8reH%29
 trojan://e23f408a-012e-4030-8b31-02022031cb50@fhcamd1.gaox.ml:443?allowInsecure=0&sni=fhcamd1.gaox.ml#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dfhcamd1.gaox.ml%3A443%28e23f408a-012e-4030-8b31-02022031cb50%29
-trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s3.hazz.win:12340?allowInsecure=0&sni=s3.hazz.win#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Ds3.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s3.hazz.win:12340?allowInsecure=0&sni=s3.hazz.win#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Ds3.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s1.hazz.win:12340?allowInsecure=0&sni=s1.hazz.win#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Ds1.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
 trojan://dbf9bf9c-2c3f-474a-8031-d4c00666a989@fhcamd2.gaox.ml:443?allowInsecure=0&sni=fhcamd2.gaox.ml#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dfhcamd2.gaox.ml%3A443%28dbf9bf9c-2c3f-474a-8031-d4c00666a989%29
 trojan://cUDgjDkSfn@104.129.63.65:8443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5D104.129.63.65%3A8443%28cUDgjDkSfn%29
