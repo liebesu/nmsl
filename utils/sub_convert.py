@@ -72,6 +72,7 @@ class sub_convert():
 
     def format(node_list):
         # 重命名
+        password_split_points = ["("]
         node_list_formated_array = []
         # 替换://://字符串，以修复后期toclash转换错误
         node_list = node_list.replace('://://', '://')
@@ -125,6 +126,12 @@ class sub_convert():
                     server_head = sub_convert.find_country(
                         node_part_head[0])
                     password = sub_convert.base64_decode(node_part_head[5])
+                    for split_point in password_split_points:
+                        if split_point in password:
+                            password = password.split(split_point)[0]
+                            break
+                        else:
+                            continue
                     name_renamed = '[ssr]' + server_head + node_part_head[0] + ':' + \
                         node_part_head[1] + '(' + password + ')'
                     node_part_foot = node_part[-1].split('&')
