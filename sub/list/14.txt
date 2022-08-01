@@ -360,7 +360,7 @@ trojan://ukMzuFSmIXDvgW0h@cd.rutracker-cn.com:443?allowInsecure=0&sni=cd.rutrack
 trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@kr05.wangxd.life:3052?allowInsecure=0&sni=kr05.wangxd.life#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Dkr05.wangxd.life%3A3052%283a2c0c6c-9ee5-c05f-c951-fcd73831983e%29
 trojan://640e3ef0-9c44-49a8-98f6-0895b11eecd6@t03.ssrsub.com.xyz:443?allowInsecure=0&sni=t03.ssrsub.com.xyz#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dt03.ssrsub.com.xyz%3A443%28640e3ef0-9c44-49a8-98f6-0895b11eecd6%29
 trojan://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@167.88.61.2:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5D167.88.61.2%3A443%28Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8%29
-trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s3.hazz.win:12340?allowInsecure=0&sni=s3.hazz.win#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Ds3.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s3.hazz.win:12340?allowInsecure=0&sni=s3.hazz.win#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Ds3.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
 trojan://dbf9bf9c-2c3f-474a-8031-d4c00666a989@fhcamd2.gaox.ml:443?allowInsecure=0&sni=fhcamd2.gaox.ml#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dfhcamd2.gaox.ml%3A443%28dbf9bf9c-2c3f-474a-8031-d4c00666a989%29
 trojan://sharecentre@ussc.scsevers.cf:443?allowInsecure=0&sni=ussc.scsevers.cf#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dussc.scsevers.cf%3A443%28sharecentre%29
 trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@lsj02.wangxd.life:3052?allowInsecure=0&sni=lsj02.wangxd.life#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dlsj02.wangxd.life%3A3052%283a2c0c6c-9ee5-c05f-c951-fcd73831983e%29
