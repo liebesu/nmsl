@@ -5,7 +5,6 @@ import json
 import re
 import socket
 import urllib.parse
-from curses.ascii import isdigit
 
 import geoip2.database
 import requests
@@ -373,6 +372,7 @@ class sub_convert():
     def yaml_encode(lines):  # 将 URL 内容转换为 YAML (输出默认 YAML 格式)
         url_list = []
         cipher_list = ['rc4', 'chacha20-poly1305', 'chacha20']
+        password_split_points = ["("]
         for line in lines:
             yaml_url = {}
             if 'vmess://' in line:
@@ -511,6 +511,12 @@ class sub_convert():
                     yaml_url.setdefault('type', 'ssr')
                     yaml_url.setdefault('cipher', server_part_list[3])
                     server_password = sub_convert.base64_decode(server_part_list[5])
+                    for split_point in password_split_points:
+                        if split_point in server_password:
+                            server_password = server_password.split(split_point)[0]
+                            break
+                        else:
+                            continue
                     if server_password.isdigit() or server_password.replace('.', '').isdigit():
                         yaml_url.setdefault('password', '!<str> ' + sub_convert.base64_decode(server_part_list[5]))
                     else:
