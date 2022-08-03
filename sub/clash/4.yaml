@@ -731,7 +731,7 @@ proxies:
   - {name: "[ss]🇺🇸[US]45.33.93.207:443(9d6cceaa373bf2c8acb22e60b6a58be6)", server: 45.33.93.207, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6}
   - {name: "[ssr]🇺🇸[US]207.148.19.113:16209(Aa20150801*)", server: 207.148.19.113, port: 16209, type: ssr, cipher: aes-256-cfb, password: Aa20150801*, protocol: auth_chain_a, obfs: http_simple, obfs-param: "", protocol-param: ""}
   - {name: "[ss]🇺🇸[US]45.58.148.66:21763(4XVeP1)", server: 45.58.148.66, port: 21763, type: ss, cipher: aes-256-cfb, password: 4XVeP1}
-  - {name: "[ss]🇸🇨[SC]cdnssr.ssrsub.com:443(cdnssr.ssrsub.com)", server: cdnssr.ssrsub.com, port: 443, type: ss, cipher: aes-256-cfb, password: cdnssr.ssrsub.com}
+  - {name: "[ss]🇺🇸[US]cdnssr.ssrsub.com:443(cdnssr.ssrsub.com)", server: cdnssr.ssrsub.com, port: 443, type: ss, cipher: aes-256-cfb, password: cdnssr.ssrsub.com}
   - {name: "[ss]🇨🇳[CN]ssr3.ssrsub.com:8333(passfw2xs4e!)", server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
   - {name: "[ss]🇨🇳[CN]ssr4.ssrsub.com:8333(passfw2xs4e!)", server: ssr4.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
   - {name: "[ss]🇨🇦[CA]ssr1.ssrsub.com:42471(//dlj.tf/ssrsub)", server: ssr1.ssrsub.com, port: 42471, type: ss, cipher: aes-256-cfb, password: https}
