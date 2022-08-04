@@ -553,25 +553,26 @@ class sub_convert():
 
             if 'trojan://' in line:
                 try:
+                    # sysadmin&123456@wr.kxking.top:443?allowInsecure=1&sni=wr.kxking.top #%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dwr.kxking.top%3A443%28sysadmin%26123456%29
                     url_content = line.replace('trojan://', '')
-                    # https://www.runoob.com/python/att-string-split.html
-                    part_list = re.split('#', url_content, maxsplit=1)
+                    part_list = url_content.split('#')
                     yaml_url.setdefault(
                         'name', '"' + urllib.parse.unquote(part_list[1]) + '"')
-
                     server_part = part_list[0].replace('trojan://', '')
-                    # 使用多个分隔符 https://blog.csdn.net/shidamowang/article/details/80254476 https://zhuanlan.zhihu.com/p/92287240
-                    server_part_list = re.split(':|@|\?|&', server_part)
-                    yaml_url.setdefault('server', server_part_list[1])
-                    yaml_url.setdefault('port', server_part_list[2])
+                    # 分头尾,各自取值
+                    server_head = server_part.split('?')[0]
+                    server_tail = server_part.split('?')[1]
+                    server_head_part = re.split(':|@', server_head)
+                    yaml_url.setdefault('server', server_head_part[1])
+                    yaml_url.setdefault('port', server_head_part[2])
                     yaml_url.setdefault('type', 'trojan')
-                    server_password = server_part_list[0]
+                    server_password = server_head_part[0]
                     if server_password.isdigit() or server_password.replace('.', '').isdigit():
-                        yaml_url.setdefault('password', '!<str> ' + server_part_list[0])
+                        yaml_url.setdefault('password', '!<str> ' + server_password)
                     else:
-                        yaml_url.setdefault('password', server_part_list[0])
-                    yaml_url.setdefault('sni', server_part_list[1])
-                    server_part_list_parameters = server_part_list[3:]
+                        yaml_url.setdefault('password', server_password)
+                    yaml_url.setdefault('sni', server_head_part[1])
+                    server_part_list_parameters = server_tail.split('&')
 
                     for config in server_part_list_parameters:
                         if 'sni=' in config:
