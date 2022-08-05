@@ -553,15 +553,14 @@ class sub_convert():
 
             if 'trojan://' in line:
                 try:
-                    # sysadmin&123456@wr.kxking.top:443?allowInsecure=1&sni=wr.kxking.top #%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dwr.kxking.top%3A443%28sysadmin%26123456%29
                     url_content = line.replace('trojan://', '')
                     part_list = url_content.split('#')
                     yaml_url.setdefault(
                         'name', '"' + urllib.parse.unquote(part_list[1]) + '"')
                     server_part = part_list[0].replace('trojan://', '')
                     # 分头尾,各自取值
-                    server_head = server_part.split('?')[0]
-                    server_tail = server_part.split('?')[1]
+                    server_part = server_part.split('?')
+                    server_head = server_part[0]
                     server_head_part = re.split(':|@', server_head)
                     yaml_url.setdefault('server', server_head_part[1])
                     yaml_url.setdefault('port', server_head_part[2])
@@ -572,27 +571,28 @@ class sub_convert():
                     else:
                         yaml_url.setdefault('password', server_password)
                     yaml_url.setdefault('sni', server_head_part[1])
-                    server_part_list_parameters = server_tail.split('&')
-
-                    for config in server_part_list_parameters:
-                        if 'sni=' in config:
-                            yaml_url.setdefault('sni', config[4:])
-                        elif 'allowInsecure=' in config or 'tls=' in config:
-                            if config[-1] == 0:
-                                yaml_url.setdefault('tls', 'false')
-                            else:
-                                yaml_url.setdefault('tls', 'true')
-                        elif 'type=' in config:
-                            yaml_url.setdefault('network', config[5:])
-                        elif 'path=' in config:
-                            yaml_url.setdefault(
-                                'ws-path', config[5:].split('?')[0])
-                        elif 'security=' in config:
-                            if config[9:] != 'tls':
-                                yaml_url.setdefault('tls', 'false')
-                            else:
-                                yaml_url.setdefault('tls', 'true')
-
+                    # 判定是否超限
+                    if len(server_part) > 1:
+                        server_tail = server_part[1]
+                        server_part_list_parameters = server_tail.split('&')
+                        for config in server_part_list_parameters:
+                            if 'sni=' in config:
+                                yaml_url.setdefault('sni', config[4:])
+                            elif 'allowInsecure=' in config or 'tls=' in config:
+                                if config[-1] == 0:
+                                    yaml_url.setdefault('tls', 'false')
+                                else:
+                                    yaml_url.setdefault('tls', 'true')
+                            elif 'type=' in config:
+                                yaml_url.setdefault('network', config[5:])
+                            elif 'path=' in config:
+                                yaml_url.setdefault(
+                                    'ws-path', config[5:].split('?')[0])
+                            elif 'security=' in config:
+                                if config[9:] != 'tls':
+                                    yaml_url.setdefault('tls', 'false')
+                                else:
+                                    yaml_url.setdefault('tls', 'true')
                     yaml_url.setdefault('skip-cert-verify', 'true')
                 except Exception as err:
                     print(f'yaml_encode 解析 trojan 节点发生错误: {err}')
