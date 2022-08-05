@@ -1,4 +1,5 @@
 proxies:
+  - {name: "[ss]🇨🇳[CN]btwbfhg.buizcy.xyz:25135(nexitally)", server: btwbfhg.buizcy.xyz, port: 25135, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}}
   - {name: "[ss]🇨🇳[CN]btwbfhg.buizcy.xyz:31861(nexitally)", server: btwbfhg.buizcy.xyz, port: 31861, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}}
   - {name: "[ss]🇨🇳[CN]btwbfhg.buizcy.xyz:28361(nexitally)", server: btwbfhg.buizcy.xyz, port: 28361, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}}
   - {name: "[ss]🇨🇳[CN]btwbfhg.buizcy.xyz:28671(nexitally)", server: btwbfhg.buizcy.xyz, port: 28671, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: 9df3a280ad6a418d.swcdn.apple.com}}
@@ -798,7 +799,6 @@ proxies:
   - {name: "[ss]🇰🇷[KR]141.164.42.67:5601(Y6R9pAtvxxzmGC)", server: 141.164.42.67, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇺🇸[US]38.68.135.123:5004(g5MeD6Ft3CWlJId)", server: 38.68.135.123, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: "[ss]🇺🇸[US]38.68.134.48:8008(XKFKl2rULjIp74)", server: 38.68.134.48, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: "[vmess]🇺🇸[US]blog4.wweblog.pw:443(c024672d-0509-322e-8792-1b54cb82e1ac)", server: blog4.wweblog.pw, port: 443, type: vmess, uuid: c024672d-0509-322e-8792-1b54cb82e1ac, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /xxX2, tls: true, ws-headers: {Host: blog4.wweblog.pw}}
   - {name: "[vmess]🇹🇼[TW]331tw.fans8.xyz:80(7f4ff2e1-c08f-35bd-afe7-4a6a386907aa)", server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ray, tls: true, ws-headers: {Host: 331tw.fans8.xyz}}
   - {name: "[vmess]🇹🇼[TW]330tw.fans8.xyz:443(7f4ff2e1c08f35bdafe74a6a386907aa)", server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ray, tls: true, ws-headers: {Host: 330tw.fans8.xyz}}
   - {name: "[vmess]🇹🇼[TW]331tw.fans8.xyz:80(7f4ff2e1c08f35bdafe74a6a386907aa)", server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ray, tls: true, ws-headers: {Host: 331tw.fans8.xyz}}
