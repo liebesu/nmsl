@@ -1,7 +1,4 @@
 proxies:
-  - {name: "[ss]🇺🇸[US]38.75.137.71:5601(Y6R9pAtvxxzmGC)", server: 38.75.137.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "[ss]🇺🇸[US]169.197.142.99:2375(faBAoD54k87UJG7)", server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: "[ss]🇨🇦[CA]134.195.196.110:8009(XKFKl2rULjIp74)", server: 134.195.196.110, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: "[ss]🇨🇦[CA]134.195.196.52:5001(Y6R9pAtvxxzmGC)", server: 134.195.196.52, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇺🇸[US]167.88.63.89:7307(FoOiGlkAA9yPEGP)", server: 167.88.63.89, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: "[ss]🇺🇸[US]167.88.61.175:8882(kDWvXYZoTBcGkC4)", server: 167.88.61.175, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
@@ -999,3 +996,6 @@ proxies:
   - {name: "[ssr]🇦🇶[NOWHERE]a2.ssrsub.xyz:543(http://t.cn/EGJIyrl)", server: a2.ssrsub.xyz, port: 543, type: ssr, cipher: aes-256-ctr, password: http://t.cn/EGJIyrl, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, obfs-param: 付费SSR注册:http://t.cn/EGJIyrl, protocol-param: t.me/SSRSUB}
   - {name: "[ssr]🇦🇶[NOWHERE]a3.ssrsub.xyz:543(http://t.cn/EGJIyrl)", server: a3.ssrsub.xyz, port: 543, type: ssr, cipher: aes-256-ctr, password: http://t.cn/EGJIyrl, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, obfs-param: 付费SSR注册:http://t.cn/EGJIyrl, protocol-param: t.me/SSRSUB}
   - {name: "[ssr]🇦🇶[NOWHERE]a4.ssrsub.xyz:543(http://t.cn/EGJIyrl)", server: a4.ssrsub.xyz, port: 543, type: ssr, cipher: aes-256-ctr, password: http://t.cn/EGJIyrl, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, obfs-param: 付费SSR注册:http://t.cn/EGJIyrl, protocol-param: t.me/SSRSUB}
+  - {name: "[ssr]🇦🇶[NOWHERE]a5.ssrsub.xyz:543(http://t.cn/EGJIyrl)", server: a5.ssrsub.xyz, port: 543, type: ssr, cipher: aes-256-ctr, password: http://t.cn/EGJIyrl, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, obfs-param: 付费SSR注册:http://t.cn/EGJIyrl, protocol-param: t.me/SSRSUB}
+  - {name: "[ssr]🇨🇳[CN]kctr.made1nheaven.xyz:39149(GhQrDS)", server: kctr.made1nheaven.xyz, port: 39149, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, obfs-param: "", protocol-param: ""}
+  - {name: "[ssr]🇨🇳[CN]kctr.made1nheaven.xyz:39326(GhQrDS)", server: kctr.made1nheaven.xyz, port: 39326, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, obfs-param: "", protocol-param: ""}
