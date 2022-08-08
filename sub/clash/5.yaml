@@ -474,7 +474,9 @@ proxies:
   - {name: "[ss]🇰🇷[KR]141.164.42.67:5601(Y6R9pAtvxxzmGC)", server: 141.164.42.67, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇺🇸[US]38.68.135.123:5004(g5MeD6Ft3CWlJId)", server: 38.68.135.123, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: "[ss]🇺🇸[US]38.68.134.48:8008(XKFKl2rULjIp74)", server: 38.68.134.48, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: "[vmess]🏁[RELAY]blog4.wweblog.pw:443(c024672d-0509-322e-8792-1b54cb82e1ac)", server: blog4.wweblog.pw, port: 443, type: vmess, uuid: c024672d-0509-322e-8792-1b54cb82e1ac, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /xxX2, tls: true, ws-headers: {Host: blog4.wweblog.pw}}
+  - {name: "[ss]🇷🇺[RU]213.183.53.198:9010(f63gg8EruDnUrmz4)", server: 213.183.53.198, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4}
+  - {name: "[trojan]🇺🇸[US]los1.v2ce.com:443(fIYU5DCiWZ6uYOou)", server: los1.v2ce.com, port: 443, type: trojan, password: fIYU5DCiWZ6uYOou, sni: los1.v2ce.com, tls: true, skip-cert-verify: true}
+  - {name: "[ss]🇺🇸[US]172.96.192.100:246(bwhskrskr05)", server: 172.96.192.100, port: 246, type: ss, cipher: aes-256-cfb, password: bwhskrskr05}
   - {name: "[vmess]🇹🇼[TW]331tw.fans8.xyz:80(7f4ff2e1-c08f-35bd-afe7-4a6a386907aa)", server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ray, tls: true, ws-headers: {Host: 331tw.fans8.xyz}}
   - {name: "[vmess]🇹🇼[TW]330tw.fans8.xyz:443(7f4ff2e1c08f35bdafe74a6a386907aa)", server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ray, tls: true, ws-headers: {Host: 330tw.fans8.xyz}}
   - {name: "[vmess]🇹🇼[TW]331tw.fans8.xyz:80(7f4ff2e1c08f35bdafe74a6a386907aa)", server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ray, tls: true, ws-headers: {Host: 331tw.fans8.xyz}}
@@ -533,6 +535,7 @@ proxies:
   - {name: "[ss]🇺🇸[US]45.79.111.214:443(9d6cceaa373bf2c8acb22e60b6a58be6)", server: 45.79.111.214, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6}
   - {name: "[trojan]🇯🇵[JP]730jp.ok365.cyou:443(0db81541-51d1-486a-8b0c-d59cdc801438)", server: 730jp.ok365.cyou, port: 443, type: trojan, password: 0db81541-51d1-486a-8b0c-d59cdc801438, sni: 730jp.ok365.cyou, tls: true, skip-cert-verify: true}
   - {name: "[trojan]🇯🇵[JP]jp.bw1.hyperlinkvpn.xyz:58939(ea5321bc-ec83-483b-8e13-ae7962e20b0e)", server: jp.bw1.hyperlinkvpn.xyz, port: 58939, type: trojan, password: ea5321bc-ec83-483b-8e13-ae7962e20b0e, sni: jp.bw1.hyperlinkvpn.xyz, tls: true, skip-cert-verify: true}
+  - {name: "[trojan]🇨🇳[CN]sg01.19910501.xyz:11002(2c8cc5fe-7a7d-4cdc-a58a-34f16f8ab258)", server: sg01.19910501.xyz, port: 11002, type: trojan, password: 2c8cc5fe-7a7d-4cdc-a58a-34f16f8ab258, sni: sg01.19910501.xyz, tls: true, skip-cert-verify: true}
   - {name: "[ss]🇨🇭[CH]185.126.116.119:9046(NvS8N4Vf8qAGPSCL)", server: 185.126.116.119, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL}
   - {name: "[ss]🇧🇬[BG]213.183.63.221:9027(EXN3S3eQpjE7EJu8)", server: 213.183.63.221, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8}
   - {name: "[ss]🇷🇺[RU]83.217.9.76:989(f8f7aCzcPKbsF8p3)", server: 83.217.9.76, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
@@ -996,6 +999,3 @@ proxies:
   - {name: "[ss]🇨🇳[CN]52.81.179.243:10002(61e2d024-31ac-4c8a-8ca8-6ea85ae7941b)", server: 52.81.179.243, port: 10002, type: ss, cipher: aes-128-gcm, password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b}
   - {name: "[ss]🇨🇳[CN]52.81.179.243:10003(61e2d024-31ac-4c8a-8ca8-6ea85ae7941b)", server: 52.81.179.243, port: 10003, type: ss, cipher: aes-128-gcm, password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b}
   - {name: "[ss]🇨🇳[CN]52.81.179.243:10004(61e2d024-31ac-4c8a-8ca8-6ea85ae7941b)", server: 52.81.179.243, port: 10004, type: ss, cipher: aes-128-gcm, password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b}
-  - {name: "[ss]🇨🇳[CN]52.81.179.243:10005(61e2d024-31ac-4c8a-8ca8-6ea85ae7941b)", server: 52.81.179.243, port: 10005, type: ss, cipher: aes-128-gcm, password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b}
-  - {name: "[ss]🇦🇶[NOWHERE]8.8.8.8.8:45120(ba61540e-33d3-4c7c-a7f2-3c8222ea6726)", server: 8.8.8.8.8, port: 45120, type: ss, cipher: aes-128-gcm, password: ba61540e-33d3-4c7c-a7f2-3c8222ea6726}
-  - {name: "[ss]🇨🇳[CN]101.132.192.212:30003(desperadoj.com_free_proxy_d39m)", server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
