@@ -1,17 +1,4 @@
 proxies:
-  - {name: "[ss]🇦🇺[AU]172.105.190.20:8000(KixLvKzwjekG00rm)", server: 172.105.190.20, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: "[ss]🇨🇭[CH]185.126.116.117:9020(BNmAXXxAHYpTRdzu)", server: 185.126.116.117, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
-  - {name: "[ss]🇨🇭[CH]185.126.116.117:9046(NvS8N4Vf8qAGPSCL)", server: 185.126.116.117, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL}
-  - {name: "[ss]🇬🇧[GB]152.89.210.105:9094(rpgbNnU9rDDU4aWZ)", server: 152.89.210.105, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ}
-  - {name: "[ss]🇬🇧[GB]152.89.210.105:9038(gYCYXfkUQEs2TaJQ)", server: 152.89.210.105, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
-  - {name: "[ss]🇨🇭[CH]185.126.116.124:9027(EXN3S3eQpjE7EJu8)", server: 185.126.116.124, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8}
-  - {name: "[ss]🇫🇷[FR]188.165.32.235:8119(cdBIDV42DCwnfIN)", server: 188.165.32.235, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: "[ss]🇨🇾[CY]213.169.137.221:989(f8f7aCzcPKbsF8p3)", server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: "[ss]🇳🇱[NL]213.183.59.218:9053(SBM7R883jBmnqe6C)", server: 213.183.59.218, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C}
-  - {name: "[ss]🇩🇪[DE]5.183.179.148:9056(rNBfNuuANFCAk7KB)", server: 5.183.179.148, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB}
-  - {name: "[ss]🇩🇪[DE]5.183.179.166:9059(9XwYyZsK8SNzQDtY)", server: 5.183.179.166, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY}
-  - {name: "[ss]🇵🇱[PL]194.15.196.78:5601(Y6R9pAtvxxzmGC)", server: 194.15.196.78, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "[ss]🇫🇷[FR]188.165.32.235:9101(e4FCWrgpkji3QY)", server: 188.165.32.235, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: "[ss]🇩🇪[DE]5.183.179.148:9042(S7KwUu7yBy58S3Ga)", server: 5.183.179.148, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}
   - {name: "[ss]🇩🇪[DE]5.183.179.148:9015(ZpNDDKRu9MagNvaf)", server: 5.183.179.148, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf}
   - {name: "[ss]🇦🇺[AU]172.105.162.49:8888(Y6R9pAtvxxzmGC)", server: 172.105.162.49, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
@@ -511,6 +498,7 @@ proxies:
   - {name: "[ss]🇰🇷[KR]141.164.42.67:5601(Y6R9pAtvxxzmGC)", server: 141.164.42.67, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇺🇸[US]38.68.135.123:5004(g5MeD6Ft3CWlJId)", server: 38.68.135.123, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: "[ss]🇺🇸[US]38.68.134.48:8008(XKFKl2rULjIp74)", server: 38.68.134.48, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: "[trojan]🇨🇳[CN]gzyd1.52147.top:30030(96d2badf-4ef7-41a9-be8b-19bb09468d28)", server: gzyd1.52147.top, port: 30030, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: gzyd1.52147.top, tls: true, skip-cert-verify: false}
   - {name: "[ss]🇷🇺[RU]213.183.53.198:9057(wjTugX3ZtHMB9c3Z)", server: 213.183.53.198, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z}
   - {name: "[vmess]🇹🇼[TW]331tw.fans8.xyz:80(7f4ff2e1-c08f-35bd-afe7-4a6a386907aa)", server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
   - {name: "[vmess]🇹🇼[TW]330tw.fans8.xyz:443(7f4ff2e1c08f35bdafe74a6a386907aa)", server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
@@ -999,3 +987,15 @@ proxies:
   - {name: "[ssr]🇨🇳[CN]cmrelay01.downsite.xyz:5703(jFa4F1)", server: cmrelay01.downsite.xyz, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, obfs-param: "", protocol-param: ""}
   - {name: "[ssr]🇨🇳[CN]cmrelay01.downsite.xyz:6704(jFa4F1)", server: cmrelay01.downsite.xyz, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, obfs-param: "", protocol-param: ""}
   - {name: "[ssr]🇨🇳[CN]cmrelay01.downsite.xyz:6705(jFa4F1)", server: cmrelay01.downsite.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, obfs-param: "", protocol-param: ""}
+  - {name: "[ssr]🇨🇳[CN]cmrelay01.downsite.xyz:6706(jFa4F1)", server: cmrelay01.downsite.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, obfs-param: "", protocol-param: ""}
+  - {name: "[ssr]🇨🇳[CN]cmrelay01.downsite.xyz:6707(jFa4F1)", server: cmrelay01.downsite.xyz, port: 6707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, obfs-param: "", protocol-param: ""}
+  - {name: "[ssr]🇨🇳[CN]cmrelay01.downsite.xyz:6708(jFa4F1)", server: cmrelay01.downsite.xyz, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, obfs-param: "", protocol-param: ""}
+  - {name: "[ssr]🇨🇳[CN]cmrelay01.downsite.xyz:6709(jFa4F1)", server: cmrelay01.downsite.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, obfs-param: "", protocol-param: ""}
+  - {name: "[ssr]🇨🇳[CN]cmrelay01.downsite.xyz:6700(jFa4F1)", server: cmrelay01.downsite.xyz, port: 6700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, obfs-param: "", protocol-param: ""}
+  - {name: "[ssr]🇨🇳[CN]cmrelay01.downsite.xyz:6701(jFa4F1)", server: cmrelay01.downsite.xyz, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, obfs-param: "", protocol-param: ""}
+  - {name: "[ssr]🇨🇳[CN]cmrelay01.downsite.xyz:6702(jFa4F1)", server: cmrelay01.downsite.xyz, port: 6702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, obfs-param: "", protocol-param: ""}
+  - {name: "[ssr]🇨🇳[CN]cmrelay01.downsite.xyz:6703(jFa4F1)", server: cmrelay01.downsite.xyz, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, obfs-param: "", protocol-param: ""}
+  - {name: "[ssr]🇨🇳[CN]cmrelay01.downsite.xyz:7704(jFa4F1)", server: cmrelay01.downsite.xyz, port: 7704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, obfs-param: "", protocol-param: ""}
+  - {name: "[ssr]🇨🇳[CN]cmrelay01.downsite.xyz:7705(jFa4F1)", server: cmrelay01.downsite.xyz, port: 7705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, obfs-param: "", protocol-param: ""}
+  - {name: "[ssr]🇨🇳[CN]cmrelay01.downsite.xyz:7706(jFa4F1)", server: cmrelay01.downsite.xyz, port: 7706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, obfs-param: "", protocol-param: ""}
+  - {name: "[ssr]🇨🇳[CN]cmrelay01.downsite.xyz:7707(jFa4F1)", server: cmrelay01.downsite.xyz, port: 7707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, obfs-param: "", protocol-param: ""}
