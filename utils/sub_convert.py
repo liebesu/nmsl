@@ -407,30 +407,41 @@ class sub_convert():
                         yaml_url.setdefault(
                             'alterId', int(vmess_config['aid']))
                         yaml_url.setdefault('cipher', vmess_config['scy'])
-                        yaml_url.setdefault('skip-cert-vertify', 'true')
-                        if vmess_config['net'] == '' or vmess_config['net'] is False:
-                            yaml_url.setdefault('network', 'tcp')
-                        else:
-                            yaml_url.setdefault('network', vmess_config['net'])
-                        if vmess_config['path'] == '' or vmess_config['path'] is False:
-                            yaml_url.setdefault('ws-path', '/')
-                        else:
-                            yaml_url.setdefault(
-                                'ws-path', urllib.parse.unquote(vmess_config['path']).split('?')[0])
                         if vmess_config['net'] == 'h2' or vmess_config['net'] == 'grpc':
                             yaml_url.setdefault('tls', 'true')
                         elif vmess_config['tls'] == '' or vmess_config['tls'] is False:
                             yaml_url.setdefault('tls', 'false')
                         else:
                             yaml_url.setdefault('tls', 'true')
-                        yaml_url.setdefault(
-                            'ws-headers', {'Host': vmess_config['add']})
-                        # if vmess_config['host'] == '':
-                        #     yaml_url.setdefault(
-                        #         'ws-headers', {'Host': vmess_config['add']})
-                        # else:
-                        #     yaml_url.setdefault(
-                        #         'ws-headers', {'Host': vmess_config['host']})
+                        yaml_url.setdefault('skip-cert-vertify', 'false')
+                        if vmess_config['net'] != '':
+                            yaml_url.setdefault('network', vmess_config['net'])
+                        if vmess_config['net'] == 'ws':
+                            if vmess_config['path'] == '' or vmess_config['path'] is False:
+                                yaml_url.setdefault('ws-path', '/')
+                            else:
+                                yaml_url.setdefault(
+                                    'ws-path', urllib.parse.unquote(vmess_config['path']).split('?')[0])
+                            
+                            # yaml_url.setdefault(
+                            #     'ws-headers', {'Host': vmess_config['add']})
+                            yaml_url.setdefault('ws-headers', {'Host': vmess_config['host']})
+                        elif vmess_config['net'] == 'h2':
+                            yaml_url.setdefault('h2-opts', {'Host': vmess_config['host']})
+                            if vmess_config['path'] == '' or vmess_config['path'] is False:
+                                yaml_url.setdefault('path', '/')
+                            else:
+                                yaml_url.setdefault(
+                                    'path', urllib.parse.unquote(vmess_config['path']).split('?')[0])
+                            
+                        elif vmess_config['net'] == 'grpc':
+                            yaml_url.setdefault('servername', vmess_config['host'])
+                            if vmess_config['path'] == '' or vmess_config['path'] is False:
+                                yaml_url.setdefault('grpc-opts', {'grpc-service-name': '/'})
+                            else:
+                                yaml_url.setdefault(
+                                    'grpc-opts', {'grpc-service-name': urllib.parse.unquote(vmess_config['path']).split('?')[0]})
+                        yaml_url.setdefault('udp', 'true')
 
                 except Exception as err:
                     print(f'yaml_encode 解析 vmess 节点发生错误: {err}')
