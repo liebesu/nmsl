@@ -607,7 +607,7 @@ class sub_convert():
                                     yaml_url.setdefault('tls', 'false')
                                 else:
                                     yaml_url.setdefault('tls', 'true')
-                    yaml_url.setdefault('skip-cert-verify', 'true')
+                    yaml_url.setdefault('skip-cert-verify', 'false')
                 except Exception as err:
                     print(f'yaml_encode 解析 trojan 节点发生错误: {err}')
                     pass
