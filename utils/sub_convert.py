@@ -496,6 +496,7 @@ class sub_convert():
                                 yaml_url.setdefault('plugin-opts', {}).setdefault('header', parameter.split('=')[1])
                             elif 'obfs-body=' in parameter:
                                 yaml_url.setdefault('plugin-opts', {'body': parameter.split('=')[1]})
+                    yaml_url.setdefault('udp', 'true')
                 except Exception as err:
                     print(f'yaml_encode 解析 ss 节点发生错误: {err}')
                     pass
@@ -561,6 +562,7 @@ class sub_convert():
                             else:
                                 yaml_url.setdefault(
                                     'protocol-param', '""')
+                    yaml_url.setdefault('udp', 'true')
                 except Exception as err:
                     print(f'yaml_encode 解析 ssr 节点发生错误: {err}')
                     pass
