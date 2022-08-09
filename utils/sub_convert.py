@@ -420,15 +420,13 @@ class sub_convert():
                             if vmess_config['path'] == '':
                                 yaml_url.setdefault('ws-opts', {'path': '/'})
                             else:
-                                yaml_url.setdefault(
-                                    'ws-opts', {'path': urllib.parse.unquote(vmess_config['path']).split('?')[0]})
-                            
+                                yaml_url.setdefault('ws-opts', {}).setdefault('path', urllib.parse.unquote(vmess_config['path']).split('?')[0])
                             # yaml_url.setdefault(
                             #     'ws-headers', {'Host': vmess_config['add']})
                             if '"' in urllib.parse.unquote(vmess_config['host']):
-                                yaml_url.setdefault('ws-opts', {'headers': {'Host': vmess_config['host'].split('%22')[-2]}})
+                                yaml_url.setdefault('ws-opts', {}).setdefault('headers', {'Host': vmess_config['host'].split('%22')[-2]})
                             else:
-                                yaml_url.setdefault('ws-opts', {'headers', {'Host': vmess_config['host']}})
+                                yaml_url.setdefault('ws-opts', {}).setdefault('headers', {'Host': vmess_config['host']})
                         elif vmess_config['net'] == 'h2':
                             yaml_url.setdefault('h2-opts', {'Host': vmess_config['host']})
                             if vmess_config['path'] == '':
@@ -436,7 +434,6 @@ class sub_convert():
                             else:
                                 yaml_url.setdefault(
                                     'path', urllib.parse.unquote(vmess_config['path']).split('?')[0])
-                            
                         elif vmess_config['net'] == 'grpc':
                             if vmess_config['host'] == '':
                                 yaml_url.setdefault('servername', "")
