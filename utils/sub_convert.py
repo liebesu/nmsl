@@ -608,6 +608,7 @@ class sub_convert():
                                 else:
                                     yaml_url.setdefault('tls', 'true')
                     yaml_url.setdefault('skip-cert-verify', 'false')
+                    yaml_url.setdefault('udp', 'true')
                 except Exception as err:
                     print(f'yaml_encode 解析 trojan 节点发生错误: {err}')
                     pass
