@@ -423,10 +423,11 @@ class sub_convert():
                                 yaml_url.setdefault('ws-opts', {}).setdefault('path', urllib.parse.unquote(vmess_config['path']).split('?')[0])
                             # yaml_url.setdefault(
                             #     'ws-headers', {'Host': vmess_config['add']})
-                            if '"' in urllib.parse.unquote(vmess_config['host']):
-                                yaml_url.setdefault('ws-opts', {}).setdefault('headers', {'Host': vmess_config['host'].split('%22')[-2]})
-                            else:
-                                yaml_url.setdefault('ws-opts', {}).setdefault('headers', {'Host': vmess_config['host']})
+                            if vmess_config['host'] != '':
+                                if '%22' in vmess_config['host']:
+                                    yaml_url.setdefault('ws-opts', {}).setdefault('headers', {'Host': vmess_config['host'].split('%22')[-2]})
+                                else:
+                                    yaml_url.setdefault('ws-opts', {}).setdefault('headers', {'Host': vmess_config['host']})
                         elif vmess_config['net'] == 'h2':
                             yaml_url.setdefault('h2-opts', {'Host': vmess_config['host']})
                             if vmess_config['path'] == '':
