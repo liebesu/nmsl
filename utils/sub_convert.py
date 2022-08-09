@@ -426,7 +426,7 @@ class sub_convert():
                             # yaml_url.setdefault(
                             #     'ws-headers', {'Host': vmess_config['add']})
                             if '"' in urllib.parse.unquote(vmess_config['host']):
-                                yaml_url.setdefault('ws-headers', {'Host': urllib.parse.unquote(vmess_config['add']).split('"')[-2]})
+                                yaml_url.setdefault('ws-headers', {'Host': urllib.parse.unquote(vmess_config['host']).split('"')[-2]})
                             else:
                                 yaml_url.setdefault('ws-headers', {'Host': vmess_config['host']})
                         elif vmess_config['net'] == 'h2':
