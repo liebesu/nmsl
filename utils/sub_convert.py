@@ -486,7 +486,7 @@ class sub_convert():
                             elif 'obfs=' in parameter:
                                 yaml_url.setdefault('plugin-opts', {}).setdefault('mode', parameter.split('=')[1])
                             elif 'obfs-host=' in parameter:
-                                yaml_url.setdefault('plugin-opts', {}).setdefault('host', parameter.split('=')[1])
+                                yaml_url.setdefault('plugin-opts', {}).setdefault('host', '"' + parameter.split('=')[1] + '"')
                             elif 'obfs-uri=' in parameter:
                                 yaml_url.setdefault('plugin-opts', {}).setdefault('uri', parameter.split('=')[1])
                             elif 'obfs-path=' in parameter:
