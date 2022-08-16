@@ -330,7 +330,7 @@ trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@www.anloe.ga:9063?allowInsecure=0&
 trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@www.anloao.cf:9053?allowInsecure=0&sni=www.anloao.cf#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dwww.anloao.cf%3A9053%28b64b0f9c-23df-3112-a790-d8aa068aa2fe%29
 trojan://36ebef7d1b1d6205fd0c55f28800e674@72.167.45.6:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5D72.167.45.6%3A443%2836ebef7d1b1d6205fd0c55f28800e674%29
 trojan://b7e0e71f-070c-437a-9826-6e23caeb0307@jgw4.gaox.ml:443?allowInsecure=0&sni=jgw4.gaox.ml#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Djgw4.gaox.ml%3A443%28b7e0e71f-070c-437a-9826-6e23caeb0307%29
-trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?allowInsecure=0&sni=cc2.doubledou.win#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Dcc2.doubledou.win%3A4584%283c91d857-2d40-39b9-81c0-f6adde8037ff%29
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?allowInsecure=0&sni=cc2.doubledou.win#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dcc2.doubledou.win%3A4584%283c91d857-2d40-39b9-81c0-f6adde8037ff%29
 trojan://opentunnel.net-zdrgvbhjnmhgfx@ukt-1.opensvr.net:443?allowInsecure=0&sni=ukt-1.opensvr.net#%5Btrojan%5D%F0%9F%87%AC%F0%9F%87%A7%5BGB%5Dukt-1.opensvr.net%3A443%28opentunnel.net-zdrgvbhjnmhgfx%29
 trojan://36ebef7d1b1d6205fd0c55f28800e674@184.168.127.50:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5D184.168.127.50%3A443%2836ebef7d1b1d6205fd0c55f28800e674%29
 trojan://d4435b69-3d08-d58a-919f-7f1707150ecb@hg.053111.xyz:443?allowInsecure=0&sni=hg.053111.xyz#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Dhg.053111.xyz%3A443%28d4435b69-3d08-d58a-919f-7f1707150ecb%29
