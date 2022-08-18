@@ -1,4 +1,9 @@
 proxies:
+  - {name: "[ss]🇰🇷[KR]141.164.42.67:5601(Y6R9pAtvxxzmGC)", server: 141.164.42.67, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇺🇸[US]38.68.135.123:5004(g5MeD6Ft3CWlJId)", server: 38.68.135.123, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "[ss]🇺🇸[US]38.68.134.48:8008(XKFKl2rULjIp74)", server: 38.68.134.48, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: "[vmess]🇹🇼[TW]331tw.fans8.xyz:80(7f4ff2e1-c08f-35bd-afe7-4a6a386907aa)", server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
+  - {name: "[vmess]🇹🇼[TW]330tw.fans8.xyz:443(7f4ff2e1c08f35bdafe74a6a386907aa)", server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
   - {name: "[vmess]🇹🇼[TW]331tw.fans8.xyz:80(7f4ff2e1c08f35bdafe74a6a386907aa)", server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
   - {name: "[vmess]🇹🇼[TW]330tw.fans8.xyz:443(7f4ff2e1-c08f-35bd-afe7-4a6a386907aa)", server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
   - {name: "[vmess]🇨🇳[CN]ingress-i2.onebox6.org:38101(79386685-16da-327c-9e14-aa6d702d86bc)", server: ingress-i2.onebox6.org, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-vertify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
@@ -58,6 +63,7 @@ proxies:
   - {name: "[ss]🇨🇭[CH]185.126.116.119:9043(HSZuyJQcWe8dxNdF)", server: 185.126.116.119, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF}
   - {name: "[ss]🇷🇺[RU]213.183.53.198:9014(KnJGad3FqTvjqbaX)", server: 213.183.53.198, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX}
   - {name: "[ss]🇷🇺[RU]213.183.53.198:9010(f63gg8EruDnUrmz4)", server: 213.183.53.198, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4}
+  - {name: "[ss]🇷🇺[RU]213.183.53.198:9093(wfLC2y7rzZyCmuyt)", server: 213.183.53.198, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt}
   - {name: "[ss]🇵🇱[PL]217.30.10.68:9031(BwcAUZk8hUFAkDGN)", server: 217.30.10.68, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN}
   - {name: "[ss]🇵🇱[PL]217.30.10.68:9064(cp8pRSUAyLhTfVWH)", server: 217.30.10.68, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH}
   - {name: "[ss]🇵🇱[PL]217.30.10.68:9025(XPtzA9sCug3SPR4c)", server: 217.30.10.68, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c}
@@ -992,9 +998,3 @@ proxies:
   - {name: "[trojan]🇦🇶[NOWHERE]meet-one.defun.us:443(INvx7sPho8PyTLS6)", server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho8PyTLS6, sni: meet-one.defun.us, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇦🇶[NOWHERE]os2-2.sstr-api.xyz:443(MhPG7g9x2Etb4Hspsb)", server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇦🇶[NOWHERE]sg.gtss.tk:443(NWGdxI6dQo)", server: sg.gtss.tk, port: 443, type: trojan, password: NWGdxI6dQo, sni: sg.gtss.tk, tls: true, skip-cert-verify: false}
-  - {name: "[trojan]🇦🇶[NOWHERE]shop-one.defun.us:443(OEfntmUGHmwQnNGr)", server: shop-one.defun.us, port: 443, type: trojan, password: OEfntmUGHmwQnNGr, sni: shop-one.defun.us, tls: true, skip-cert-verify: false}
-  - {name: "[trojan]🇦🇶[NOWHERE]shop-two.defun.us:8080(OzKXGbFNHwAurRQ0)", server: shop-two.defun.us, port: 8080, type: trojan, password: OzKXGbFNHwAurRQ0, sni: shop-two.defun.us, tls: true, skip-cert-verify: false}
-  - {name: "[trojan]🇦🇶[NOWHERE]values.pickaxe.sh:443(PMQFH35hsbfi5tnw)", server: values.pickaxe.sh, port: 443, type: trojan, password: PMQFH35hsbfi5tnw, sni: values.pickaxe.sh, tls: true, skip-cert-verify: false}
-  - {name: "[trojan]🇦🇶[NOWHERE]bb.shangou.tk:5000(Q3Mutbhgfd)", server: bb.shangou.tk, port: 5000, type: trojan, password: Q3Mutbhgfd, sni: bb.shangou.tk, tls: true, skip-cert-verify: false}
-  - {name: "[trojan]🇦🇶[NOWHERE]us-03.pickaxe.sh:443(Rq8MSfJZYw9pcmB3)", server: us-03.pickaxe.sh, port: 443, type: trojan, password: Rq8MSfJZYw9pcmB3, sni: us-03.pickaxe.sh, tls: true, skip-cert-verify: false}
-  - {name: "[trojan]🇦🇶[NOWHERE]hk-hkg-shhk-001-tr.cdn.savoy.click:20089(SfobRIcergHchqBFzzua)", server: hk-hkg-shhk-001-tr.cdn.savoy.click, port: 20089, type: trojan, password: SfobRIcergHchqBFzzua, sni: hk-hkg-shhk-001-tr.cdn.savoy.click, tls: true, skip-cert-verify: false}
