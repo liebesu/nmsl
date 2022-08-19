@@ -1,12 +1,4 @@
 proxies:
-  - {name: "[ss]🇺🇸[US]167.88.61.5:5000(Y6R9pAtvxxzmGC)", server: 167.88.61.5, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "[ss]🇺🇸[US]38.121.43.91:8882(kDWvXYZoTBcGkC4)", server: 38.121.43.91, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: "[ss]🇺🇸[US]167.88.63.108:8118(cdBIDV42DCwnfIN)", server: 167.88.63.108, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: "[ss]🇺🇸[US]38.75.136.45:5500(KixLvKzwjekG00rm)", server: 38.75.136.45, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: "[ss]🇺🇸[US]169.197.142.238:8080(KixLvKzwjekG00rm)", server: 169.197.142.238, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: "[ss]🇺🇸[US]167.88.62.24:5000(Y6R9pAtvxxzmGC)", server: 167.88.62.24, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "[ss]🇺🇸[US]38.114.114.185:6379(zDNVedRFPQexG9v)", server: 38.114.114.185, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "[ss]🇨🇦[CA]134.195.196.199:8080(KixLvKzwjekG00rm)", server: 134.195.196.199, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: "[ss]🇨🇦[CA]198.57.27.14:8888(Y6R9pAtvxxzmGC)", server: 198.57.27.14, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇺🇸[US]167.88.63.71:2375(faBAoD54k87UJG7)", server: 167.88.63.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: "[ss]🇺🇸[US]38.114.114.145:9101(e4FCWrgpkji3QY)", server: 38.114.114.145, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
@@ -820,7 +812,7 @@ proxies:
   - {name: "[ssr]🇨🇳[CN]vc-1.gito.cc:33666(9ifast)", server: vc-1.gito.cc, port: 33666, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, obfs-param: k750jwnlogwinjwyr\nv\x0bom, protocol-param: ۹z\x1a\x0b}
   - {name: "[ssr]🇨🇳[CN]vpar-20.gito.cc:54327(9ifast)", server: vpar-20.gito.cc, port: 54327, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, obfs-param: k750jwnlogwinjwyr\nv\x0bom, protocol-param: ۹z\x1a\x0b}
   - {name: "[ssr]🇨🇳[CN]vphk-8.gito.cc:761(9ifast)", server: vphk-8.gito.cc, port: 761, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, obfs-param: k750jwnlogwinjwyr\nv\x0bom, protocol-param: ۹z\x1a\x0b}
-  - {name: "[ssr]🇦🇶[NOWHERE]vphk-2.gito.cc:33401(9ifast)", server: vphk-2.gito.cc, port: 33401, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, obfs-param: "", protocol-param: ""}
+  - {name: "[ssr]🇨🇳[CN]vphk-2.gito.cc:33401(9ifast)", server: vphk-2.gito.cc, port: 33401, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, obfs-param: "", protocol-param: ""}
   - {name: "[ssr]🇨🇳[CN]vphk-3.gito.cc:751(9ifast)", server: vphk-3.gito.cc, port: 751, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, obfs-param: k750jwnlogwinjwyr\nv\x0bom, protocol-param: ۹z\x1a\x0b}
   - {name: "[ssr]🇨🇳[CN]vpin-20.gito.cc:54328(9ifast)", server: vpin-20.gito.cc, port: 54328, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, obfs-param: k750jwnlogwinjwyr\nv\x0bom, protocol-param: ۹z\x1a\x0b}
   - {name: "[trojan]🇦🇶[NOWHERE]blogs.defun.us:443(0STIv0ePoRzjxFTV)", server: blogs.defun.us, port: 443, type: trojan, password: 0STIv0ePoRzjxFTV, sni: blogs.defun.us, tls: true, skip-cert-verify: false}
@@ -998,3 +990,11 @@ proxies:
   - {name: "[trojan]🇨🇦[CA]t01.tgfaka.com:18443(704585e5-cb0c-4354-83d5-8756ba9a05ad)", server: t01.tgfaka.com, port: 18443, type: trojan, password: 704585e5-cb0c-4354-83d5-8756ba9a05ad, sni: t01.tgfaka.com, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇦[CA]t03.tgfaka.com:18443(704585e5-cb0c-4354-83d5-8756ba9a05ad)", server: t03.tgfaka.com, port: 18443, type: trojan, password: 704585e5-cb0c-4354-83d5-8756ba9a05ad, sni: t03.tgfaka.com, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇺🇸[US]t06.tgfaka.com:18443(704585e5-cb0c-4354-83d5-8756ba9a05ad)", server: t06.tgfaka.com, port: 18443, type: trojan, password: 704585e5-cb0c-4354-83d5-8756ba9a05ad, sni: t06.tgfaka.com, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇸🇬[SG]5.44.249.43:3389(711aabc21e45ae31)", server: 5.44.249.43, port: 3389, type: trojan, password: 711aabc21e45ae31, sni: 5.44.249.43, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇦🇶[NOWHERE]t3.ssrsub.com:8443(721c60a2-86a4-44c6-8f82-8fc80f6ad8ab)", server: t3.ssrsub.com, port: 8443, type: trojan, password: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab, sni: t3.ssrsub.com, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇭🇰[HK]gy.moonfree.top:10000(749247ba-f14d-4cca-a0a1-096629ccad5e)", server: gy.moonfree.top, port: 10000, type: trojan, password: 749247ba-f14d-4cca-a0a1-096629ccad5e, sni: gy.moonfree.top, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇭🇰[HK]gy.moonfree.top:10001(749247ba-f14d-4cca-a0a1-096629ccad5e)", server: gy.moonfree.top, port: 10001, type: trojan, password: 749247ba-f14d-4cca-a0a1-096629ccad5e, sni: gy.moonfree.top, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇭🇰[HK]gy.moonfree.top:10002(749247ba-f14d-4cca-a0a1-096629ccad5e)", server: gy.moonfree.top, port: 10002, type: trojan, password: 749247ba-f14d-4cca-a0a1-096629ccad5e, sni: gy.moonfree.top, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🏁[RELAY]rk59.moonfree.top:443(749247ba-f14d-4cca-a0a1-096629ccad5e)", server: rk59.moonfree.top, port: 443, type: trojan, password: 749247ba-f14d-4cca-a0a1-096629ccad5e, sni: rk59.moonfree.top, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇯🇵[JP]sh.moonfree.top:10000(749247ba-f14d-4cca-a0a1-096629ccad5e)", server: sh.moonfree.top, port: 10000, type: trojan, password: 749247ba-f14d-4cca-a0a1-096629ccad5e, sni: sh.moonfree.top, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇯🇵[JP]sh.moonfree.top:10001(749247ba-f14d-4cca-a0a1-096629ccad5e)", server: sh.moonfree.top, port: 10001, type: trojan, password: 749247ba-f14d-4cca-a0a1-096629ccad5e, sni: sh.moonfree.top, tls: true, skip-cert-verify: false}
