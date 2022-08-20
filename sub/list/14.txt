@@ -172,7 +172,7 @@ trojan://96884680-77e6-11eb-8d67-1239d0255272@nl-trojan.bonds.id:443?allowInsecu
 trojan://7484d7c8-b010-373e-9c2a-2b9d20f8c963@idcf.doubledou.win:11445?allowInsecure=0&sni=idcf.doubledou.win#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Didcf.doubledou.win%3A11445%287484d7c8-b010-373e-9c2a-2b9d20f8c963%29
 trojan://7484d7c8-b010-373e-9c2a-2b9d20f8c963@v2iijjp1.doubledou.win:11445?allowInsecure=0&sni=v2iijjp1.doubledou.win#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Dv2iijjp1.doubledou.win%3A11445%287484d7c8-b010-373e-9c2a-2b9d20f8c963%29
 trojan://LiX1tV@141.98.168.251:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5D141.98.168.251%3A443%28LiX1tV%29
-trojan://935f34c1-1713-402c-bfe1-f051cf49d370@ru.hootfun.top:45112?allowInsecure=0&sni=ru.hootfun.top#%5Btrojan%5D%F0%9F%87%B7%F0%9F%87%BA%5BRU%5Dru.hootfun.top%3A45112%28935f34c1-1713-402c-bfe1-f051cf49d370%29
+trojan://935f34c1-1713-402c-bfe1-f051cf49d370@ru.hootfun.top:45112?allowInsecure=0&sni=ru.hootfun.top#%5Btrojan%5D%F0%9F%87%AE%F0%9F%87%B9%5BIT%5Dru.hootfun.top%3A45112%28935f34c1-1713-402c-bfe1-f051cf49d370%29
 trojan://7484d7c8-b010-373e-9c2a-2b9d20f8c963@cmi.doubledou.win:40025?allowInsecure=0&sni=cmi.doubledou.win#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dcmi.doubledou.win%3A40025%287484d7c8-b010-373e-9c2a-2b9d20f8c963%29
 trojan://208d536b-a83e-3006-97d7-9c5e15dc3669@v2sg02.connauto.com:443?allowInsecure=0&sni=v2sg02.connauto.com#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dv2sg02.connauto.com%3A443%28208d536b-a83e-3006-97d7-9c5e15dc3669%29
 trojan://97fdf760-7bbf-11eb-8e14-1239d0255272@sg3-trojan.bonds.id:443?allowInsecure=0&sni=sg3-trojan.bonds.id#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dsg3-trojan.bonds.id%3A443%2897fdf760-7bbf-11eb-8e14-1239d0255272%29
