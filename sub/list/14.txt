@@ -260,7 +260,7 @@ trojan://ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U@hacks.missionsec.us:443?allowInsecure=
 trojan://640e3ef0-9c44-49a8-98f6-0895b11eecd6@t03.ssrsub.com.xyz:443?allowInsecure=0&sni=t03.ssrsub.com.xyz#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dt03.ssrsub.com.xyz%3A443%28640e3ef0-9c44-49a8-98f6-0895b11eecd6%29
 trojan://ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U@gifts.missionsec.us:443?allowInsecure=0&sni=gifts.missionsec.us#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dgifts.missionsec.us%3A443%28ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U%29
 trojan://ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U@caterpie.defun.us:443?allowInsecure=0&sni=caterpie.defun.us#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Dcaterpie.defun.us%3A443%28ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U%29
-trojan://935f34c1-1713-402c-bfe1-f051cf49d370@dg.yuzex.top:32451?allowInsecure=0&sni=dg.yuzex.top#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Ddg.yuzex.top%3A32451%28935f34c1-1713-402c-bfe1-f051cf49d370%29
+trojan://935f34c1-1713-402c-bfe1-f051cf49d370@dg.yuzex.top:32451?allowInsecure=0&sni=dg.yuzex.top#%5Btrojan%5D%F0%9F%87%A9%F0%9F%87%AA%5BDE%5Ddg.yuzex.top%3A32451%28935f34c1-1713-402c-bfe1-f051cf49d370%29
 trojan://38239dd0-902b-11eb-afc1-1239d0255272@us-trojan.bonds.id:443?allowInsecure=0&sni=us-trojan.bonds.id#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dus-trojan.bonds.id%3A443%2838239dd0-902b-11eb-afc1-1239d0255272%29
 trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@103.173.155.72:28443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BB%F0%9F%87%B3%5BVN%5D103.173.155.72%3A28443%286f6ae34d-fe7f-4ca1-a912-ecc01386bdc4%29
 trojan://ca0c33d0-1c92-11ed-9a11-1239d0255272@id5-trojan.bonds.id:443?allowInsecure=0&sni=id5-trojan.bonds.id#%5Btrojan%5D%F0%9F%87%AE%F0%9F%87%A9%5BID%5Did5-trojan.bonds.id%3A443%28ca0c33d0-1c92-11ed-9a11-1239d0255272%29
