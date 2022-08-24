@@ -218,7 +218,7 @@ trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@www.anloao.cf:9053?allowInsecure=0
 trojan://36ebef7d1b1d6205fd0c55f28800e674@72.167.45.6:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5D72.167.45.6%3A443%2836ebef7d1b1d6205fd0c55f28800e674%29
 trojan://T3YSRnD2AuS9xRF36F834y3DaIwNCZzgAeC7CeS8aBcxKjEYp0qXDpOllOayZ5@assets.freetrade.link:443?allowInsecure=0&sni=assets.freetrade.link#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dassets.freetrade.link%3A443%28T3YSRnD2AuS9xRF36F834y3DaIwNCZzgAeC7CeS8aBcxKjEYp0qXDpOllOayZ5%29
 trojan://ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U@caterpie.defun.us:443?allowInsecure=0&sni=caterpie.defun.us#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Dcaterpie.defun.us%3A443%28ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U%29
-trojan://935f34c1-1713-402c-bfe1-f051cf49d370@dg.yuzex.top:32451?allowInsecure=0&sni=dg.yuzex.top#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Ddg.yuzex.top%3A32451%28935f34c1-1713-402c-bfe1-f051cf49d370%29
+trojan://935f34c1-1713-402c-bfe1-f051cf49d370@dg.yuzex.top:32451?allowInsecure=0&sni=dg.yuzex.top#%5Btrojan%5D%F0%9F%87%A9%F0%9F%87%AA%5BDE%5Ddg.yuzex.top%3A32451%28935f34c1-1713-402c-bfe1-f051cf49d370%29
 trojan://770c9e92-f51b-3e52-b932-eba13fb56801@s162.s2022.xyz:23802?allowInsecure=0&sni=s162.s2022.xyz#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Ds162.s2022.xyz%3A23802%28770c9e92-f51b-3e52-b932-eba13fb56801%29
 trojan://03f9d1c7-40f9-475c-bf46-e3883ee7da5f@209.141.47.137:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5D209.141.47.137%3A443%2803f9d1c7-40f9-475c-bf46-e3883ee7da5f%29
 trojan://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@167.88.61.2:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5D167.88.61.2%3A443%28Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8%29
