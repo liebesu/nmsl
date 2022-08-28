@@ -254,7 +254,7 @@ trojan://0f88c09d-0fd9-4e34-b3ad-8719e908d5d8@cne.cloudorg.uk:2096?allowInsecure
 trojan://935f34c1-1713-402c-bfe1-f051cf49d370@qoslsjws.hootfun.top:25333?allowInsecure=0&sni=qoslsjws.hootfun.top#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dqoslsjws.hootfun.top%3A25333%28935f34c1-1713-402c-bfe1-f051cf49d370%29
 trojan://54080134-2cba-4535-8599-95650bd9aa54@jgwhdlb2.gaox.ml:443?allowInsecure=0&sni=jgwhdlb2.gaox.ml#%5Btrojan%5D%F0%9F%87%AE%F0%9F%87%B3%5BIN%5Djgwhdlb2.gaox.ml%3A443%2854080134-2cba-4535-8599-95650bd9aa54%29
 trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?allowInsecure=0&sni=jgwhdlb3.gaox.ml#%5Btrojan%5D%F0%9F%87%AE%F0%9F%87%B3%5BIN%5Djgwhdlb3.gaox.ml%3A443%28006baa3f-4bc3-4915-b60d-c8c5dae11a11%29
-trojan://935f34c1-1713-402c-bfe1-f051cf49d370@lswjs.hootfun.top:23561?allowInsecure=0&sni=lswjs.hootfun.top#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dlswjs.hootfun.top%3A23561%28935f34c1-1713-402c-bfe1-f051cf49d370%29
+trojan://935f34c1-1713-402c-bfe1-f051cf49d370@lswjs.hootfun.top:23561?allowInsecure=0&sni=lswjs.hootfun.top#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Dlswjs.hootfun.top%3A23561%28935f34c1-1713-402c-bfe1-f051cf49d370%29
 trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@kr05.wangxd.life:3052?allowInsecure=0&sni=kr05.wangxd.life#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Dkr05.wangxd.life%3A3052%283a2c0c6c-9ee5-c05f-c951-fcd73831983e%29
 trojan://80bcf4f2-12f7-11ed-bb74-f23c9164ca5d@us.tcpbbr.net:443?allowInsecure=0&sni=us.tcpbbr.net#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dus.tcpbbr.net%3A443%2880bcf4f2-12f7-11ed-bb74-f23c9164ca5d%29
 trojan://111111@www.cjf0423.cf:443?allowInsecure=0&sni=www.cjf0423.cf#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Dwww.cjf0423.cf%3A443%28111111%29
