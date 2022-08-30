@@ -254,7 +254,7 @@ trojan://97fdf760-7bbf-11eb-8e14-1239d0255272@sg3-trojan.bonds.id:443?allowInsec
 trojan://08964210-e7b8-11ec-95aa-1239d0255272@w12.udpgw.com:443?allowInsecure=0&sni=w12.udpgw.com#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dw12.udpgw.com%3A443%2808964210-e7b8-11ec-95aa-1239d0255272%29
 trojan://4c7985e0-79e8-11eb-b8d3-1239d0255272@sg3-trojan.bonds.id:443?allowInsecure=0&sni=sg3-trojan.bonds.id#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dsg3-trojan.bonds.id%3A443%284c7985e0-79e8-11eb-b8d3-1239d0255272%29
 trojan://5c5ceb40-902b-11eb-945a-1239d0255272@sg1-trojan.bonds.id:443?allowInsecure=0&sni=sg1-trojan.bonds.id#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dsg1-trojan.bonds.id%3A443%285c5ceb40-902b-11eb-945a-1239d0255272%29
-trojan://FXpmYfwQ@1.tiantang.cf:443?allowInsecure=0&sni=1.tiantang.cf#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5D1.tiantang.cf%3A443%28FXpmYfwQ%29
+trojan://FXpmYfwQ@1.tiantang.cf:443?allowInsecure=0&sni=1.tiantang.cf#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5D1.tiantang.cf%3A443%28FXpmYfwQ%29
 trojan://81e9f5f0-1c92-11ed-8d18-1239d0255272@sg6-trojan.bonds.id:443?allowInsecure=0&sni=sg6-trojan.bonds.id#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dsg6-trojan.bonds.id%3A443%2881e9f5f0-1c92-11ed-8d18-1239d0255272%29
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s2.hazz.win:12340?allowInsecure=0&sni=s2.hazz.win#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Ds2.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
 trojan://f1a23bf0-1c92-11ed-b6d8-1239d0255272@sg2-trojan.bonds.id:443?allowInsecure=0&sni=sg2-trojan.bonds.id#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dsg2-trojan.bonds.id%3A443%28f1a23bf0-1c92-11ed-b6d8-1239d0255272%29
