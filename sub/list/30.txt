@@ -1,9 +1,9 @@
-trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s4.hazz.win:12340#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Ds4.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s4.hazz.win:12340#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Ds4.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s3.hazz.win:12340#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Ds3.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
 trojan://2f606ee8-3cfa-30b2-a191-f88efe912f5c@pp1.zhengzhongfeizhu.xyz:32002#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dpp1.zhengzhongfeizhu.xyz%3A32002%282f606ee8-3cfa-30b2-a191-f88efe912f5c%29
 trojan://eb2f8154-ff58-3b99-b393-28c8eecdbe64@pp1.zhengzhongfeizhu.xyz:32000#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dpp1.zhengzhongfeizhu.xyz%3A32000%28eb2f8154-ff58-3b99-b393-28c8eecdbe64%29
 trojan://84773125-8f79-481c-a80b-e1f4aad86850@kr1.api-aws.com:443#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Dkr1.api-aws.com%3A443%2884773125-8f79-481c-a80b-e1f4aad86850%29
-trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s2.hazz.win:12340#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Ds2.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s2.hazz.win:12340#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Ds2.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
 trojan://eb2f8154-ff58-3b99-b393-28c8eecdbe64@iiiieeepppplll.zhengzhongfeizhu.xyz:34003#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Diiiieeepppplll.zhengzhongfeizhu.xyz%3A34003%28eb2f8154-ff58-3b99-b393-28c8eecdbe64%29
 trojan://177501cc-f0c2-3cc3-b9a7-8c1e8e27655f@iiiieeepppplll.zhengzhongfeizhu.xyz:34002#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Diiiieeepppplll.zhengzhongfeizhu.xyz%3A34002%28177501cc-f0c2-3cc3-b9a7-8c1e8e27655f%29
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVbHRyQHIwMHRfMjAxN0AxMzguNjguMjQ4LjEzMDo4MTE=#%5Bss%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5D138.68.248.130%3A811%28r00t_2017%29
