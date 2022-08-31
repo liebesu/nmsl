@@ -66,12 +66,12 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAiW3ZtZXNzXVx1ZDgzY1x1ZGRmOFx1ZDgzY1x1ZGRlY1tTR104
 trojan://2Q74kEsaZq@209.209.9.149:46539?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%A6%5BCA%5D209.209.9.149%3A46539%282Q74kEsaZq%29
 trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@kr05.wangxd.life:3052?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Dkr05.wangxd.life%3A3052%283a2c0c6c-9ee5-c05f-c951-fcd73831983e%29
 trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dfhcarm2.gaox.ml%3A443%28f39bd244-f5fe-415c-8b98-a1e5250bf178%29
-trojan://jeVMGMoEXp@ytld.kxking.top:10427?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dytld.kxking.top%3A10427%28jeVMGMoEXp%29
+trojan://jeVMGMoEXp@ytld.kxking.top:10427?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dytld.kxking.top%3A10427%28jeVMGMoEXp%29
 trojan://ukMzuFSmIXDvgW0h@cd.rutracker-cn.com:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dcd.rutracker-cn.com%3A443%28ukMzuFSmIXDvgW0h%29
 trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Djgwdj3.gaox.ml%3A443%28da777aae-defb-41d0-a183-2c27da2b4677%29
 trojan://9682edd6-89e6-4e6a-b31d-271089771d87@do.cloudorg.uk:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Ddo.cloudorg.uk%3A443%289682edd6-89e6-4e6a-b31d-271089771d87%29
 trojan://c09eb137-bf68-4658-84e0-102d94b74168@jgwdj4.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Djgwdj4.gaox.ml%3A443%28c09eb137-bf68-4658-84e0-102d94b74168%29
-trojan://5b953337-2f9f-4b59-a70c-5ddb1c4ba2ed@z1889.kxking.top:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dz1889.kxking.top%3A443%285b953337-2f9f-4b59-a70c-5ddb1c4ba2ed%29
+trojan://5b953337-2f9f-4b59-a70c-5ddb1c4ba2ed@z1889.kxking.top:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dz1889.kxking.top%3A443%285b953337-2f9f-4b59-a70c-5ddb1c4ba2ed%29
 trojan://9c822f05-cfdc-479a-9534-60f3d4127435@jgwcc2.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Djgwcc2.gaox.ml%3A443%289c822f05-cfdc-479a-9534-60f3d4127435%29
 trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Djgwdb2.gaox.ml%3A443%28c19d1432-8b3e-4818-8837-3d160cf65908%29
 trojan://45bf0328-871b-462e-b07b-c5e2b9ce2e2c@nusa.kencang.my.id:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AE%F0%9F%87%A9%5BID%5Dnusa.kencang.my.id%3A443%2845bf0328-871b-462e-b07b-c5e2b9ce2e2c%29

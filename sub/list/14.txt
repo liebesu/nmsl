@@ -488,8 +488,8 @@ trojan://e23f408a-012e-4030-8b31-02022031cb50@fhcamd1.gaox.ml:443?allowInsecure=
 trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?allowInsecure=0&sni=jgwdj3.gaox.ml#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Djgwdj3.gaox.ml%3A443%28da777aae-defb-41d0-a183-2c27da2b4677%29
 trojan://d724e4d0-841b-3b92-ac0d-70fcbbb7e934@s162.s2022.xyz:23802?allowInsecure=0&sni=s162.s2022.xyz#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Ds162.s2022.xyz%3A23802%28d724e4d0-841b-3b92-ac0d-70fcbbb7e934%29
 trojan://dbf9bf9c-2c3f-474a-8031-d4c00666a989@fhcamd2.gaox.ml:443?allowInsecure=0&sni=fhcamd2.gaox.ml#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dfhcamd2.gaox.ml%3A443%28dbf9bf9c-2c3f-474a-8031-d4c00666a989%29
-trojan://5b953337-2f9f-4b59-a70c-5ddb1c4ba2ed@z1889.kxking.top:443?allowInsecure=0&sni=z1889.kxking.top#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dz1889.kxking.top%3A443%285b953337-2f9f-4b59-a70c-5ddb1c4ba2ed%29
-trojan://jeVMGMoEXp@ytld.kxking.top:10427?allowInsecure=0&sni=ytld.kxking.top#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dytld.kxking.top%3A10427%28jeVMGMoEXp%29
+trojan://5b953337-2f9f-4b59-a70c-5ddb1c4ba2ed@z1889.kxking.top:443?allowInsecure=0&sni=z1889.kxking.top#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dz1889.kxking.top%3A443%285b953337-2f9f-4b59-a70c-5ddb1c4ba2ed%29
+trojan://jeVMGMoEXp@ytld.kxking.top:10427?allowInsecure=0&sni=ytld.kxking.top#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dytld.kxking.top%3A10427%28jeVMGMoEXp%29
 trojan://77065fa6-b38e-302c-beea-4b047967af01@jp.useanlo.cf:6523?allowInsecure=0&sni=jp.useanlo.cf#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5Djp.useanlo.cf%3A6523%2877065fa6-b38e-302c-beea-4b047967af01%29
 trojan://f9628fbd-ef2a-4d8a-baa7-9b8a56a91091@node-hk.pyhdxy.top:10000?allowInsecure=0&sni=node-hk.pyhdxy.top#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dnode-hk.pyhdxy.top%3A10000%28f9628fbd-ef2a-4d8a-baa7-9b8a56a91091%29
 trojan://ukMzuFSmIXDvgW0h@cd.rutracker-cn.com:443?allowInsecure=0&sni=cd.rutracker-cn.com#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dcd.rutracker-cn.com%3A443%28ukMzuFSmIXDvgW0h%29
