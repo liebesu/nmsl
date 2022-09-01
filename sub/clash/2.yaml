@@ -401,7 +401,6 @@ proxies:
   - {name: "[vmess]🇺🇸[US]hd-1.ienai.xin:443(03b188df-f7be-4038-8bc3-ffd2edb2b56a)", server: hd-1.ienai.xin, port: 443, type: vmess, uuid: 03b188df-f7be-4038-8bc3-ffd2edb2b56a, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /ienai/ACOT_ddf1dcec-43e8-4e59-ae41-5382e18a7729:878047eae84dfce4b2d895aa7252421f/, headers: {Host: hd-1.ienai.xin}}}
   - {name: "[vmess]🏁[RELAY]awssg4.naixii.top:443(153bceef-4839-4f2d-86ce-93f74bca5cae)", server: awssg4.naixii.top, port: 443, type: vmess, uuid: 153bceef-4839-4f2d-86ce-93f74bca5cae, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /c5f2c2f29cfac0/, headers: {Host: awssg4.naixii.top}}}
   - {name: "[ss]🇺🇸[US]38.91.107.37:7001(RexnBgU7EV5ADxG)", server: 38.91.107.37, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: "[ss]🇺🇸[US]38.75.136.34:9101(e4FCWrgpkji3QY)", server: 38.75.136.34, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: "[trojan]🇺🇸[US]fhcarm2.gaox.ml:443(f39bd244-f5fe-415c-8b98-a1e5250bf178)", server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, tls: true, skip-cert-verify: false}
   - {name: "[vmess]🇺🇸[US]158.101.19.172:10910(241645f5-3190-429b-b513-5265a242dfe1)", server: 158.101.19.172, port: 10910, type: vmess, uuid: 241645f5-3190-429b-b513-5265a242dfe1, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: tcp}
   - {name: "[vmess]🇺🇸[US]143.198.0.211:26923(e8e1b9a5-2ba6-4847-9dd8-92f1d8019ebf)", server: 143.198.0.211, port: 26923, type: vmess, uuid: e8e1b9a5-2ba6-4847-9dd8-92f1d8019ebf, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: tcp}
@@ -999,3 +998,4 @@ proxies:
   - {name: "[ss]🇺🇸[US]38.114.114.49:6679(TEzjfAYq2IjtuoS)", server: 38.114.114.49, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: "[ss]🇺🇸[US]38.86.135.27:5004(g5MeD6Ft3CWlJId)", server: 38.86.135.27, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: "[ss]🇺🇸[US]38.91.101.159:7002(RexnBgU7EV5ADxG)", server: 38.91.101.159, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: "[ss]🇺🇸[US]167.88.63.79:5003(g5MeD6Ft3CWlJId)", server: 167.88.63.79, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
