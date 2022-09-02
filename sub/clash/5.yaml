@@ -86,6 +86,7 @@ proxies:
   - {name: "[trojan]🇺🇸[US]72.167.33.106:443(28d98f761aca9d636f44db62544628eb)", server: 72.167.33.106, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, sni: 72.167.33.106, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇺🇸[US]72.167.33.106:443(36ebef7d1b1d6205fd0c55f28800e674)", server: 72.167.33.106, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: 72.167.33.106, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇺🇸[US]56789.gq:443(dc1453e4-e5c4-4b30-bee3-6ed2adce9ee3)", server: 56789.gq, port: 443, type: trojan, password: dc1453e4-e5c4-4b30-bee3-6ed2adce9ee3, sni: 56789.gq, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇨🇳[CN]116.129.254.29:3384(d4e41ff772c7fd45)", server: 116.129.254.29, port: 3384, type: trojan, password: d4e41ff772c7fd45, sni: 116.129.254.29, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇳[CN]116.129.253.134:3384(d4e41ff772c7fd45)", server: 116.129.253.134, port: 3384, type: trojan, password: d4e41ff772c7fd45, sni: 116.129.253.134, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇦[CA]t05.tgfaka.com:18443(2d413bba-044b-4996-8acc-548f40bb205b)", server: t05.tgfaka.com, port: 18443, type: trojan, password: 2d413bba-044b-4996-8acc-548f40bb205b, sni: t05.tgfaka.com, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇳[CN]s32izth3kdm7qdke.mispeed.org:13076(8fd970d6-ab0f-4cf8-94c6-2e5b6616a58a)", server: s32izth3kdm7qdke.mispeed.org, port: 13076, type: trojan, password: 8fd970d6-ab0f-4cf8-94c6-2e5b6616a58a, sni: s32izth3kdm7qdke.mispeed.org, tls: true, skip-cert-verify: false}
@@ -998,4 +999,3 @@ proxies:
   - {name: "[ss]🇨🇦[CA]134.195.196.81:8000(KixLvKzwjekG00rm)", server: 134.195.196.81, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: "[ss]🇺🇸[US]167.88.62.24:8080(KixLvKzwjekG00rm)", server: 167.88.62.24, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: "[ss]🇨🇦[CA]134.195.196.50:8080(KixLvKzwjekG00rm)", server: 134.195.196.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: "[ss]🇨🇦[CA]134.195.196.227:5003(g5MeD6Ft3CWlJId)", server: 134.195.196.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
