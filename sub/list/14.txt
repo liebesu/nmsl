@@ -383,7 +383,7 @@ trojan://08964210-e7b8-11ec-95aa-1239d0255272@w12.udpgw.com:443?allowInsecure=0&
 trojan://f1a23bf0-1c92-11ed-b6d8-1239d0255272@sg2-trojan.bonds.id:443?allowInsecure=0&sni=sg2-trojan.bonds.id#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dsg2-trojan.bonds.id%3A443%28f1a23bf0-1c92-11ed-b6d8-1239d0255272%29
 trojan://4c7985e0-79e8-11eb-b8d3-1239d0255272@sg3-trojan.bonds.id:443?allowInsecure=0&sni=sg3-trojan.bonds.id#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dsg3-trojan.bonds.id%3A443%284c7985e0-79e8-11eb-b8d3-1239d0255272%29
 trojan://28d98f761aca9d636f44db62544628eb@81.90.189.85:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5D81.90.189.85%3A443%2828d98f761aca9d636f44db62544628eb%29
-trojan://ce433528-39fa-4711-bc0d-25a5b1579574@sg-02.licom.ml:8443?allowInsecure=0&sni=sg-02.licom.ml#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dsg-02.licom.ml%3A8443%28ce433528-39fa-4711-bc0d-25a5b1579574%29
+trojan://ce433528-39fa-4711-bc0d-25a5b1579574@sg-02.licom.ml:8443?allowInsecure=0&sni=sg-02.licom.ml#%5Btrojan%5D%F0%9F%87%B3%F0%9F%87%B1%5BNL%5Dsg-02.licom.ml%3A8443%28ce433528-39fa-4711-bc0d-25a5b1579574%29
 trojan://81e9f5f0-1c92-11ed-8d18-1239d0255272@sg6-trojan.bonds.id:443?allowInsecure=0&sni=sg6-trojan.bonds.id#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dsg6-trojan.bonds.id%3A443%2881e9f5f0-1c92-11ed-8d18-1239d0255272%29
 trojan://97fdf760-7bbf-11eb-8e14-1239d0255272@sg3-trojan.bonds.id:443?allowInsecure=0&sni=sg3-trojan.bonds.id#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dsg3-trojan.bonds.id%3A443%2897fdf760-7bbf-11eb-8e14-1239d0255272%29
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s2.hazz.win:12340?allowInsecure=0&sni=s2.hazz.win#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Ds2.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
