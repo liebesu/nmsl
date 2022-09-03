@@ -1,4 +1,8 @@
 proxies:
+  - {name: "[ss]🇦🇺[AU]20.211.107.37:8080(a8e6ed48-b227-443e-96e0-d13d46d9ea32)", server: 20.211.107.37, port: 8080, type: ss, cipher: aes-256-gcm, password: a8e6ed48-b227-443e-96e0-d13d46d9ea32}
+  - {name: "[ss]🇸🇬[SG]20.24.188.114:8080(f3cd0282-a0a3-47c4-9e81-87b39b46f58d)", server: 20.24.188.114, port: 8080, type: ss, cipher: aes-256-gcm, password: f3cd0282-a0a3-47c4-9e81-87b39b46f58d}
+  - {name: "[ss]🇳🇱[NL]52.232.66.152:8080(bbc60352-fa0b-4ec6-8b33-bd1df051e9c1)", server: 52.232.66.152, port: 8080, type: ss, cipher: aes-256-gcm, password: bbc60352-fa0b-4ec6-8b33-bd1df051e9c1}
+  - {name: "[ss]🇦🇪[AE]20.216.40.219:8080(a8e6ed48-b227-443e-96e0-d13d46d9ea32)", server: 20.216.40.219, port: 8080, type: ss, cipher: aes-256-gcm, password: a8e6ed48-b227-443e-96e0-d13d46d9ea32}
   - {name: "[ss]🇭🇰[HK]20.239.195.254:8080(a8e6ed48-b227-443e-96e0-d13d46d9ea32)", server: 20.239.195.254, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: a8e6ed48-b227-443e-96e0-d13d46d9ea32}
   - {name: "[ss]🇮🇳[IN]20.204.77.115:8080(d725e1e3-1122-4e93-98fd-e404cb622708)", server: 20.204.77.115, port: 8080, type: ss, cipher: aes-256-gcm, password: d725e1e3-1122-4e93-98fd-e404cb622708}
   - {name: "[ss]🇦🇺[AU]20.211.107.37:8080(d725e1e3-1122-4e93-98fd-e404cb622708)", server: 20.211.107.37, port: 8080, type: ss, cipher: aes-256-gcm, password: d725e1e3-1122-4e93-98fd-e404cb622708}
@@ -831,7 +835,6 @@ proxies:
   - {name: "[ssr]🇬🇧[GB]94.102.57.163:11708(sEscPBiAD9K$&@79)", server: 94.102.57.163, port: 11708, type: ssr, cipher: aes-256-cfb, password: sEscPBiAD9K$&@79, protocol: origin, obfs: http_simple, obfs-param: WWW.YOUNEED.WIN, protocol-param: WWW.YOUNEED.WIN}
   - {name: "[ss]🇯🇵[JP]172.104.123.158:8097(eIW0Dnk69454e6nSwuspv9DmS201tQ0D)", server: 172.104.123.158, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
   - {name: "[ss]🇺🇸[US]45.79.111.214:443(9d6cceaa373bf2c8acb22e60b6a58be6)", server: 45.79.111.214, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6}
-  - {name: "[vmess]🇰🇷[KR]152.70.241.18:26676(ecd274c0-175d-45f7-8276-a3da93786632)", server: 152.70.241.18, port: 26676, type: vmess, uuid: ecd274c0-175d-45f7-8276-a3da93786632, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: tcp}
   - {name: "[ss]🇨🇭[CH]185.126.116.119:9018(fG2artUmHfNT2cX7)", server: 185.126.116.119, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7}
   - {name: "[ss]🇳🇱[NL]213.183.59.191:9003(JdmRK9gMEqFgs8nP)", server: 213.183.59.191, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
   - {name: "[ss]🇨🇳[CN]36.137.199.99:5406(0a228809-a1d7-4143-944a-071b105ab9c7)", server: 36.137.199.99, port: 5406, type: ss, cipher: aes-128-gcm, password: 0a228809-a1d7-4143-944a-071b105ab9c7}
@@ -960,7 +963,7 @@ proxies:
   - {name: "[trojan]🇨🇳[CN]gzyd1.52147.top:30080(7da84a56-a1e2-48f3-a690-374a3973d7e8)", server: gzyd1.52147.top, port: 30080, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: gzyd1.52147.top, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇳[CN]gzyd2.52147.top:30080(7da84a56-a1e2-48f3-a690-374a3973d7e8)", server: gzyd2.52147.top, port: 30080, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: gzyd2.52147.top, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇳[CN]hnyd.52147.top:30080(7da84a56-a1e2-48f3-a690-374a3973d7e8)", server: hnyd.52147.top, port: 30080, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: hnyd.52147.top, tls: true, skip-cert-verify: false}
-  - {name: "[trojan]🇭🇰[HK]hkt.52147.top:28000(7da84a56-a1e2-48f3-a690-374a3973d7e8)", server: hkt.52147.top, port: 28000, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: hkt.52147.top, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇩🇪[DE]hkt.52147.top:28000(7da84a56-a1e2-48f3-a690-374a3973d7e8)", server: hkt.52147.top, port: 28000, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: hkt.52147.top, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇳[CN]hnyd.52147.top:30180(7da84a56-a1e2-48f3-a690-374a3973d7e8)", server: hnyd.52147.top, port: 30180, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: hnyd.52147.top, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇳[CN]gzyd1.52147.top:30180(7da84a56-a1e2-48f3-a690-374a3973d7e8)", server: gzyd1.52147.top, port: 30180, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: gzyd1.52147.top, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇳[CN]gzyd2.52147.top:30180(7da84a56-a1e2-48f3-a690-374a3973d7e8)", server: gzyd2.52147.top, port: 30180, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: gzyd2.52147.top, tls: true, skip-cert-verify: false}
@@ -996,6 +999,3 @@ proxies:
   - {name: "[ss]🇨🇳[CN]dd004.zhuan666.top:11604(8c313190-4d93-43f3-b557-fe0ffe4c260a)", server: dd004.zhuan666.top, port: 11604, type: ss, cipher: chacha20-ietf-poly1305, password: 8c313190-4d93-43f3-b557-fe0ffe4c260a}
   - {name: "[ss]🇨🇳[CN]rr006.zhuan666.top:11206(8c313190-4d93-43f3-b557-fe0ffe4c260a)", server: rr006.zhuan666.top, port: 11206, type: ss, cipher: chacha20-ietf-poly1305, password: 8c313190-4d93-43f3-b557-fe0ffe4c260a}
   - {name: "[ss]🇨🇳[CN]122.9.54.153:1029(8d0bcb875191315e459288411c18c38963d0627e1990a8fa9cc84dd43e6e8050)", server: 122.9.54.153, port: 1029, type: ss, cipher: chacha20-ietf-poly1305, password: 8d0bcb875191315e459288411c18c38963d0627e1990a8fa9cc84dd43e6e8050}
-  - {name: "[ss]🇩🇪[DE]161.97.68.139:443(94dvoW0TdKRq)", server: 161.97.68.139, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 94dvoW0TdKRq}
-  - {name: "[ss]🇦🇶[NOWHERE]uk.dadiangan.xyz:34231(0da92f0b-6fd7-4e63-a93a-3503b8abc67f)", server: uk.dadiangan.xyz, port: 34231, type: ss, cipher: chacha20-ietf-poly1305, password: 0da92f0b-6fd7-4e63-a93a-3503b8abc67f}
-  - {name: "[ss]🇦🇶[NOWHERE]in.iplc.skin:11109(10ca989d-17b5-421d-bf30-23593bf1cc3b)", server: in.iplc.skin, port: 11109, type: ss, cipher: chacha20-ietf-poly1305, password: 10ca989d-17b5-421d-bf30-23593bf1cc3b}
