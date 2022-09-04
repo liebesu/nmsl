@@ -1,5 +1,4 @@
 proxies:
-  - {name: "[vmess]🏁[RELAY]icook.tw:443(f9fb81eb-1dca-4aa9-8446-b558dddf921c)", server: icook.tw, port: 443, type: vmess, uuid: f9fb81eb-1dca-4aa9-8446-b558dddf921c, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /f9fb81eb-1dca-4aa9-8446-b558dddf921c-vmess, headers: {Host: purple-meadow-dea9.lkymqj04732.workers.dev}}}
   - {name: "[vmess]🏁[RELAY]104.18.28.134:443(d96e0bc9-e1d9-4715-ae3f-39dac55b9e44)", server: 104.18.28.134, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /9e1cb04e/, headers: {Host: edozvpn.xyz}}}
   - {name: "[vmess]🏁[RELAY]104.17.20.119:443(6dd416ed-b07e-4b12-934a-520e22f3a6f5)", server: 104.17.20.119, port: 443, type: vmess, uuid: 6dd416ed-b07e-4b12-934a-520e22f3a6f5, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /ray, headers: {Host: m2.v2rayfree1.xyz}}}
   - {name: "[vmess]🏁[RELAY]104.21.62.193:443(f84136de-e03e-4b19-abb0-388d5c8614b9)", server: 104.21.62.193, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /0459ac88c41c8f/}}
@@ -999,3 +998,4 @@ proxies:
   - {name: "[ss]🇺🇸[US]38.114.114.69:2376(faBAoD54k87UJG7)", server: 38.114.114.69, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: "[ss]🇺🇸[US]167.88.61.175:8888(Y6R9pAtvxxzmGC)", server: 167.88.61.175, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇺🇸[US]38.86.135.36:8118(cdBIDV42DCwnfIN)", server: 38.86.135.36, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: "[ss]🇺🇸[US]38.68.134.191:8009(XKFKl2rULjIp74)", server: 38.68.134.191, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
