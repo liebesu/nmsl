@@ -1,4 +1,5 @@
 proxies:
+  - {name: "[vmess]🏁[RELAY]104.21.62.193:443(f84136de-e03e-4b19-abb0-388d5c8614b9)", server: 104.21.62.193, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /0459ac88c41c8f/}}
   - {name: "[vmess]🏁[RELAY]104.19.1.168:443(f299184b-19e0-41a4-9b4b-65fa8f0e691c)", server: 104.19.1.168, port: 443, type: vmess, uuid: f299184b-19e0-41a4-9b4b-65fa8f0e691c, alterId: 64, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /jj, headers: {Host: c-jp1.ooxc.cc}}}
   - {name: "[vmess]🏁[RELAY]104.21.239.147:443(8e8b5097-1d75-47c4-ff28-eef6609916c1)", server: 104.21.239.147, port: 443, type: vmess, uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /The-Great-Awakening_vws, headers: {Host: vincent-jackson2021.cf}}}
   - {name: "[vmess]🏁[RELAY]icook.tw:443(2711602d-f2c4-4ca2-9349-07e92c93030a)", server: icook.tw, port: 443, type: vmess, uuid: 2711602d-f2c4-4ca2-9349-07e92c93030a, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /wss_proxy.html, headers: {Host: ws.proxypool.ga}}}
@@ -998,4 +999,3 @@ proxies:
   - {name: "[ss]🇺🇸[US]167.88.61.175:6679(TEzjfAYq2IjtuoS)", server: 167.88.61.175, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: "[ss]🇺🇸[US]38.68.134.85:7307(FoOiGlkAA9yPEGP)", server: 38.68.134.85, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: "[ss]🇺🇸[US]38.75.136.102:5004(g5MeD6Ft3CWlJId)", server: 38.75.136.102, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: "[ss]🇺🇸[US]38.91.101.159:7002(RexnBgU7EV5ADxG)", server: 38.91.101.159, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
