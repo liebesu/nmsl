@@ -1,6 +1,4 @@
 proxies:
-  - {name: "[vmess]🏁[RELAY]104.16.160.114:443(8e8b5097-1d75-47c4-ff28-eef6609916c1)", server: 104.16.160.114, port: 443, type: vmess, uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /The-Great-Awakening_vws, headers: {Host: vincent-jackson2021.cf}}}
-  - {name: "[vmess]🏁[RELAY]198.41.212.9:443(a8910831-f56b-4ac4-c68f-e4dd83f71e60)", server: 198.41.212.9, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /sakura/, headers: {Host: 198.41.212.9}}}
   - {name: "[vmess]🏁[RELAY]104.19.81.89:443(a1121be7-6d3a-32c5-8a45-cc43bcd16295)", server: 104.19.81.89, port: 443, type: vmess, uuid: a1121be7-6d3a-32c5-8a45-cc43bcd16295, alterId: 1, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /panel, headers: {Host: s144.snodes.xyz}}}
   - {name: "[vmess]🏁[RELAY]www.digitalocean.com:443(8e8b5097-1d75-47c4-ff28-eef6609916c1)", server: www.digitalocean.com, port: 443, type: vmess, uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /The-Great-Awakening_vws, headers: {Host: vincent-jackson2021.cf}}}
   - {name: "[vmess]🏁[RELAY]104.20.81.240:443(8e8b5097-1d75-47c4-ff28-eef6609916c1)", server: 104.20.81.240, port: 443, type: vmess, uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /The-Great-Awakening_vws, headers: {Host: vincent-jackson2021.cf}}}
@@ -999,3 +997,5 @@ proxies:
   - {name: "[ss]🇺🇸[US]167.88.63.82:3306(Y6R9pAtvxxzmGC)", server: 167.88.63.82, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇺🇸[US]38.68.135.19:5500(KixLvKzwjekG00rm)", server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: "[ss]🇺🇸[US]167.88.61.175:8008(XKFKl2rULjIp74)", server: 167.88.61.175, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: "[ss]🇺🇸[US]162.251.61.221:800(G!yBwPWH3Vao)", server: 162.251.61.221, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "[ss]🇺🇸[US]167.88.62.68:3306(Y6R9pAtvxxzmGC)", server: 167.88.62.68, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
