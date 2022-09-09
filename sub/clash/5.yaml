@@ -1,4 +1,18 @@
 proxies:
+  - {name: "[ss]🇮🇪[IE]168.63.43.181:8080(cba9fa4b-b2fb-4ed0-9508-7cf188501b0a)", server: 168.63.43.181, port: 8080, type: ss, cipher: aes-256-gcm, password: cba9fa4b-b2fb-4ed0-9508-7cf188501b0a}
+  - {name: "[ss]🇮🇪[IE]168.63.43.181:8080(f3cd0282-a0a3-47c4-9e81-87b39b46f58d)", server: 168.63.43.181, port: 8080, type: ss, cipher: aes-256-gcm, password: f3cd0282-a0a3-47c4-9e81-87b39b46f58d}
+  - {name: "[ss]🇮🇪[IE]168.63.43.181:8080(da45bc49-e9b5-4109-aa5f-ad02efa2f340)", server: 168.63.43.181, port: 8080, type: ss, cipher: aes-256-gcm, password: da45bc49-e9b5-4109-aa5f-ad02efa2f340}
+  - {name: "[ss]🇭🇰[HK]47.240.51.89:27745(159258357)", server: 47.240.51.89, port: 27745, type: ss, cipher: aes-256-gcm, password: !<str> 159258357}
+  - {name: "[ss]🇫🇷[FR]40.89.155.71:8080(5b529dee-979f-4bfe-8469-d63d8aabb55b)", server: 40.89.155.71, port: 8080, type: ss, cipher: aes-256-gcm, password: 5b529dee-979f-4bfe-8469-d63d8aabb55b}
+  - {name: "[ss]🇫🇷[FR]40.89.155.71:8080(da45bc49-e9b5-4109-aa5f-ad02efa2f340)", server: 40.89.155.71, port: 8080, type: ss, cipher: aes-256-gcm, password: da45bc49-e9b5-4109-aa5f-ad02efa2f340}
+  - {name: "[ss]🇫🇷[FR]40.89.155.71:8080(bbc60352-fa0b-4ec6-8b33-bd1df051e9c1)", server: 40.89.155.71, port: 8080, type: ss, cipher: aes-256-gcm, password: bbc60352-fa0b-4ec6-8b33-bd1df051e9c1}
+  - {name: "[ss]🇫🇷[FR]40.89.155.71:8080(f3cd0282-a0a3-47c4-9e81-87b39b46f58d)", server: 40.89.155.71, port: 8080, type: ss, cipher: aes-256-gcm, password: f3cd0282-a0a3-47c4-9e81-87b39b46f58d}
+  - {name: "[ss]🇫🇷[FR]51.38.112.84:44(instgram.com/openvpnssh)", server: 51.38.112.84, port: 44, type: ss, cipher: aes-256-cfb, password: instgram.com/openvpnssh}
+  - {name: "[ss]🇨🇳[CN]14.29.124.168:25247(QazEdcTgb159@$*)", server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: "[ss]🇨🇳[CN]14.29.124.168:25233(QazEdcTgb159@$*)", server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: "[ss]🇨🇳[CN]14.29.124.168:25245(QazEdcTgb159@$*)", server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: "[ss]🇨🇳[CN]14.29.124.168:25235(QazEdcTgb159@$*)", server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: "[ss]🇨🇳[CN]14.29.124.168:25295(QazEdcTgb159@$*)", server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
   - {name: "[ss]🇨🇳[CN]14.29.124.168:25271(QazEdcTgb159@$*)", server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
   - {name: "[ss]🇨🇳[CN]14.29.124.168:25251(QazEdcTgb159@$*)", server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
   - {name: "[ss]🇨🇳[CN]14.29.124.168:25230(QazEdcTgb159@$*)", server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
@@ -903,6 +917,7 @@ proxies:
   - {name: "[ssr]🇬🇧[GB]94.102.57.163:11708(sEscPBiAD9K$&@79)", server: 94.102.57.163, port: 11708, type: ssr, cipher: aes-256-cfb, password: sEscPBiAD9K$&@79, protocol: origin, obfs: http_simple, obfs-param: WWW.YOUNEED.WIN, protocol-param: WWW.YOUNEED.WIN}
   - {name: "[ss]🇯🇵[JP]172.104.123.158:8097(eIW0Dnk69454e6nSwuspv9DmS201tQ0D)", server: 172.104.123.158, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
   - {name: "[ss]🇺🇸[US]45.79.111.214:443(9d6cceaa373bf2c8acb22e60b6a58be6)", server: 45.79.111.214, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6}
+  - {name: "[trojan]🇺🇸[US]45.33.109.70:443(a1e12464-9208-4583-bd21-ab6889fdd242)", server: 45.33.109.70, port: 443, type: trojan, password: a1e12464-9208-4583-bd21-ab6889fdd242, sni: 45.33.109.70, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇳[CN]sha-cu-001.omo-m0m.com:5603(9d6a601d-8593-39b5-8861-86ac78c0c5ad)", server: sha-cu-001.omo-m0m.com, port: 5603, type: trojan, password: 9d6a601d-8593-39b5-8861-86ac78c0c5ad, sni: sha-cu-001.omo-m0m.com, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇦[CA]hly.755657.xyz:443(046c4ca7-9c88-4ad5-92e8-591723b52b25)", server: hly.755657.xyz, port: 443, type: trojan, password: 046c4ca7-9c88-4ad5-92e8-591723b52b25, sni: hly.755657.xyz, tls: true, skip-cert-verify: false}
   - {name: "[vmess]🏁[RELAY]usarm.ptuu.cf:443(c19b138c-6e30-43b4-f66d-a94c6e869d12)", server: usarm.ptuu.cf, port: 443, type: vmess, uuid: c19b138c-6e30-43b4-f66d-a94c6e869d12, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /ray, headers: {Host: usarm.ptuu.cf}}}
@@ -984,18 +999,3 @@ proxies:
   - {name: "[trojan]🇨🇳[CN]gzyd1.52147.top:30180(7da84a56-a1e2-48f3-a690-374a3973d7e8)", server: gzyd1.52147.top, port: 30180, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: gzyd1.52147.top, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇳[CN]gzyd2.52147.top:30180(7da84a56-a1e2-48f3-a690-374a3973d7e8)", server: gzyd2.52147.top, port: 30180, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: gzyd2.52147.top, tls: true, skip-cert-verify: false}
   - {name: "[ss]🇦🇶[NOWHERE]bj-jp.fenglingcloud.com:28000(430c7831-2d33-4e9b-94f7-0850b199a90e)", server: bj-jp.fenglingcloud.com, port: 28000, type: ss, cipher: chacha20-ietf-poly1305, password: 430c7831-2d33-4e9b-94f7-0850b199a90e}
-  - {name: "[ss]🇦🇶[NOWHERE]bj-jp.fenglingcloud.com:28001(430c7831-2d33-4e9b-94f7-0850b199a90e)", server: bj-jp.fenglingcloud.com, port: 28001, type: ss, cipher: chacha20-ietf-poly1305, password: 430c7831-2d33-4e9b-94f7-0850b199a90e}
-  - {name: "[ss]🇦🇶[NOWHERE]uk.london1.vpntester.net:15256(4SGLMZ7Z83fN)", server: uk.london1.vpntester.net, port: 15256, type: ss, cipher: chacha20-ietf-poly1305, password: 4SGLMZ7Z83fN}
-  - {name: "[ss]🇨🇳[CN]122.9.62.37:4720(573d4c8f31e9e003ea3cb800aa29f00a4c744f63ed57a807cbbc6e725db1e21d)", server: 122.9.62.37, port: 4720, type: ss, cipher: chacha20-ietf-poly1305, password: 573d4c8f31e9e003ea3cb800aa29f00a4c744f63ed57a807cbbc6e725db1e21d}
-  - {name: "[ss]🇦🇶[NOWHERE]free-node-2.fnyun.xyz:443(5RJNPYT4ewK4)", server: free-node-2.fnyun.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5RJNPYT4ewK4}
-  - {name: "[ss]🇦🇶[NOWHERE]ss.fr.sshmax.net:1443(6nhHHuGHw2D5)", server: ss.fr.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: 6nhHHuGHw2D5}
-  - {name: "[ss]🇦🇶[NOWHERE]cm-1.ssp-node.com:16101(80e70717-6fd5-4625-825b-824775da691c)", server: cm-1.ssp-node.com, port: 16101, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c}
-  - {name: "[ss]🇦🇶[NOWHERE]cm-1.ssp-node.com:16102(80e70717-6fd5-4625-825b-824775da691c)", server: cm-1.ssp-node.com, port: 16102, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c}
-  - {name: "[ss]🇦🇶[NOWHERE]cm-1.ssp-node.com:16103(80e70717-6fd5-4625-825b-824775da691c)", server: cm-1.ssp-node.com, port: 16103, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c}
-  - {name: "[ss]🇦🇶[NOWHERE]cm-1.ssp-node.com:16104(80e70717-6fd5-4625-825b-824775da691c)", server: cm-1.ssp-node.com, port: 16104, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c}
-  - {name: "[ss]🇦🇶[NOWHERE]cm-1.ssp-node.com:16105(80e70717-6fd5-4625-825b-824775da691c)", server: cm-1.ssp-node.com, port: 16105, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c}
-  - {name: "[ss]🇦🇶[NOWHERE]cm-1.ssp-node.com:16201(80e70717-6fd5-4625-825b-824775da691c)", server: cm-1.ssp-node.com, port: 16201, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c}
-  - {name: "[ss]🇦🇶[NOWHERE]cm-1.ssp-node.com:16202(80e70717-6fd5-4625-825b-824775da691c)", server: cm-1.ssp-node.com, port: 16202, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c}
-  - {name: "[ss]🇦🇶[NOWHERE]cm-1.ssp-node.com:16203(80e70717-6fd5-4625-825b-824775da691c)", server: cm-1.ssp-node.com, port: 16203, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c}
-  - {name: "[ss]🇦🇶[NOWHERE]cm-1.ssp-node.com:16301(80e70717-6fd5-4625-825b-824775da691c)", server: cm-1.ssp-node.com, port: 16301, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c}
-  - {name: "[ss]🇦🇶[NOWHERE]cm-1.ssp-node.com:16302(80e70717-6fd5-4625-825b-824775da691c)", server: cm-1.ssp-node.com, port: 16302, type: ss, cipher: chacha20-ietf-poly1305, password: 80e70717-6fd5-4625-825b-824775da691c}
