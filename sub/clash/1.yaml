@@ -1,4 +1,5 @@
 proxies:
+  - {name: "[ss]🇨🇦[CA]134.195.196.230:5500(KixLvKzwjekG00rm)", server: 134.195.196.230, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: "[ss]🇨🇦[CA]134.195.196.149:3306(Y6R9pAtvxxzmGC)", server: 134.195.196.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇨🇦[CA]134.195.196.231:7307(FoOiGlkAA9yPEGP)", server: 134.195.196.231, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: "[ss]🇨🇦[CA]134.195.196.231:3389(Y6R9pAtvxxzmGC)", server: 134.195.196.231, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
@@ -998,4 +999,3 @@ proxies:
   - {name: "[trojan]🇦🇺[AU]jgwxn4.gaox.ml:443(bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4e8c1ab3c-89b3-4933-92df-682e6dce7819)", server: jgwxn4.gaox.ml, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇦🇺[AU]jgwxn4.gaox.ml:443(3e8c1ab3c-89b3-4933-92df-682e6dce7819)", server: jgwxn4.gaox.ml, port: 443, type: trojan, password: 3e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇦🇺[AU]jgwxn4.gaox.ml:443(36ebef7d1b1d6205fde8c1ab3c-89b3-4933-92df-682e6dce7819)", server: jgwxn4.gaox.ml, port: 443, type: trojan, password: 36ebef7d1b1d6205fde8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, tls: true, skip-cert-verify: false}
-  - {name: "[trojan]🇦🇺[AU]jgwxn2.gaox.ml:443(bc7593fe-0604-4fbe-a70bYWVzLTIlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26)", server: jgwxn2.gaox.ml, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTIlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, tls: true, skip-cert-verify: false}
