@@ -1,5 +1,4 @@
 proxies:
-  - {name: "[trojan]🇨🇦[CA]ca-trojan.bonds.id:443(a3fa5lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272)", server: ca-trojan.bonds.id, port: 443, type: trojan, password: a3fa5lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇦[CA]ca-trojan.bonds.id:443(a3fa58b581353bb375d2ddad0fac5a3ef0-b4ab-11eb-b65e-1239d0255272)", server: ca-trojan.bonds.id, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0fac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇦[CA]ca-trojan.bonds.id:443(a3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272)", server: ca-trojan.bonds.id, port: 443, type: trojan, password: a3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇦[CA]51.161.118.38:443(Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8)", server: 51.161.118.38, port: 443, type: trojan, password: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8, sni: 51.161.118.38, tls: true, skip-cert-verify: false}
@@ -999,3 +998,4 @@ proxies:
   - {name: "[trojan]🇺🇸[US]los.ydnode.us:443(b3845d95-c82e-47f8-b626-0f27d861e8f7)", server: los.ydnode.us, port: 443, type: trojan, password: b3845d95-c82e-47f8-b626-0f27d861e8f7, sni: los.ydnode.us, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇺🇸[US]do.cloudorg.uk:443(9682edd6-89e6-4e6a-b31d-271089771d87)", server: do.cloudorg.uk, port: 443, type: trojan, password: 9682edd6-89e6-4e6a-b31d-271089771d87, sni: do.cloudorg.uk, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇺🇸[US]cd.rutracker-cn.com:443(ukMzuFSmIXDvgW0h)", server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇺🇸[US]rbobosz.tk:23868(gMVN7PbEX2)", server: rbobosz.tk, port: 23868, type: trojan, password: gMVN7PbEX2, sni: rbobosz.tk, tls: true, skip-cert-verify: false}

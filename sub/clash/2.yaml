@@ -1,5 +1,4 @@
 proxies:
-  - {name: "[trojan]🇺🇸[US]rbobosz.tk:23868(gMVN7PbEX2)", server: rbobosz.tk, port: 23868, type: trojan, password: gMVN7PbEX2, sni: rbobosz.tk, tls: true, skip-cert-verify: false}
   - {name: "[vmess]🏁[RELAY]172.64.93.136:443(3eadc957-f6d5-3a3b-9289-c985ef4c8322)", server: 172.64.93.136, port: 443, type: vmess, uuid: 3eadc957-f6d5-3a3b-9289-c985ef4c8322, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /xxX5, headers: {Host: testgroup2.091.se}}}
   - {name: "[vmess]🏁[RELAY]172.64.147.71:443(3eadc957-f6d5-3a3b-9289-c985ef4c8322)", server: 172.64.147.71, port: 443, type: vmess, uuid: 3eadc957-f6d5-3a3b-9289-c985ef4c8322, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /xxX2, headers: {Host: testgroup2.091.se}}}
   - {name: "[vmess]🏁[RELAY]172.64.84.233:443(3eadc957-f6d5-3a3b-9289-c985ef4c8322)", server: 172.64.84.233, port: 443, type: vmess, uuid: 3eadc957-f6d5-3a3b-9289-c985ef4c8322, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /xxX3, headers: {Host: testgroup2.091.se}}}
@@ -397,6 +396,7 @@ proxies:
   - {name: "[trojan]🇺🇸[US]54.188.168.172:443(iyinglong)", server: 54.188.168.172, port: 443, type: trojan, password: iyinglong, sni: 54.188.168.172, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇺🇸[US]34.219.230.191:443(iyinglong)", server: 34.219.230.191, port: 443, type: trojan, password: iyinglong, sni: 34.219.230.191, tls: true, skip-cert-verify: false}
   - {name: "[ssr]🇺🇸[US]us-am32-5.eqnode.net:8081(YFVrXZgRo)", server: us-am32-5.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: YFVrXZgRo, protocol: origin, obfs: tls1.2_ticket_auth, obfs-param: "", protocol-param: ""}
+  - {name: "[vmess]🇺🇸[US]129.159.41.233:32586(341a9182-c423-499c-c46e-d17838b29037)", server: 129.159.41.233, port: 32586, type: vmess, uuid: 341a9182-c423-499c-c46e-d17838b29037, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: tcp}
   - {name: "[vmess]🇺🇸[US]45.10.153.188:37558(9d0f86ad-eec3-424f-f69a-fcb37e783d06)", server: 45.10.153.188, port: 37558, type: vmess, uuid: 9d0f86ad-eec3-424f-f69a-fcb37e783d06, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: tcp}
   - {name: "[vmess]🇺🇸[US]152.70.136.12:34401(890a284d-5d99-45e7-a982-2c34e5616778)", server: 152.70.136.12, port: 34401, type: vmess, uuid: 890a284d-5d99-45e7-a982-2c34e5616778, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: tcp}
   - {name: "[ss]🇺🇸[US]38.143.66.55:7001(RexnBgU7EV5ADxG)", server: 38.143.66.55, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
