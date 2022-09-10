@@ -24,7 +24,7 @@ trojan://0a8b0811-c847-42bd-a68c-4df67ab97e42@0a01f3ad01.170203.xyz:444?allowIns
 trojan://5713b236-0e0d-4efd-ad60-eb14e6ff9162@i12.llbb.cf:8443?allowInsecure=1&sni=i12.llbb.cf#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Di12.llbb.cf%3A8443%285713b236-0e0d-4efd-ad60-eb14e6ff9162%29
 trojan://5713b236-0e0d-4efd-ad60-eb14e6ff9162@sp.llbb.cf:8443?allowInsecure=1&sni=sp.llbb.cf#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dsp.llbb.cf%3A8443%285713b236-0e0d-4efd-ad60-eb14e6ff9162%29
 trojan://5713b236-0e0d-4efd-ad60-eb14e6ff9162@us2.llbb.cf:8443?allowInsecure=1&sni=us2.llbb.cf#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dus2.llbb.cf%3A8443%285713b236-0e0d-4efd-ad60-eb14e6ff9162%29
-trojan://5713b236-0e0d-4efd-ad60-eb14e6ff9162@us1.llbb.cf:8443?allowInsecure=1&sni=us1.llbb.cf#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dus1.llbb.cf%3A8443%285713b236-0e0d-4efd-ad60-eb14e6ff9162%29
+trojan://5713b236-0e0d-4efd-ad60-eb14e6ff9162@us1.llbb.cf:8443?allowInsecure=1&sni=us1.llbb.cf#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dus1.llbb.cf%3A8443%285713b236-0e0d-4efd-ad60-eb14e6ff9162%29
 trojan://0a8b0811-c847-42bd-a68c-4df67ab97e42@usmax01.170203.xyz:444?allowInsecure=1&sni=usmax01.170203.xyz#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dusmax01.170203.xyz%3A444%280a8b0811-c847-42bd-a68c-4df67ab97e42%29
 trojan://0a8b0811-c847-42bd-a68c-4df67ab97e42@usmax02.170203.xyz:444?allowInsecure=1&sni=usmax02.170203.xyz#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dusmax02.170203.xyz%3A444%280a8b0811-c847-42bd-a68c-4df67ab97e42%29
 trojan://1122@144.168.61.107:4441?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5D144.168.61.107%3A4441%281122%29
