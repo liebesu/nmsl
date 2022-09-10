@@ -1,4 +1,5 @@
 proxies:
+  - {name: "[vmess]🏁[RELAY]1.1.1.1:443(356ed062-4f58-49c3-bd44-c0b6db1c94ee)", server: 1.1.1.1, port: 443, type: vmess, uuid: 356ed062-4f58-49c3-bd44-c0b6db1c94ee, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: ws, ws-opts: {path: /stream, headers: {Host: euserv3p.ezddns.tk}}}
   - {name: "[vmess]🏁[RELAY]1.0.0.0:443(e2cbac5f-b754-407b-a6cc-3205482f1fb4)", server: 1.0.0.0, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: ws, ws-opts: {path: /Vincent-Jacksonvws, headers: {Host: 567567.ga}}}
   - {name: "[vmess]🏁[RELAY]1.1.1.1:80(a20ffefe-e575-4ca8-d0d9-608df76552e5)", server: 1.1.1.1, port: 80, type: vmess, uuid: a20ffefe-e575-4ca8-d0d9-608df76552e5, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: ws, ws-opts: {path: /stream, headers: {Host: streampipe2.us-west2.cphxte9xxqgdrn3z.tk}}}
   - {name: "[vmess]🏁[RELAY]1.0.0.0:443(8e8b5097-1d75-47c4-ff28-eef6609916c1)", server: 1.0.0.0, port: 443, type: vmess, uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: ws, ws-opts: {path: /The-Great-Awakening_vws, headers: {Host: vincent-jackson2021.cf}}}
@@ -998,4 +999,3 @@ proxies:
   - {name: "[ss]🇺🇸[US]169.197.142.48:6379(zDNVedRFPQexG9v)", server: 169.197.142.48, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
   - {name: "[ss]🇺🇸[US]38.143.66.55:6379(zDNVedRFPQexG9v)", server: 38.143.66.55, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
   - {name: "[ss]🇺🇸[US]38.68.134.85:6379(zDNVedRFPQexG9v)", server: 38.68.134.85, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "[vmess]🇺🇸[US]ex.755657.xyz:8443(690397bf-64fc-4e18-8810-4f95979a21d3)", server: ex.755657.xyz, port: 8443, type: vmess, uuid: 690397bf-64fc-4e18-8810-4f95979a21d3, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /javasdkyhgudf, headers: {Host: ex.755657.xyz}}}
