@@ -195,7 +195,7 @@ trojan://08964210-e7b8-11ec-95aa-1239d0255272@w12.udpgw.com:443?allowInsecure=0&
 trojan://71354f48-e8c8-4c4c-a967-47d7ac5e953c@mei.usdeth.top:443?allowInsecure=0&sni=mei.usdeth.top#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dmei.usdeth.top%3A443%2871354f48-e8c8-4c4c-a967-47d7ac5e953c%29
 trojan://f1a23bf0-1c92-11ed-b6d8-1239d0255272@sg2-trojan.bonds.id:443?allowInsecure=0&sni=sg2-trojan.bonds.id#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dsg2-trojan.bonds.id%3A443%28f1a23bf0-1c92-11ed-b6d8-1239d0255272%29
 trojan://8db1b560-019d-11ed-8bdf-1239d0255272@trojan3.udpgw.com:443?allowInsecure=0&sni=trojan3.udpgw.com#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dtrojan3.udpgw.com%3A443%288db1b560-019d-11ed-8bdf-1239d0255272%29
-trojan://41742_920c8caa@hk31.ssgnode.ga:443?allowInsecure=0&sni=hk31.ssgnode.ga#%5Btrojan%5D%F0%9F%87%A9%F0%9F%87%AA%5BDE%5Dhk31.ssgnode.ga%3A443%2841742_920c8caa%29
+trojan://41742_920c8caa@hk31.ssgnode.ga:443?allowInsecure=0&sni=hk31.ssgnode.ga#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dhk31.ssgnode.ga%3A443%2841742_920c8caa%29
 trojan://97fdf760-7bbf-11eb-8e14-1239d0255272@sg3-trojan.bonds.id:443?allowInsecure=0&sni=sg3-trojan.bonds.id#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dsg3-trojan.bonds.id%3A443%2897fdf760-7bbf-11eb-8e14-1239d0255272%29
 trojan://280a1162-00cb-11ec-a8bf-f23c91cfbbc9@tw.tcpbbr.net:443?allowInsecure=0&sni=tw.tcpbbr.net#%5Btrojan%5D%F0%9F%87%B9%F0%9F%87%BC%5BTW%5Dtw.tcpbbr.net%3A443%28280a1162-00cb-11ec-a8bf-f23c91cfbbc9%29
 trojan://YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT@2.58.242.43:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%B9%F0%9F%87%BC%5BTW%5D2.58.242.43%3A443%28YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT%29
