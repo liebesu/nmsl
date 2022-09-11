@@ -1,5 +1,4 @@
 proxies:
-  - {name: "[ss]🇫🇷[FR]145.239.1.100:6679(TEzjfAYq2IjtuoS)", server: 145.239.1.100, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: "[ss]🇫🇷[FR]149.202.82.172:8091(PCnnH6SQSnfoS27)", server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: "[ss]🇫🇷[FR]145.239.1.100:2376(faBAoD54k87UJG7)", server: 145.239.1.100, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: "[ss]🇫🇷[FR]149.202.82.172:8119(cdBIDV42DCwnfIN)", server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
@@ -999,3 +998,4 @@ proxies:
   - {name: "[ss]🇺🇸[US]167.88.61.236:812(G!yBwPWH3Vao)", server: 167.88.61.236, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: "[ss]🇺🇸[US]38.114.114.49:6679(TEzjfAYq2IjtuoS)", server: 38.114.114.49, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: "[ss]🇺🇸[US]38.75.136.135:5000(Y6R9pAtvxxzmGC)", server: 38.75.136.135, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[ss]🇺🇸[US]38.75.136.135:5600(Y6R9pAtvxxzmGC)", server: 38.75.136.135, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
