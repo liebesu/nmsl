@@ -426,7 +426,7 @@ proxies:
   - {name: "[vmess]🇸🇬[SG]agroup.node3.v.nodelist-gfwairport.download:50001(ddea4d6b-52f9-4901-8dd6-49bd2e09f2ac)", server: agroup.node3.v.nodelist-gfwairport.download, port: 50001, type: vmess, uuid: ddea4d6b-52f9-4901-8dd6-49bd2e09f2ac, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: tcp}
   - {name: "[trojan]🇸🇬[SG]3.1.6.157:443(iyinglong)", server: 3.1.6.157, port: 443, type: trojan, password: iyinglong, sni: 3.1.6.157, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇸🇬[SG]trojan-ctb-sg01.globalssh.xyz:443(123456)", server: trojan-ctb-sg01.globalssh.xyz, port: 443, type: trojan, password: !<str> 123456, sni: trojan-ctb-sg01.globalssh.xyz, tls: true, skip-cert-verify: false}
-  - {name: "[trojan]🇸🇬[SG]ttt3.swiftfalcon.app:8443(coldwar2)", server: ttt3.swiftfalcon.app, port: 8443, type: trojan, password: coldwar2, sni: ttt3.swiftfalcon.app, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇭🇰[HK]ttt3.swiftfalcon.app:8443(coldwar2)", server: ttt3.swiftfalcon.app, port: 8443, type: trojan, password: coldwar2, sni: ttt3.swiftfalcon.app, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇸🇬[SG]54.255.235.191:443(iyinglong)", server: 54.255.235.191, port: 443, type: trojan, password: iyinglong, sni: 54.255.235.191, tls: true, skip-cert-verify: false}
   - {name: "[ss]🇸🇬[SG]217.197.161.136:811(G!yBwPWH3Vao)", server: 217.197.161.136, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: "[ss]🇸🇬[SG]217.197.161.136:803(G!yBwPWH3Vao)", server: 217.197.161.136, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
