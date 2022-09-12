@@ -31,7 +31,6 @@ proxies:
   - {name: "[vmess]🇷🇺[RU]185.112.83.35:40443(5ADDADF4-E05B-65E6-A409-E08CEA8826DF)", server: 185.112.83.35, port: 40443, type: vmess, uuid: 5ADDADF4-E05B-65E6-A409-E08CEA8826DF, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: tcp}
   - {name: "[trojan]🇨🇦[CA]hly.755657.xyz:443(046c4ca7-9c88-4ad5-92e8-591723b52b25)", server: hly.755657.xyz, port: 443, type: trojan, password: 046c4ca7-9c88-4ad5-92e8-591723b52b25, sni: hly.755657.xyz, tls: true, skip-cert-verify: false}
   - {name: "[vmess]🇨🇦[CA]ca1.vmess.tunnel.cx:80(0429f7ce-2c73-11ed-b9c2-8b16281b86ac)", server: ca1.vmess.tunnel.cx, port: 80, type: vmess, uuid: 0429f7ce-2c73-11ed-b9c2-8b16281b86ac, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ca1.vmess.tunnel.cx}}}
-  - {name: "[ss]🇨🇦[CA]134.195.196.85:5001(Y6R9pAtvxxzmGC)", server: 134.195.196.85, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[trojan]🇨🇦[CA]ca-trojan.bonds.id:443(YWVzLTI1Ni1nY206WWd1c0gyTVdBOFBXYzNwac5a3ef0-b4ab-11eb-b65e-1239d0255272)", server: ca-trojan.bonds.id, port: 443, type: trojan, password: YWVzLTI1Ni1nY206WWd1c0gyTVdBOFBXYzNwac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇦[CA]t05.tgfaka.com:18443(2d413bba-044b-4996-8acc-548f40bb205b)", server: t05.tgfaka.com, port: 18443, type: trojan, password: 2d413bba-044b-4996-8acc-548f40bb205b, sni: t05.tgfaka.com, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇦[CA]ca.mireya.team:10233(38383c6a-3e63-4424-afaa-920efadc0391)", server: ca.mireya.team, port: 10233, type: trojan, password: 38383c6a-3e63-4424-afaa-920efadc0391, sni: ca.mireya.team, tls: true, skip-cert-verify: false}
@@ -999,3 +998,4 @@ proxies:
   - {name: "[ss]🇫🇷[FR]145.239.1.100:6679(TEzjfAYq2IjtuoS)", server: 145.239.1.100, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: "[ss]🇫🇷[FR]149.202.82.172:8091(PCnnH6SQSnfoS27)", server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: "[ss]🇫🇷[FR]145.239.1.100:2376(faBAoD54k87UJG7)", server: 145.239.1.100, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[ss]🇫🇷[FR]149.202.82.172:8119(cdBIDV42DCwnfIN)", server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
