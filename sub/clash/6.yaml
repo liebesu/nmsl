@@ -1,19 +1,4 @@
 proxies:
-  - {name: "[ss]🇨🇦[CA]134.195.196.184:8090(PCnnH6SQSnfoS27)", server: 134.195.196.184, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "[ss]🇨🇦[CA]134.195.196.187:8080(KixLvKzwjekG00rm)", server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: "[ss]🇨🇦[CA]198.57.27.241:3389(Y6R9pAtvxxzmGC)", server: 198.57.27.241, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "[ss]🇺🇸[US]38.75.137.66:6379(zDNVedRFPQexG9v)", server: 38.75.137.66, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "[ss]🇨🇦[CA]134.195.196.71:6679(TEzjfAYq2IjtuoS)", server: 134.195.196.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: "[ss]🇨🇦[CA]134.195.196.184:7306(FoOiGlkAA9yPEGP)", server: 134.195.196.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: "[ss]🇺🇸[US]38.68.134.23:6379(zDNVedRFPQexG9v)", server: 38.68.134.23, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "[ss]🇨🇦[CA]198.57.27.241:8882(kDWvXYZoTBcGkC4)", server: 198.57.27.241, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: "[ss]🇨🇦[CA]134.195.196.221:8118(cdBIDV42DCwnfIN)", server: 134.195.196.221, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: "[ss]🇨🇦[CA]134.195.196.51:8090(PCnnH6SQSnfoS27)", server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "[ss]🇨🇦[CA]134.195.196.144:5601(Y6R9pAtvxxzmGC)", server: 134.195.196.144, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "[ss]🇨🇦[CA]134.195.196.184:7307(FoOiGlkAA9yPEGP)", server: 134.195.196.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: "[ss]🇨🇦[CA]134.195.196.128:7002(RexnBgU7EV5ADxG)", server: 134.195.196.128, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: "[ss]🇺🇸[US]38.68.135.112:5500(KixLvKzwjekG00rm)", server: 38.68.135.112, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: "[ss]🇸🇬[SG]139.162.58.13:7001(RexnBgU7EV5ADxG)", server: 139.162.58.13, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: "[ss]🇨🇦[CA]134.195.196.227:6379(zDNVedRFPQexG9v)", server: 134.195.196.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
   - {name: "[ss]🇨🇦[CA]134.195.196.52:8008(XKFKl2rULjIp74)", server: 134.195.196.52, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: "[ss]🇨🇦[CA]134.195.196.133:2375(faBAoD54k87UJG7)", server: 134.195.196.133, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
@@ -647,8 +632,8 @@ proxies:
   - {name: "[ssr]🇨🇳[CN]iepl01.dmoonvte.xyz:8096(LjtFzy)", server: iepl01.dmoonvte.xyz, port: 8096, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, obfs-param: "", protocol-param: ""}
   - {name: "[ssr]🇨🇳[CN]iepl01.dmoonvte.xyz:8093(LjtFzy)", server: iepl01.dmoonvte.xyz, port: 8093, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, obfs-param: "", protocol-param: ""}
   - {name: "[ssr]🇨🇳[CN]iepl02.dmoonvte.xyz:8091(LjtFzy)", server: iepl02.dmoonvte.xyz, port: 8091, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, obfs-param: "", protocol-param: ""}
-  - {name: "[ssr]🇨🇳[CN]iepl03.dmoonvte.xyz:8095(LjtFzy)", server: iepl03.dmoonvte.xyz, port: 8095, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, obfs-param: "", protocol-param: ""}
-  - {name: "[ssr]🇨🇳[CN]iepl03.dmoonvte.xyz:8099(LjtFzy)", server: iepl03.dmoonvte.xyz, port: 8099, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, obfs-param: "", protocol-param: ""}
+  - {name: "[ssr]🇦🇶[NOWHERE]iepl03.dmoonvte.xyz:8095(LjtFzy)", server: iepl03.dmoonvte.xyz, port: 8095, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, obfs-param: "", protocol-param: ""}
+  - {name: "[ssr]🇦🇶[NOWHERE]iepl03.dmoonvte.xyz:8099(LjtFzy)", server: iepl03.dmoonvte.xyz, port: 8099, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, obfs-param: "", protocol-param: ""}
   - {name: "[ssr]🇨🇳[CN]iepl1.dmoonvte.xyz:8011(LjtFzy)", server: iepl1.dmoonvte.xyz, port: 8011, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, obfs-param: ܷܱڸۮo\tcrosolin, protocol-param: 4\u05f5Yoz;}
   - {name: "[ssr]🇨🇳[CN]iepl1.dmoonvte.xyz:8012(LjtFzy)", server: iepl1.dmoonvte.xyz, port: 8012, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, obfs-param: ܷܱڸۮo\tcrosolin, protocol-param: 4\u05f5Yoz;}
   - {name: "[ssr]🇨🇳[CN]iepl1.dmoonvte.xyz:8031(LjtFzy)", server: iepl1.dmoonvte.xyz, port: 8031, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, obfs-param: ܷܱڸۮo\tcrosolin, protocol-param: 4\u05f5Yoz;}
@@ -800,6 +785,7 @@ proxies:
   - {name: "[trojan]🇦🇶[NOWHERE]hnyd.52147.top:30010(4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3)", server: hnyd.52147.top, port: 30010, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: hnyd.52147.top, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇦🇶[NOWHERE]hnyd.52147.top:30180(4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3)", server: hnyd.52147.top, port: 30180, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: hnyd.52147.top, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇸🇬[SG]825hk01.tfzhc.top:443(501c5492-d6c7-4119-b470-67189394d9a7)", server: 825hk01.tfzhc.top, port: 443, type: trojan, password: 501c5492-d6c7-4119-b470-67189394d9a7, sni: 825hk01.tfzhc.top, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇦🇶[NOWHERE]hnyd.52147.top:30120(52a98419-efab-4c34-b4cc-4e2a7bc37029)", server: hnyd.52147.top, port: 30120, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🏁[RELAY]in1.qingyun123.xyz:443(559cccaf-1a5c-4a8d-99fe-b27463f2d88d)", server: in1.qingyun123.xyz, port: 443, type: trojan, password: 559cccaf-1a5c-4a8d-99fe-b27463f2d88d, sni: in1.qingyun123.xyz, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇦🇶[NOWHERE]aj.shenseven.xyz:12053(5701fb16-1c35-40b2-84f9-9b953404cbcd)", server: aj.shenseven.xyz, port: 12053, type: trojan, password: 5701fb16-1c35-40b2-84f9-9b953404cbcd, sni: aj.shenseven.xyz, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇦🇶[NOWHERE]aj.shenseven.xyz:12096(5701fb16-1c35-40b2-84f9-9b953404cbcd)", server: aj.shenseven.xyz, port: 12096, type: trojan, password: 5701fb16-1c35-40b2-84f9-9b953404cbcd, sni: aj.shenseven.xyz, tls: true, skip-cert-verify: false}
@@ -997,3 +983,17 @@ proxies:
   - {name: "[trojan]🇦🇶[NOWHERE]hnyd.52147.top:30130(c35ff7bd-3596-48df-8cfc-41f8c576ab4e)", server: hnyd.52147.top, port: 30130, type: trojan, password: c35ff7bd-3596-48df-8cfc-41f8c576ab4e, sni: hnyd.52147.top, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇦🇶[NOWHERE]hnyd.52147.top:30180(c35ff7bd-3596-48df-8cfc-41f8c576ab4e)", server: hnyd.52147.top, port: 30180, type: trojan, password: c35ff7bd-3596-48df-8cfc-41f8c576ab4e, sni: hnyd.52147.top, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇦🇶[NOWHERE]ai1.susenl.com:10030(c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0)", server: ai1.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, sni: ai1.susenl.com, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇦🇶[NOWHERE]ai1.susenl.com:10031(c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0)", server: ai1.susenl.com, port: 10031, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, sni: ai1.susenl.com, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇦🇶[NOWHERE]ai2.susenl.com:10030(c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0)", server: ai2.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, sni: ai2.susenl.com, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇦🇶[NOWHERE]ai2.susenl.com:30010(c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0)", server: ai2.susenl.com, port: 30010, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, sni: ai2.susenl.com, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇯🇵[JP]os1-1.nrojat.com:443(cSD2tExedR5RgGGKtb)", server: os1-1.nrojat.com, port: 443, type: trojan, password: cSD2tExedR5RgGGKtb, sni: os1-1.nrojat.com, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇯🇵[JP]os1-3.nrojat.com:443(cSD2tExedR5RgGGKtb)", server: os1-3.nrojat.com, port: 443, type: trojan, password: cSD2tExedR5RgGGKtb, sni: os1-3.nrojat.com, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇯🇵[JP]os1-4.nrojat.com:443(cSD2tExedR5RgGGKtb)", server: os1-4.nrojat.com, port: 443, type: trojan, password: cSD2tExedR5RgGGKtb, sni: os1-4.nrojat.com, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇯🇵[JP]os1-7.nrojat.com:443(cSD2tExedR5RgGGKtb)", server: os1-7.nrojat.com, port: 443, type: trojan, password: cSD2tExedR5RgGGKtb, sni: os1-7.nrojat.com, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇯🇵[JP]os1-8.nrojat.com:443(cSD2tExedR5RgGGKtb)", server: os1-8.nrojat.com, port: 443, type: trojan, password: cSD2tExedR5RgGGKtb, sni: os1-8.nrojat.com, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇯🇵[JP]os2-1.nrojat.com:443(cSD2tExedR5RgGGKtb)", server: os2-1.nrojat.com, port: 443, type: trojan, password: cSD2tExedR5RgGGKtb, sni: os2-1.nrojat.com, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇯🇵[JP]os2-2.nrojat.com:443(cSD2tExedR5RgGGKtb)", server: os2-2.nrojat.com, port: 443, type: trojan, password: cSD2tExedR5RgGGKtb, sni: os2-2.nrojat.com, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇯🇵[JP]os2-3.nrojat.com:443(cSD2tExedR5RgGGKtb)", server: os2-3.nrojat.com, port: 443, type: trojan, password: cSD2tExedR5RgGGKtb, sni: os2-3.nrojat.com, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇯🇵[JP]os2-4.nrojat.com:443(cSD2tExedR5RgGGKtb)", server: os2-4.nrojat.com, port: 443, type: trojan, password: cSD2tExedR5RgGGKtb, sni: os2-4.nrojat.com, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇯🇵[JP]os2-5.nrojat.com:443(cSD2tExedR5RgGGKtb)", server: os2-5.nrojat.com, port: 443, type: trojan, password: cSD2tExedR5RgGGKtb, sni: os2-5.nrojat.com, tls: true, skip-cert-verify: false}
+  - {name: "[trojan]🇯🇵[JP]os2-7.nrojat.com:443(cSD2tExedR5RgGGKtb)", server: os2-7.nrojat.com, port: 443, type: trojan, password: cSD2tExedR5RgGGKtb, sni: os2-7.nrojat.com, tls: true, skip-cert-verify: false}
