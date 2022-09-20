@@ -1,2 +1,2 @@
+trojan://vGWCNNfBHwSY6m6M@v2cross.com.04.v2ce.com:443?allowInsecure=0&sni=v2cross.com.04.v2ce.com#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%BF%5BCZ%5Dv2cross.com.04.v2ce.com%3A443%28vGWCNNfBHwSY6m6M%29
 trojan://1Qfea1eL3zCALPJm@los2-cn2.v2ce.com:443?allowInsecure=0&sni=los2-cn2.v2ce.com#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dlos2-cn2.v2ce.com%3A443%281Qfea1eL3zCALPJm%29
-trojan://ZD4dLSBXiMrmzdLd@v2cross.com.03.v2ce.com:443?allowInsecure=0&sni=v2cross.com.03.v2ce.com#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%BF%5BCZ%5Dv2cross.com.03.v2ce.com%3A443%28ZD4dLSBXiMrmzdLd%29
