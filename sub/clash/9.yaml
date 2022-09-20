@@ -1,5 +1,4 @@
 proxies:
-  - {name: "[trojan]🇸🇬[SG]hk.v206-v.top:443(835d1fa6-6d6f-4c97-a968-0e0ff878213e)", server: hk.v206-v.top, port: 443, type: trojan, password: 835d1fa6-6d6f-4c97-a968-0e0ff878213e, sni: hk.v206-v.top, tls: true, skip-cert-verify: false}
   - {name: "[ss]🇺🇸[US]vm.hostmem.v219p.top:37915(de9c41cc-81cc-4497-803e-9ef338bfc038)", server: vm.hostmem.v219p.top, port: 37915, type: ss, cipher: chacha20-ietf-poly1305, password: de9c41cc-81cc-4497-803e-9ef338bfc038}
   - {name: "[ss]🇺🇸[US]vm.hostmem.v219p.top:37915(835d1fa6-6d6f-4c97-a968-0e0ff878213e)", server: vm.hostmem.v219p.top, port: 37915, type: ss, cipher: chacha20-ietf-poly1305, password: 835d1fa6-6d6f-4c97-a968-0e0ff878213e}
   - {name: "[ss]🇺🇸[US]vm.hostmem.v219p.top:37915(3c0d4c85-90e0-450c-8aff-0b06fdfca261)", server: vm.hostmem.v219p.top, port: 37915, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0d4c85-90e0-450c-8aff-0b06fdfca261}
