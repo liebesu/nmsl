@@ -108,12 +108,12 @@ trojan://dd04c158-1bac-47cd-99c1-5c4f64796dd5@supersouth.xn--mesv7f5toqlp.club:1
 trojan://dd04c158-1bac-47cd-99c1-5c4f64796dd5@supersouth.xn--mesv7f5toqlp.club:12004?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dsupersouth.xn--mesv7f5toqlp.club%3A12004%28dd04c158-1bac-47cd-99c1-5c4f64796dd5%29
 trojan://dd04c158-1bac-47cd-99c1-5c4f64796dd5@supersouth.xn--mesv7f5toqlp.club:12002?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dsupersouth.xn--mesv7f5toqlp.club%3A12002%28dd04c158-1bac-47cd-99c1-5c4f64796dd5%29
 trojan://dd04c158-1bac-47cd-99c1-5c4f64796dd5@supersouth.xn--mesv7f5toqlp.club:12003?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dsupersouth.xn--mesv7f5toqlp.club%3A12003%28dd04c158-1bac-47cd-99c1-5c4f64796dd5%29
-trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s4.hazz.win:12340?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A9%F0%9F%87%AA%5BDE%5Ds4.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s4.hazz.win:12340?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Ds4.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
 trojan://e88cb308-73f7-4302-89bf-b65c7386b117@youtube.bai-piao-wang-zhe.567568.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dyoutube.bai-piao-wang-zhe.567568.ml%3A443%28e88cb308-73f7-4302-89bf-b65c7386b117%29
 trojan://AglrNchEnS@bai-piao-wang-zhe.us.567568.ml:19568?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dbai-piao-wang-zhe.us.567568.ml%3A19568%28AglrNchEnS%29
 trojan://df8ebf95-bd60-4f7e-a505-fe8db5ba3342@bai-piao-wang-zhe.us.567568.ml:12337?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5Dbai-piao-wang-zhe.us.567568.ml%3A12337%28df8ebf95-bd60-4f7e-a505-fe8db5ba3342%29
 trojan://666dcf90-7f85-4f30-a36f-c1bffcf06b32@91.243.81.248:443?allowInsecure=1&sni=www.download.windowsupdate1.com#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5D91.243.81.248%3A443%28666dcf90-7f85-4f30-a36f-c1bffcf06b32%29
-trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s2.hazz.win:12340?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A9%F0%9F%87%AA%5BDE%5Ds2.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s2.hazz.win:12340?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Ds2.hazz.win%3A12340%28dfbf0d67-f03d-4184-a224-c2d64a571f99%29
 trojan://e23f408a-012e-4030-8b31-02022031cb50@fhcamd1.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dfhcamd1.gaox.ml%3A443%28e23f408a-012e-4030-8b31-02022031cb50%29
 trojan://4ZPDeqJ6g766UKDJ@silicon.starspace.link:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dsilicon.starspace.link%3A443%284ZPDeqJ6g766UKDJ%29
 trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@lsj02.wangxd.life:3052?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dlsj02.wangxd.life%3A3052%283a2c0c6c-9ee5-c05f-c951-fcd73831983e%29
