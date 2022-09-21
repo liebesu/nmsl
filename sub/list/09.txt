@@ -83,8 +83,8 @@ trojan://bf3a94d3-f87b-44b5-a116-ebf8cb175a8c@bauhinia01.abzoones.xyz:36301?allo
 trojan://3c12fbaf-341b-4715-b2ed-6294f6f735d2@bauhinia01.abzoones.xyz:36601?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dbauhinia01.abzoones.xyz%3A36601%283c12fbaf-341b-4715-b2ed-6294f6f735d2%29
 trojan://3c12fbaf-341b-4715-b2ed-6294f6f735d2@bauhinia01.abzoones.xyz:36301?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dbauhinia01.abzoones.xyz%3A36301%283c12fbaf-341b-4715-b2ed-6294f6f735d2%29
 trojan://5eaea1b9-b977-3391-b7cb-370addb40ce2@cscu.wecanfly.top:40003?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dcscu.wecanfly.top%3A40003%285eaea1b9-b977-3391-b7cb-370addb40ce2%29
-trojan://5eaea1b9-b977-3391-b7cb-370addb40ce2@hygz.doggogogo.top:50102?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dhygz.doggogogo.top%3A50102%285eaea1b9-b977-3391-b7cb-370addb40ce2%29
-trojan://58975106-dc46-4942-b79e-336da67f1bbd@hygz.doggogogo.top:50102?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dhygz.doggogogo.top%3A50102%2858975106-dc46-4942-b79e-336da67f1bbd%29
+trojan://5eaea1b9-b977-3391-b7cb-370addb40ce2@hygz.doggogogo.top:50102?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dhygz.doggogogo.top%3A50102%285eaea1b9-b977-3391-b7cb-370addb40ce2%29
+trojan://58975106-dc46-4942-b79e-336da67f1bbd@hygz.doggogogo.top:50102?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dhygz.doggogogo.top%3A50102%2858975106-dc46-4942-b79e-336da67f1bbd%29
 trojan://623e1900-473d-4b72-8d6b-c3a2e3223e3e@117.164.185.222:21001?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5D117.164.185.222%3A21001%28623e1900-473d-4b72-8d6b-c3a2e3223e3e%29
 trojan://623e1900-473d-4b72-8d6b-c3a2e3223e3e@117.164.185.222:21005?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5D117.164.185.222%3A21005%28623e1900-473d-4b72-8d6b-c3a2e3223e3e%29
 trojan://58975106-dc46-4942-b79e-336da67f1bbd@cscu.wecanfly.top:40003?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Dcscu.wecanfly.top%3A40003%2858975106-dc46-4942-b79e-336da67f1bbd%29
