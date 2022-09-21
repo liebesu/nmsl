@@ -1,4 +1,5 @@
 trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@103.173.254.205:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%BB%F0%9F%87%B3%5BVN%5D103.173.254.205%3A443%2826e219f2-5c2a-356c-9767-9fd681cc0134%29
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@sctw1.ddns-pop.cyou:24567?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B9%F0%9F%87%BC%5BTW%5Dsctw1.ddns-pop.cyou%3A24567%2826e219f2-5c2a-356c-9767-9fd681cc0134%29
 trojan://8b6daf15-8342-482d-b894-1239fd98ce7f@cat1.sshocean.net:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%A6%5BCA%5Dcat1.sshocean.net%3A443%288b6daf15-8342-482d-b894-1239fd98ce7f%29
 trojan://a48338e4-9585-470a-ad09-7600a05b2c5e@99tw03.tfzhc.top:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5D99tw03.tfzhc.top%3A443%28a48338e4-9585-470a-ad09-7600a05b2c5e%29
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnZ3AxMDA2@103.92.86.76:23456#%5Bss%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5D103.92.86.76%3A23456%28ggp1006%29
@@ -23,7 +24,6 @@ trojan://02e653c9-7c93-46a9-999d-11834bd0c577@jgwld1.gaox.ml:443?allowInsecure=1
 trojan://7118b5f4-0ea4-4c11-be7f-11471cb91e4a@jgwcc1.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Djgwcc1.gaox.ml%3A443%287118b5f4-0ea4-4c11-be7f-11471cb91e4a%29
 trojan://iyinglong@18.130.157.11:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AC%F0%9F%87%A7%5BGB%5D18.130.157.11%3A443%28iyinglong%29
 trojan://11b8206c-8ae2-4ab3-a92c-208cdb8cc73d@nf.755657.xyz:2083?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5Dnf.755657.xyz%3A2083%2811b8206c-8ae2-4ab3-a92c-208cdb8cc73d%29
-trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@sctw1.ddns-pop.cyou:24567?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B9%F0%9F%87%BC%5BTW%5Dsctw1.ddns-pop.cyou%3A24567%2826e219f2-5c2a-356c-9767-9fd681cc0134%29
 trojan://dc26913c-a31c-4b3f-9c03-28a6b4283a89@kr1.api-aws.com:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Dkr1.api-aws.com%3A443%28dc26913c-a31c-4b3f-9c03-28a6b4283a89%29
 trojan://f2117e99-9b6e-47fd-b0a9-634a0b15b998@jgw2.gaox.ml:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Djgw2.gaox.ml%3A443%28f2117e99-9b6e-47fd-b0a9-634a0b15b998%29
 trojan://iyinglong@54.249.153.131:443?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5D54.249.153.131%3A443%28iyinglong%29
