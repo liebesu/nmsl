@@ -1,4 +1,4 @@
-trojan://fd8bdab1-ca58-460c-94f5-8260a730e006@hnyd.52147.top:20160?allowInsecure=1&sni=hnyd.52147.top#%5Btrojan%5D%F0%9F%87%A9%F0%9F%87%AA%5BDE%5Dhnyd.52147.top%3A20160%28fd8bdab1-ca58-460c-94f5-8260a730e006%29
+trojan://fd8bdab1-ca58-460c-94f5-8260a730e006@hnyd.52147.top:20160?allowInsecure=1&sni=hnyd.52147.top#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dhnyd.52147.top%3A20160%28fd8bdab1-ca58-460c-94f5-8260a730e006%29
 trojan://fd8bdab1-ca58-460c-94f5-8260a730e006@gzyd2.52147.top:20160?allowInsecure=1&sni=gzyd2.52147.top#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dgzyd2.52147.top%3A20160%28fd8bdab1-ca58-460c-94f5-8260a730e006%29
 trojan://fd8bdab1-ca58-460c-94f5-8260a730e006@gzyd2.52147.top:20110?allowInsecure=1&sni=gzyd2.52147.top#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dgzyd2.52147.top%3A20110%28fd8bdab1-ca58-460c-94f5-8260a730e006%29
 trojan://fd8bdab1-ca58-460c-94f5-8260a730e006@gzyd1.52147.top:20160?allowInsecure=1&sni=gzyd1.52147.top#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dgzyd1.52147.top%3A20160%28fd8bdab1-ca58-460c-94f5-8260a730e006%29
