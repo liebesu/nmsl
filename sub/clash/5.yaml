@@ -1,5 +1,4 @@
 proxies:
-  - {name: "[trojan]🇨🇳[CN]bauhinia01.allbluedns.xyz:36116(88c72a257a)", server: bauhinia01.allbluedns.xyz, port: 36116, type: trojan, password: 88c72a257a, sni: bauhinia01.allbluedns.xyz, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇳[CN]bauhinia01.allbluedns.xyz:36301(88c72a257a)", server: bauhinia01.allbluedns.xyz, port: 36301, type: trojan, password: 88c72a257a, sni: bauhinia01.allbluedns.xyz, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇳[CN]bauhinia01.allbluedns.xyz:36306(88c72a257a)", server: bauhinia01.allbluedns.xyz, port: 36306, type: trojan, password: 88c72a257a, sni: bauhinia01.allbluedns.xyz, tls: true, skip-cert-verify: false}
   - {name: "[trojan]🇨🇳[CN]bauhinia01.allbluedns.xyz:36201(88c72a257a)", server: bauhinia01.allbluedns.xyz, port: 36201, type: trojan, password: 88c72a257a, sni: bauhinia01.allbluedns.xyz, tls: true, skip-cert-verify: false}
@@ -999,3 +998,4 @@ proxies:
   - {name: "[ss]🇺🇸[US]38.114.114.68:3389(Y6R9pAtvxxzmGC)", server: 38.114.114.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇺🇸[US]38.86.135.126:3389(Y6R9pAtvxxzmGC)", server: 38.86.135.126, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇺🇸[US]167.88.61.109:8882(kDWvXYZoTBcGkC4)", server: 167.88.61.109, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: "[ss]🇺🇸[US]169.197.142.4:9102(e4FCWrgpkji3QY)", server: 169.197.142.4, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
