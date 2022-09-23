@@ -1,5 +1,4 @@
 proxies:
-  - {name: "[vmess]🏁[RELAY]v118a.v2dns.bar:2052(3a3fe259-e1e3-3174-8fbb-004c0ac76f62)", server: v118a.v2dns.bar, port: 2052, type: vmess, uuid: 3a3fe259-e1e3-3174-8fbb-004c0ac76f62, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: ws, ws-opts: {path: /R3Mtzcskm3Fjy65, headers: {Host: v118a.v2dns.bar}}}
   - {name: "[vmess]🏁[RELAY]v122.v2dns.bar:80(3a3fe259-e1e3-3174-8fbb-004c0ac76f62)", server: v122.v2dns.bar, port: 80, type: vmess, uuid: 3a3fe259-e1e3-3174-8fbb-004c0ac76f62, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: ws, ws-opts: {path: /v122-EtCxduAcU, headers: {Host: v122.v2dns.bar}}}
   - {name: "[vmess]🏁[RELAY]msk.ncugo.cf:443(bd6b71e2-74ad-484a-ef0b-9dbccf23311c)", server: msk.ncugo.cf, port: 443, type: vmess, uuid: bd6b71e2-74ad-484a-ef0b-9dbccf23311c, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /, headers: {Host: msk.ncugo.cf}}}
   - {name: "[trojan]🇫🇷[FR]13.38.24.83:443(xxoo)", server: 13.38.24.83, port: 443, type: trojan, password: xxoo, sni: 13.38.24.83, tls: true, skip-cert-verify: false}
@@ -999,3 +998,4 @@ proxies:
   - {name: "[ss]🇺🇸[US]169.197.141.187:7002(RexnBgU7EV5ADxG)", server: 169.197.141.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: "[ss]🇺🇸[US]169.197.142.187:8008(XKFKl2rULjIp74)", server: 169.197.142.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: "[ss]🇺🇸[US]169.197.142.48:8008(XKFKl2rULjIp74)", server: 169.197.142.48, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: "[trojan]🇺🇸[US]jike-vip-02.xyz:443(q8uTrVmj95aTrFAa)", server: jike-vip-02.xyz, port: 443, type: trojan, password: q8uTrVmj95aTrFAa, sni: jike-vip-02.xyz, tls: true, skip-cert-verify: false}
