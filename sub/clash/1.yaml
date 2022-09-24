@@ -1,4 +1,6 @@
 proxies:
+  - {name: "[ss]🇨🇦[CA]134.195.196.149:8119(cdBIDV42DCwnfIN)", server: 134.195.196.149, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: "[ss]🇨🇦[CA]134.195.196.231:8080(KixLvKzwjekG00rm)", server: 134.195.196.231, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: "[ss]🇨🇦[CA]134.195.196.231:3389(Y6R9pAtvxxzmGC)", server: 134.195.196.231, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇨🇦[CA]134.195.196.231:7002(RexnBgU7EV5ADxG)", server: 134.195.196.231, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: "[ss]🇨🇦[CA]134.195.196.231:8888(Y6R9pAtvxxzmGC)", server: 134.195.196.231, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
@@ -470,6 +472,7 @@ proxies:
   - {name: "[ss]🇯🇵[JP]193.38.139.204:809(G!yBwPWH3Vao)", server: 193.38.139.204, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: "[ss]🇯🇵[JP]85.208.108.19:8118(cdBIDV42DCwnfIN)", server: 85.208.108.19, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: "[trojan]🇨🇳[CN]bauhinia01.abzoones.xyz:36311(b9b55277-010a-48de-8ad9-0fa1bb7de676)", server: bauhinia01.abzoones.xyz, port: 36311, type: trojan, password: b9b55277-010a-48de-8ad9-0fa1bb7de676, sni: bauhinia01.abzoones.xyz, tls: true, skip-cert-verify: false}
+  - {name: "[vmess]🇯🇵[JP]hvoou-1042-v2-1.tyo-d-kcd.ap.cjhh.beauty:888(fc541302-7a84-4957-8e93-b974094cc7a0)", server: hvoou-1042-v2-1.tyo-d-kcd.ap.cjhh.beauty, port: 888, type: vmess, uuid: fc541302-7a84-4957-8e93-b974094cc7a0, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: s3.cjhh.beauty}}}
   - {name: "[ss]🇯🇵[JP]85.208.108.20:6697(TEzjfAYq2IjtuoS)", server: 85.208.108.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: "[ss]🇯🇵[JP]85.208.108.20:7002(RexnBgU7EV5ADxG)", server: 85.208.108.20, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: "[ss]🇯🇵[JP]85.208.108.20:6679(TEzjfAYq2IjtuoS)", server: 85.208.108.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
@@ -996,6 +999,3 @@ proxies:
   - {name: "[vmess]🏁[RELAY]v101.v2dns.bar:8080(3a3fe259-e1e3-3174-8fbb-004c0ac76f62)", server: v101.v2dns.bar, port: 8080, type: vmess, uuid: 3a3fe259-e1e3-3174-8fbb-004c0ac76f62, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: ws, ws-opts: {path: /frcf-N0yPy, headers: {Host: v101.v2dns.bar}}}
   - {name: "[vmess]🏁[RELAY]rackedgeuk510.moonfree.top:443(6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe)", server: rackedgeuk510.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /, headers: {Host: rackedgeuk510.moonfree.top}}}
   - {name: "[vmess]🏁[RELAY]hax.hostmeetingnow.tk:80(86606733-f014-46d5-e5e4-8dc4d9fb77d2)", server: hax.hostmeetingnow.tk, port: 80, type: vmess, uuid: 86606733-f014-46d5-e5e4-8dc4d9fb77d2, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: ws, ws-opts: {path: /api/v2/null, headers: {Host: hax.hostmeetingnow.tk}}}
-  - {name: "[vmess]🏁[RELAY]ip.codeforces.live:443(e6397eda-dd27-4832-a693-b3fb156ec0f3)", server: ip.codeforces.live, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /233blog, headers: {Host: rn.ddns1312.top}}}
-  - {name: "[vmess]🏁[RELAY]free-godlikeanyone.koyeb.app:443(b7b1f689-f82e-4ce4-97e7-8a8997370e44)", server: free-godlikeanyone.koyeb.app, port: 443, type: vmess, uuid: b7b1f689-f82e-4ce4-97e7-8a8997370e44, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /b7b1f689-f82e-4ce4-97e7-8a8997370e44-vmess, headers: {Host: free-godlikeanyone.koyeb.app}}}
-  - {name: "[vmess]🏁[RELAY]test.0dc.cn:443(ebe5703b-c18e-4664-c3a7-9fcf52453898)", server: test.0dc.cn, port: 443, type: vmess, uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /, headers: {Host: test.0dc.cn}}}
