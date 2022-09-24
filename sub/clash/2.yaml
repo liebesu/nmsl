@@ -1,6 +1,4 @@
 proxies:
-  - {name: "[vmess]🏁[RELAY]www.kernels.bid:443(0e73e1a3-ddae-66ca-7d41-996cb2c1889f)", server: www.kernels.bid, port: 443, type: vmess, uuid: 0e73e1a3-ddae-66ca-7d41-996cb2c1889f, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: ws, ws-opts: {path: /, headers: {Host: /ws}}}
-  - {name: "[vmess]🏁[RELAY]www.kernels.bid:443(6c7c5e3a-73ad-467a-1241-206987daa04f)", server: www.kernels.bid, port: 443, type: vmess, uuid: 6c7c5e3a-73ad-467a-1241-206987daa04f, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /, headers: {Host: /ws}}}
   - {name: "[vmess]🏁[RELAY]www.kernels.bid:80(25ec39f7-7cdd-4c3c-bc3c-60e9a8927b4a)", server: www.kernels.bid, port: 80, type: vmess, uuid: 25ec39f7-7cdd-4c3c-bc3c-60e9a8927b4a, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: ws, ws-opts: {path: /, headers: {Host: /ws}}}
   - {name: "[vmess]🏁[RELAY]www.kernels.bid:80(e235e6b7-3cf5-47b4-f33d-88c68b91306a)", server: www.kernels.bid, port: 80, type: vmess, uuid: e235e6b7-3cf5-47b4-f33d-88c68b91306a, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: ws, ws-opts: {path: /, headers: {Host: /ws}}}
   - {name: "[vmess]🏁[RELAY]www.kernels.bid:80(fb2470b4-5ad1-00ce-ddcf-89c8febf0003)", server: www.kernels.bid, port: 80, type: vmess, uuid: fb2470b4-5ad1-00ce-ddcf-89c8febf0003, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: ws, ws-opts: {path: /, headers: {Host: /ws}}}
@@ -999,3 +997,5 @@ proxies:
   - {name: "[ss]🇺🇸[US]167.88.61.50:5600(Y6R9pAtvxxzmGC)", server: 167.88.61.50, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[ss]🇺🇸[US]38.107.226.49:7306(FoOiGlkAA9yPEGP)", server: 38.107.226.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: "[ss]🇺🇸[US]38.107.226.49:2375(faBAoD54k87UJG7)", server: 38.107.226.49, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[ss]🇺🇸[US]38.68.134.191:8080(KixLvKzwjekG00rm)", server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: "[ss]🇺🇸[US]38.86.135.27:8000(KixLvKzwjekG00rm)", server: 38.86.135.27, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
