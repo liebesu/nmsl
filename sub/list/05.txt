@@ -83,7 +83,7 @@ trojan://0261c119-5498-4f6e-ad1b-d4718637c5b8@20.205.10.150:12377?allowInsecure=
 trojan://0261c119-5498-4f6e-ad1b-d4718637c5b8@20.239.52.101:12369?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AD%F0%9F%87%B0%5BHK%5D20.239.52.101%3A12369%280261c119-5498-4f6e-ad1b-d4718637c5b8%29
 trojan://0Y9gOHSdRt@150.230.249.42:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5D150.230.249.42%3A443%280Y9gOHSdRt%29
 trojan://0ba47cb6-e316-4afe-bb35-9e4853db6447@99tw02.tfzhc.top:443?allowInsecure=1&sni=99tw02.tfzhc.top#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5D99tw02.tfzhc.top%3A443%280ba47cb6-e316-4afe-bb35-9e4853db6447%29
-trojan://0f3abc1b-5443-4edd-a012-886bf1a43898@dgcm.pdjs.top:49004?allowInsecure=1&sni=dgcm.pdjs.top#%5Btrojan%5D%F0%9F%87%AE%F0%9F%87%B9%5BIT%5Ddgcm.pdjs.top%3A49004%280f3abc1b-5443-4edd-a012-886bf1a43898%29
+trojan://0f3abc1b-5443-4edd-a012-886bf1a43898@dgcm.pdjs.top:49004?allowInsecure=1&sni=dgcm.pdjs.top#%5Btrojan%5D%F0%9F%87%A8%F0%9F%87%B3%5BCN%5Ddgcm.pdjs.top%3A49004%280f3abc1b-5443-4edd-a012-886bf1a43898%29
 trojan://11b8206c-8ae2-4ab3-a92c-208cdb8cc73d@ex.755657.xyz:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dex.755657.xyz%3A443%2811b8206c-8ae2-4ab3-a92c-208cdb8cc73d%29
 trojan://19e9475f-31ab-48e9-8642-1205b94fc5ce@163.172.87.145:28443?allowInsecure=0&sni=glc.hruqoaw.cn#%5Btrojan%5D%F0%9F%87%AB%F0%9F%87%B7%5BFR%5D163.172.87.145%3A28443%2819e9475f-31ab-48e9-8642-1205b94fc5ce%29
 trojan://19e9475f-31ab-48e9-8642-1205b94fc5ce@194.233.171.25:28443?allowInsecure=0&sni=glc.hruqoaw.cn#%5Btrojan%5D%F0%9F%87%A9%F0%9F%87%AA%5BDE%5D194.233.171.25%3A28443%2819e9475f-31ab-48e9-8642-1205b94fc5ce%29
@@ -93,7 +93,7 @@ trojan://19e9475f-31ab-48e9-8642-1205b94fc5ce@download1hkt.windowsupdate1.com:28
 trojan://19e9475f-31ab-48e9-8642-1205b94fc5ce@download2tw.windowsupdate1.com:28443?allowInsecure=0&sni=glc.hruqoaw.cn#%5Btrojan%5D%F0%9F%87%B9%F0%9F%87%BC%5BTW%5Ddownload2tw.windowsupdate1.com%3A28443%2819e9475f-31ab-48e9-8642-1205b94fc5ce%29
 trojan://217010a3-c48d-4c42-9b99-c4dfc173ec78@t4.ssrsub.one:8443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dt4.ssrsub.one%3A8443%28217010a3-c48d-4c42-9b99-c4dfc173ec78%29
 trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@165.154.243.23:24567?allowInsecure=0#%5Btrojan%5D%F0%9F%87%B9%F0%9F%87%BC%5BTW%5D165.154.243.23%3A24567%2826e219f2-5c2a-356c-9767-9fd681cc0134%29
-trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@scus1.ddns-pop.cyou:24567?allowInsecure=0&sni=scus1.ddns-pop.cyou#%5Btrojan%5D%F0%9F%87%BA%F0%9F%87%B8%5BUS%5Dscus1.ddns-pop.cyou%3A24567%2826e219f2-5c2a-356c-9767-9fd681cc0134%29
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@scus1.ddns-pop.cyou:24567?allowInsecure=0&sni=scus1.ddns-pop.cyou#%5Btrojan%5D%F0%9F%87%A9%F0%9F%87%AA%5BDE%5Dscus1.ddns-pop.cyou%3A24567%2826e219f2-5c2a-356c-9767-9fd681cc0134%29
 trojan://2774dfc7-6cb9-4802-81ee-306e85089744@hinet2.52147.top:28443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%B6%5BNOWHERE%5Dhinet2.52147.top%3A28443%282774dfc7-6cb9-4802-81ee-306e85089744%29
 trojan://2bd47370-421b-422f-99dc-9f9afd909db8@dtbr1.bitznet.one:33016?allowInsecure=1&sni=cert.bitbyte.one#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%BA%5BAU%5Ddtbr1.bitznet.one%3A33016%282bd47370-421b-422f-99dc-9f9afd909db8%29
 trojan://2bd47370-421b-422f-99dc-9f9afd909db8@dtde1.bitznet.one:33011?allowInsecure=1&sni=cert.bitbyte.one#%5Btrojan%5D%F0%9F%87%A6%F0%9F%87%BA%5BAU%5Ddtde1.bitznet.one%3A33011%282bd47370-421b-422f-99dc-9f9afd909db8%29
@@ -108,7 +108,7 @@ trojan://3207b9dd-5967-4f2d-ba6f-2daa7d4b62b2@hk3.18878a24-49d8-4fb2-a1e3-f37dce
 trojan://3ebff89d-8a2a-4620-aa71-1a7dd8561e8e@45.78.54.36:50134?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AF%F0%9F%87%B5%5BJP%5D45.78.54.36%3A50134%283ebff89d-8a2a-4620-aa71-1a7dd8561e8e%29
 trojan://462a6dca-d63e-48e5-bcb8-10b4fe2123d4@911hk01.tfzhc.top:44333?allowInsecure=1#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5D911hk01.tfzhc.top%3A44333%28462a6dca-d63e-48e5-bcb8-10b4fe2123d4%29
 trojan://4d3fbb6a-210d-4fb1-80e3-987f85636594@tt0.tjvpn.top:2083?allowInsecure=1#%5Btrojan%5D%F0%9F%87%AC%F0%9F%87%A7%5BGB%5Dtt0.tjvpn.top%3A2083%284d3fbb6a-210d-4fb1-80e3-987f85636594%29
-trojan://4d3fbb6a-210d-4fb1-80e3-987f85636594@tt1.tjvpn.top:2022?allowInsecure=0#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Dtt1.tjvpn.top%3A2022%284d3fbb6a-210d-4fb1-80e3-987f85636594%29
+trojan://4d3fbb6a-210d-4fb1-80e3-987f85636594@tt1.tjvpn.top:2022?allowInsecure=0#%5Btrojan%5D%F0%9F%87%A9%F0%9F%87%AA%5BDE%5Dtt1.tjvpn.top%3A2022%284d3fbb6a-210d-4fb1-80e3-987f85636594%29
 trojan://5491534e-00b5-42ff-853a-723997aadbdb@kr1.api-aws.com:443?allowInsecure=0#%5Btrojan%5D%F0%9F%87%B0%F0%9F%87%B7%5BKR%5Dkr1.api-aws.com%3A443%285491534e-00b5-42ff-853a-723997aadbdb%29
 trojan://666888@13.215.202.73:443?allowInsecure=1&sni=linus.sbs#%5Btrojan%5D%F0%9F%87%B8%F0%9F%87%AC%5BSG%5D13.215.202.73%3A443%28666888%29
 trojan://69dc51ad-260d-4c10-8377-3d1658d8ad1e@165.154.246.195:49004?allowInsecure=1&sni=us-c.bbbb.pw#%5Btrojan%5D%F0%9F%87%B9%F0%9F%87%BC%5BTW%5D165.154.246.195%3A49004%2869dc51ad-260d-4c10-8377-3d1658d8ad1e%29
