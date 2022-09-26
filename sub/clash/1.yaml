@@ -1,5 +1,4 @@
 proxies:
-  - {name: "[ss]🇨🇦[CA]134.195.196.231:5003(g5MeD6Ft3CWlJId)", server: 134.195.196.231, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: "[ss]🇨🇦[CA]38.111.114.246:5004(g5MeD6Ft3CWlJId)", server: 38.111.114.246, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: "[ss]🇨🇦[CA]134.195.196.107:8882(kDWvXYZoTBcGkC4)", server: 134.195.196.107, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: "[ss]🇨🇦[CA]134.195.196.149:8882(kDWvXYZoTBcGkC4)", server: 134.195.196.149, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
@@ -999,3 +998,4 @@ proxies:
   - {name: "[vmess]🏁[RELAY]104.17.161.28:2053(bf67437e-6c90-45ca-abc2-c7240a5ce2aa)", server: 104.17.161.28, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: us.fovi.tk}}}
   - {name: "[vmess]🏁[RELAY]104.18.27.64:443(5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8)", server: 104.18.27.64, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /The-Great-Awakening_vws, headers: {Host: vincent-jackson2021.ga}}}
   - {name: "[vmess]🏁[RELAY]104.19.34.189:443(bfc6607d-7aa7-4baf-9c22-bf9fb97b573e)", server: 104.19.34.189, port: 443, type: vmess, uuid: bfc6607d-7aa7-4baf-9c22-bf9fb97b573e, alterId: 1, cipher: auto, tls: true, skip-cert-vertify: false, network: ws, ws-opts: {path: /2yevws, headers: {Host: ccc.1808.cf}}}
+  - {name: "[vmess]🏁[RELAY]104.16.248.130:443(e6397eda-dd27-4832-a693-b3fb156ec0f3)", server: 104.16.248.130, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: false, skip-cert-vertify: false, network: ws, ws-opts: {path: /233blog, headers: {Host: rn.man-one.club}}}
